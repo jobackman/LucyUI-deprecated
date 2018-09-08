@@ -1,0 +1,175 @@
+
+AdiBagsDB = {
+	["namespaces"] = {
+		["FilterOverride"] = {
+			["profiles"] = {
+				["Default"] = {
+					["version"] = 3,
+				},
+			},
+		},
+		["Lowlevel"] = {
+			["profiles"] = {
+				["Default"] = {
+					["level"] = 170,
+				},
+			},
+		},
+		["Rogue Lockboxes"] = {
+		},
+		["ItemSets"] = {
+		},
+		["Junk"] = {
+		},
+		["MoneyFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["small"] = true,
+				},
+			},
+		},
+		["Chests and Bags"] = {
+		},
+		["ItemCategory"] = {
+		},
+		["NewItem"] = {
+		},
+		["AdiBags_TooltipInfo"] = {
+		},
+		["Legion"] = {
+		},
+		["Artifact Power Currency"] = {
+		},
+		["CurrencyFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["shown"] = {
+						["Mark of the World Tree"] = false,
+						["Ironpaw Token"] = false,
+						["Writhing Essence"] = false,
+						["Nethershard"] = false,
+						["Valor"] = false,
+						["Lesser Charm of Good Fortune"] = false,
+						["Garrison Resources"] = false,
+						["Order Resources"] = false,
+						["Artifact Fragment"] = false,
+						["Tol Barad Commendation"] = false,
+						["Veiled Argunite"] = false,
+						["Lingering Soul Fragment"] = false,
+						["Timewarped Badge"] = false,
+						["Oil"] = false,
+						["Curious Coin"] = false,
+						["Brawler's Gold"] = false,
+						["Timeless Coin"] = false,
+						["Epicurean's Award"] = false,
+						["Timeworn Artifact"] = false,
+						["Sightless Eye"] = false,
+						["Wakening Essence"] = false,
+						["Warforged Seal"] = false,
+						["Apexis Crystal"] = false,
+						["Darkmoon Prize Ticket"] = false,
+						["Echoes of Battle"] = false,
+						["Ancient Mana"] = false,
+						["Seal of Broken Fate"] = false,
+						["Champion's Seal"] = false,
+						["Legionfall War Supplies"] = false,
+					},
+					["text"] = {
+						["size"] = 12,
+					},
+				},
+			},
+		},
+		["Equipment"] = {
+		},
+		["DataSource"] = {
+		},
+		["ItemLevel"] = {
+		},
+		["Hearthstones"] = {
+			["profiles"] = {
+				["Default"] = {
+					["moveToys"] = true,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Lucyonn - Bloodfeather"] = "Default",
+		["Lucyasd - Bloodfeather"] = "Default",
+		["Lucytrial - Bloodfeather"] = "Default",
+		["Dolk - Bloodfeather"] = "Default",
+		["Lucyón - The Maelstrom"] = "Default",
+		["Lucyôn - Bloodfeather"] = "Default",
+		["Freiza - Bladefist"] = "Default",
+		["Lücyon - Bloodfeather"] = "Default",
+		["Lucyón - Bloodfeather"] = "Default",
+		["Lucyoñ - Argent Dawn"] = "Default",
+		["Lúcyon - Sylvanas"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucykek - Bloodfeather"] = "Default",
+		["Lucyõn - Bloodfeather"] = "Default",
+		["Lucyoñ - Bloodfeather"] = "Default",
+		["Lucywartrial - Bloodfeather"] = "Default",
+		["Lûcyon - Bloodfeather"] = "Default",
+		["Lucýon - Sylvanas"] = "Default",
+		["Lucýon - Bloodfeather"] = "Default",
+		["Lùcyon - Bloodfeather"] = "Default",
+		["Lucyon - Bloodfeather"] = "Default",
+		["Lucytester - Bloodfeather"] = "Default",
+		["Lucyworg - Bloodfeather"] = "Default",
+		["Lùcyon - Sylvanas"] = "Default",
+		["Lucyon - Outland"] = "Default",
+		["Lucyons - Bloodfeather"] = "Default",
+		["Lucyón - Sylvanas"] = "Default",
+		["Lucÿon - Bloodfeather"] = "Default",
+		["Lucyøn - Bloodfeather"] = "Default",
+		["Lucyön - Bloodfeather"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["scale"] = 1,
+			["maxHeight"] = 0.7,
+			["skin"] = {
+				["BackpackColor"] = {
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					0.330728709697723, -- [4]
+				},
+				["BankColor"] = {
+					nil, -- [1]
+					nil, -- [2]
+					0.501960784313726, -- [3]
+					0.341839194297791, -- [4]
+				},
+				["border"] = "None",
+			},
+			["bagFont"] = {
+				["name"] = "Roboto Condensed Bold",
+				["size"] = 12,
+			},
+			["positions"] = {
+				["anchor"] = {
+					["xOffset"] = -30.29541015625,
+					["yOffset"] = 201.00048828125,
+				},
+				["Backpack"] = {
+					["xOffset"] = -48.221923828125,
+					["yOffset"] = 101.111351013184,
+				},
+			},
+			["sectionFont"] = {
+				["name"] = "Roboto Condensed Bold",
+			},
+			["compactLayout"] = true,
+			["rightClickConfig"] = false,
+			["autoDeposit"] = true,
+			["columnWidth"] = {
+				["Bank"] = 12,
+			},
+		},
+		["Bloodfeather"] = {
+		},
+	},
+}

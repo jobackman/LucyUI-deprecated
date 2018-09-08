@@ -1,0 +1,175 @@
+
+Quartz3DB = {
+	["namespaces"] = {
+		["Swing"] = {
+			["profiles"] = {
+				["ElvUI lookalike"] = {
+					["swingheight"] = 2,
+					["durationtext"] = false,
+				},
+				["Default"] = {
+					["swingheight"] = 2,
+					["durationtext"] = false,
+				},
+			},
+		},
+		["Buff"] = {
+		},
+		["Interrupt"] = {
+		},
+		["Flight"] = {
+		},
+		["Pet"] = {
+			["profiles"] = {
+				["Default"] = {
+					["hideblizz"] = false,
+					["x"] = 860,
+				},
+				["ElvUI lookalike"] = {
+					["x"] = 860,
+					["hideblizz"] = false,
+				},
+			},
+		},
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["w"] = 440,
+					["y"] = 75.9997100830078,
+					["x"] = 735,
+					["fontsize"] = 16,
+					["nametextposition"] = "centerback",
+					["border"] = "None",
+					["texture"] = "ElvUI Norm",
+					["font"] = "Accidental Presidency",
+					["hidecasttime"] = true,
+				},
+				["ElvUI lookalike"] = {
+					["w"] = 400,
+					["y"] = 132.222137451172,
+					["font"] = "Accidental Presidency",
+					["border"] = "None",
+					["fontsize"] = 16,
+					["texture"] = "Minimalist",
+					["nametextposition"] = "centerback",
+					["x"] = 644.111022949219,
+					["hidecasttime"] = true,
+				},
+			},
+		},
+		["EnemyCasts"] = {
+		},
+		["GCD"] = {
+		},
+		["Focus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["hideblizz"] = false,
+					["x"] = 860,
+				},
+				["ElvUI lookalike"] = {
+					["x"] = 860,
+					["hideblizz"] = false,
+				},
+			},
+		},
+		["Target"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 860,
+				},
+				["ElvUI lookalike"] = {
+					["x"] = 860,
+				},
+			},
+		},
+		["Mirror"] = {
+		},
+		["Range"] = {
+		},
+		["Latency"] = {
+			["profiles"] = {
+				["ElvUI lookalike"] = {
+					["lagtext"] = false,
+				},
+				["Default"] = {
+					["lagtext"] = false,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Lucýon - Bloodfeather"] = "Default",
+		["Lucyón - The Maelstrom"] = "Default",
+		["Lûcyon - Bloodfeather"] = "Default",
+		["Dolk - Bloodfeather"] = "Default",
+		["Lucyon - Outland"] = "Default",
+		["Lùcyon - Bloodfeather"] = "ElvUI lookalike",
+		["Lucyön - Bloodfeather"] = "Default",
+		["Lucyon - Bloodfeather"] = "ElvUI lookalike",
+		["Mitha - Bloodfeather"] = "Default",
+		["Lücyon - Bloodfeather"] = "Default",
+		["Lucyón - Outland"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucyón - Bloodfeather"] = "ElvUI lookalike",
+		["Lucyôn - Bloodfeather"] = "Default",
+		["Lucyøn - Bloodfeather"] = "Default",
+		["Lucyõn - Bloodfeather"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["Buff"] = false,
+				["Interrupt"] = false,
+				["Flight"] = false,
+				["Mirror"] = false,
+				["GCD"] = false,
+				["Focus"] = false,
+				["Target"] = false,
+				["Pet"] = false,
+				["Timer"] = false,
+				["Range"] = false,
+			},
+			["backgroundcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["castingcolor"] = {
+				nil, -- [1]
+				0.501960784313726, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["backgroundalpha"] = 0.8,
+		},
+		["ElvUI lookalike"] = {
+			["backgroundalpha"] = 0.8,
+			["backgroundcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["castingcolor"] = {
+				nil, -- [1]
+				0.666666666666667, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["modules"] = {
+				["Buff"] = false,
+				["Interrupt"] = false,
+				["Flight"] = false,
+				["Mirror"] = false,
+				["GCD"] = false,
+				["Focus"] = false,
+				["Target"] = false,
+				["Range"] = false,
+				["Timer"] = false,
+				["Pet"] = false,
+			},
+		},
+	},
+}

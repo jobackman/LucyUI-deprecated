@@ -1,0 +1,95 @@
+
+AucAdvancedConfig = {
+	["users.Bloodfeather.Lucyon"] = "Default",
+	["profile.Default"] = {
+		["configator.left"] = 510.222290039063,
+		["core"] = {
+			["matcher"] = {
+				["matcherlist"] = {
+					"BeanCount", -- [1]
+					"Undercut", -- [2]
+				},
+			},
+		},
+		["stat"] = {
+			["sales"] = {
+				["ignoredsigs"] = {
+				},
+				["upgraded32"] = true,
+			},
+		},
+		["ModTTShow"] = "shift",
+		["tooltip"] = {
+			["marketprice"] = {
+				["stacksize"] = false,
+			},
+		},
+		["util"] = {
+			["appraiser"] = {
+				["columnsortcurSort"] = 6,
+				["item.124440.stack"] = 4,
+				["columnsortcurDir"] = -1,
+				["columnwidth.Seller"] = 73.8444442749024,
+			},
+			["compactui"] = {
+				["activated"] = false,
+				["tooltiphelp"] = false,
+			},
+			["simpleauc"] = {
+				["undercut.percent"] = 0.5,
+				["auto.duration"] = 12,
+			},
+			["automagic"] = {
+				["ammailguix"] = 160,
+				["SavedMailButtons"] = {
+				},
+				["uierrormsg"] = 1,
+			},
+			["ahwindowcontrol"] = {
+				["ahframeanchors"] = "TOPLEFT:TOPLEFT:20.7:-123.5",
+			},
+		},
+		["configator.top"] = 736.999938964844,
+	},
+	["version"] = 1,
+}
+AucAdvancedData = {
+	["Stats"] = {
+	},
+	["UtilSearchUiData"] = {
+		["Version"] = 1,
+		["Current"] = {
+			["columnsortcurDir"] = -1,
+			["columnsortcurSort"] = 11,
+			["snatch.itemsList"] = {
+			},
+		},
+		["Global"] = {
+			["configator.left"] = 460.222290039063,
+			["configator.top"] = 761.999938964844,
+		},
+		["SavedSearches"] = {
+		},
+	},
+}
+AucAdvancedServers = {
+	["ConnectedRealmTables"] = {
+		["#Bloodfeather"] = {
+			"Bloodfeather", -- [1]
+			"BurningSteppes", -- [2]
+			"Executus", -- [3]
+			"Kor'gall", -- [4]
+			"ShatteredHand", -- [5]
+		},
+	},
+	["Version"] = 1,
+	["KnownRealms"] = {
+		["Outland"] = "Outland",
+		["Bloodfeather"] = "#Bloodfeather",
+	},
+	["KnownServerKeys"] = {
+		["Outland"] = 1511266485,
+		["#Bloodfeather"] = 1517668655,
+	},
+	["Timestamp"] = 1508168970,
+}

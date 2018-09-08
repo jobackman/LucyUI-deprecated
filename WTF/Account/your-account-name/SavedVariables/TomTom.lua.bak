@@ -1,0 +1,63 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Lucyonn - Bloodfeather"] = "Default",
+		["Lucyasd - Bloodfeather"] = "Default",
+		["Lucytrial - Bloodfeather"] = "Default",
+		["Dolk - Bloodfeather"] = "Default",
+		["Lucyôn - Bloodfeather"] = "Default",
+		["Lucyön - Bloodfeather"] = "Default",
+		["Lücyon - Bloodfeather"] = "Default",
+		["Freiza - Bladefist"] = "Default",
+		["Lucyón - Outland"] = "Default",
+		["Lúcyon - Sylvanas"] = "Default",
+		["Lucyón - The Maelstrom"] = "Default",
+		["Lucykek - Bloodfeather"] = "Default",
+		["Lucyõn - Bloodfeather"] = "Default",
+		["Lucyoñ - Bloodfeather"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucywartrial - Bloodfeather"] = "Default",
+		["Lucýon - Sylvanas"] = "Default",
+		["Lucyon - Outland"] = "Default",
+		["Lùcyon - Bloodfeather"] = "Default",
+		["Lûcyon - Bloodfeather"] = "Default",
+		["Lucyworg - Bloodfeather"] = "Default",
+		["Mitha - Bloodfeather"] = "Default",
+		["Lucyon - Bloodfeather"] = "Default",
+		["Lucýon - Bloodfeather"] = "Default",
+		["Lucyons - Bloodfeather"] = "Default",
+		["Lucyón - Sylvanas"] = "Default",
+		["Lucÿon - Bloodfeather"] = "Default",
+		["Lucyøn - Bloodfeather"] = "Default",
+		["Lucyón - Bloodfeather"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["general"] = {
+				["corpse_arrow"] = false,
+			},
+			["block"] = {
+				["enable"] = false,
+			},
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsM = {
+	["profileKeys"] = {
+		["Lucywartrial - Bloodfeather"] = "Lucywartrial - Bloodfeather",
+		["Lücyon - Bloodfeather"] = "Lücyon - Bloodfeather",
+		["Lûcyon - Bloodfeather"] = "Lûcyon - Bloodfeather",
+		["Lucýon - Sylvanas"] = "Lucýon - Sylvanas",
+	},
+	["profiles"] = {
+		["Lucywartrial - Bloodfeather"] = {
+		},
+		["Lücyon - Bloodfeather"] = {
+		},
+		["Lûcyon - Bloodfeather"] = {
+		},
+		["Lucýon - Sylvanas"] = {
+		},
+	},
+}

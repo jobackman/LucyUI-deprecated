@@ -1,0 +1,76 @@
+
+BigDebuffsDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Lucyonn - Bloodfeather"] = "Default",
+		["Lucyasd - Bloodfeather"] = "Default",
+		["Lucyón - Sylvanas"] = "Default",
+		["Freiza - Bladefist"] = "Default",
+		["Lucytrial - Bloodfeather"] = "Default",
+		["Dolk - Bloodfeather"] = "Default",
+		["Lucyön - Bloodfeather"] = "Default",
+		["Lucyôn - Bloodfeather"] = "Default",
+		["Lucyoñ - Argent Dawn"] = "Default",
+		["Lücyon - Bloodfeather"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucyón - Outland"] = "Default",
+		["Lucyón - Bloodfeather"] = "Default",
+		["Lúcyon - Sylvanas"] = "Default",
+		["Lucýon - Bloodfeather"] = "Default",
+		["Lucyõn - Bloodfeather"] = "Default",
+		["Lucyoñ - Bloodfeather"] = "Default",
+		["Lucyworg - Bloodfeather"] = "Default",
+		["Lûcyon - Bloodfeather"] = "Default",
+		["Lucýon - Sylvanas"] = "Default",
+		["Lucyon - Outland"] = "Default",
+		["Lùcyon - Bloodfeather"] = "Default",
+		["Lucytester - Bloodfeather"] = "Default",
+		["Lucyon - Bloodfeather"] = "Default",
+		["Mitha - Bloodfeather"] = "Default",
+		["Lùcyon - Sylvanas"] = "Default",
+		["Lucywartrial - Bloodfeather"] = "Default",
+		["Lucyons - Bloodfeather"] = "Default",
+		["Lucykek - Bloodfeather"] = "Default",
+		["Lucÿon - Bloodfeather"] = "Default",
+		["Lucyón - The Maelstrom"] = "Default",
+		["Lucyøn - Bloodfeather"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["spells"] = {
+				[11426] = {
+					["unitFrames"] = 0,
+				},
+			},
+			["raidFrames"] = {
+				["dispellable"] = {
+					["cc"] = 85,
+				},
+				["hideBliz"] = false,
+				["cc"] = 85,
+				["increaseBuffs"] = true,
+				["anchor"] = "RIGHT",
+			},
+			["unitFrames"] = {
+				["party3"] = {
+				},
+				["party"] = {
+					["anchor"] = "manual",
+					["enabled"] = false,
+					["size"] = 44,
+				},
+				["party4"] = {
+				},
+				["arena1"] = {
+				},
+				["party2"] = {
+				},
+				["party1"] = {
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,21 @@
+
+CastbarsDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Lucyón - Bloodfeather"] = "Lucyón - Bloodfeather",
+	},
+	["profiles"] = {
+		["Lucyón - Bloodfeather"] = {
+			["FocusCastingBarFrame"] = {
+			},
+			["CastingBarFrame"] = {
+				["Texture"] = "ElvUI Norm",
+			},
+			["MirrorTimer"] = {
+			},
+		},
+	},
+}
