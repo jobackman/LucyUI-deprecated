@@ -6,9 +6,9 @@ PawnCommon = {
 	["ShowItemID"] = false,
 	["ShowRelicUpgrades"] = false,
 	["ShowValuesForUpgradesOnly"] = true,
-	["ShownGettingStarted"] = true,
-	["LastVersion"] = 2.0228,
 	["Debug"] = false,
+	["Digits"] = 1,
+	["ShowEnchanted"] = true,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
 	["ShowLootUpgradeAdvisor"] = true,
@@ -62,6 +62,9 @@ PawnCommon = {
 		["\"MrRobot\":PRIEST1"] = {
 			["IconTexturePath"] = 135940,
 			["PerCharacterOptions"] = {
+				["Lúcýón-Bloodfeather"] = {
+					["Visible"] = true,
+				},
 				["Mitha-Bloodfeather"] = {
 					["Visible"] = true,
 				},
@@ -128,6 +131,42 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "2f95b0",
 		},
+		["Lucyón - Frost - Patchwerk (Raidbots)"] = {
+			["IconTexturePath"] = 135846,
+			["PerCharacterOptions"] = {
+				["Lucyón-Bloodfeather"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "3fc6ea",
+			["ClassID"] = 8,
+			["Role"] = "DAMAGER",
+			["UpgradesFollowSpecialization"] = true,
+			["SpecID"] = 3,
+			["Values"] = {
+				["IsOffHand"] = -1000000,
+				["IsFist"] = -1000000,
+				["Is2HMace"] = -1000000,
+				["IsWarglaive"] = -1000000,
+				["CritRating"] = 1.66,
+				["HasteRating"] = 1.83,
+				["MasteryRating"] = 1.08,
+				["IsCrossbow"] = -1000000,
+				["IsPolearm"] = -1000000,
+				["IsGun"] = -1000000,
+				["Is2HAxe"] = -1000000,
+				["IsShield"] = -1000000,
+				["IsBow"] = -1000000,
+				["IsMail"] = -1000000,
+				["IsPlate"] = -1000000,
+				["IsLeather"] = -1000000,
+				["Intellect"] = 1.78,
+				["IsMace"] = -1000000,
+				["Is2HSword"] = -1000000,
+				["Versatility"] = 1.65,
+				["IsAxe"] = -1000000,
+			},
+		},
 		["\"MrRobot\":WARLOCK3"] = {
 			["IconTexturePath"] = 136186,
 			["PerCharacterOptions"] = {
@@ -173,38 +212,37 @@ PawnCommon = {
 			["SpecID"] = 1,
 			["UnenchantedColor"] = "00bf70",
 		},
-		["Lucyón - Frost (Raidbots)"] = {
-			["IconTexturePath"] = 135846,
+		["Lúcyon - Havoc (Raidbots)"] = {
+			["IconTexturePath"] = 1247264,
 			["Values"] = {
-				["Intellect"] = 1.61,
-				["IsFist"] = -1000000,
+				["IsWand"] = -1000000,
+				["Dps"] = 9.54,
 				["Is2HMace"] = -1000000,
-				["IsMace"] = -1000000,
-				["CritRating"] = 1.05,
-				["HasteRating"] = 1.06,
-				["MasteryRating"] = 0.83,
+				["CritRating"] = 1.66,
+				["IsStaff"] = -1000000,
+				["Versatility"] = 1.6,
+				["Agility"] = 2.11,
+				["HasteRating"] = 1.37,
+				["MasteryRating"] = 1.2,
 				["IsCrossbow"] = -1000000,
 				["IsPolearm"] = -1000000,
 				["IsGun"] = -1000000,
+				["IsFrill"] = -1000000,
 				["Is2HAxe"] = -1000000,
-				["IsAxe"] = -1000000,
 				["IsBow"] = -1000000,
 				["IsMail"] = -1000000,
 				["IsPlate"] = -1000000,
-				["IsLeather"] = -1000000,
-				["IsOffHand"] = -1000000,
-				["IsWarglaive"] = -1000000,
+				["OffHandDps"] = 2.26,
 				["Is2HSword"] = -1000000,
-				["Versatility"] = 0.94,
 				["IsShield"] = -1000000,
 			},
-			["Color"] = "3fc6ea",
-			["ClassID"] = 8,
+			["Color"] = "a330c9",
+			["ClassID"] = 12,
 			["Role"] = "DAMAGER",
 			["UpgradesFollowSpecialization"] = true,
-			["SpecID"] = 3,
+			["SpecID"] = 1,
 			["PerCharacterOptions"] = {
-				["Lucyón-Bloodfeather"] = {
+				["Lúcyon-Bloodfeather"] = {
 					["Visible"] = true,
 				},
 			},
@@ -262,29 +300,29 @@ PawnCommon = {
 		},
 		["Lucyon - Arms (Raidbots)"] = {
 			["IconTexturePath"] = 132355,
-			["Values"] = {
-				["IsWand"] = -1000000,
-				["IsFrill"] = -1000000,
-				["IsWarglaive"] = -1000000,
-				["CritRating"] = 1.32,
-				["IsBow"] = -1000000,
-				["Strength"] = 1.68,
-				["HasteRating"] = 1.36,
-				["MasteryRating"] = 1.18,
-				["Versatility"] = 1.14,
-				["Dps"] = 9.34,
-				["IsCrossbow"] = -1000000,
-				["IsGun"] = -1000000,
+			["PerCharacterOptions"] = {
+				["Lucyon-Bloodfeather"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "c69b6d",
 			["ClassID"] = 1,
 			["Role"] = "DAMAGER",
 			["UpgradesFollowSpecialization"] = true,
 			["SpecID"] = 1,
-			["PerCharacterOptions"] = {
-				["Lucyon-Bloodfeather"] = {
-					["Visible"] = true,
-				},
+			["Values"] = {
+				["IsWand"] = -1000000,
+				["IsFrill"] = -1000000,
+				["IsWarglaive"] = -1000000,
+				["CritRating"] = 1.85,
+				["Dps"] = 10.2,
+				["Strength"] = 1.82,
+				["HasteRating"] = 1.71,
+				["MasteryRating"] = 1.27,
+				["IsCrossbow"] = -1000000,
+				["IsBow"] = -1000000,
+				["Versatility"] = 1.44,
+				["IsGun"] = -1000000,
 			},
 		},
 		["\"MrRobot\":ROGUE1"] = {
@@ -305,28 +343,40 @@ PawnCommon = {
 			["SpecID"] = 1,
 			["UnenchantedColor"] = "bfb74e",
 		},
-		["\"MrRobot\":WARRIOR3"] = {
-			["IconTexturePath"] = 132341,
+		["\"MrRobot\":DRUID1"] = {
+			["IconTexturePath"] = 136096,
 			["PerCharacterOptions"] = {
+				["Lucyón-The Maelstrom"] = {
+					["Visible"] = true,
+				},
+				["Lucyôn-Bloodfeather"] = {
+					["Visible"] = true,
+				},
+				["Lucyonn-Bloodfeather"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "c79c6e",
-			["ClassID"] = 1,
-			["LocalizedName"] = "Warrior: Protection",
+			["Color"] = "ff7d0a",
+			["ClassID"] = 11,
+			["LocalizedName"] = "Druid: Balance",
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "957552",
+			["SpecID"] = 1,
+			["UnenchantedColor"] = "bf5d07",
 		},
 		["\"MrRobot\":DEATHKNIGHT3"] = {
 			["IconTexturePath"] = 135775,
 			["PerCharacterOptions"] = {
-				["Lucyøn-Bloodfeather"] = {
+				["Lucyoñ-Bloodfeather"] = {
 					["Visible"] = true,
 				},
-				["Lucyoñ-Bloodfeather"] = {
+				["Lúcyón-Bloodfeather"] = {
+					["Visible"] = true,
+				},
+				["Lucyøn-Bloodfeather"] = {
 					["Visible"] = true,
 				},
 			},
@@ -340,21 +390,6 @@ PawnCommon = {
 			["Provider"] = "MrRobot",
 			["SpecID"] = 3,
 			["UnenchantedColor"] = "bf3950",
-		},
-		["\"MrRobot\":PALADIN1"] = {
-			["IconTexturePath"] = 135920,
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "f58cba",
-			["ClassID"] = 2,
-			["LocalizedName"] = "Paladin: Holy",
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 1,
-			["UnenchantedColor"] = "b7698b",
 		},
 		["\"MrRobot\":PALADIN3"] = {
 			["IconTexturePath"] = 135873,
@@ -371,6 +406,36 @@ PawnCommon = {
 			["SpecID"] = 3,
 			["UnenchantedColor"] = "b7698b",
 		},
+		["\"MrRobot\":WARRIOR1"] = {
+			["IconTexturePath"] = 132355,
+			["PerCharacterOptions"] = {
+				["Lucyasd-Bloodfeather"] = {
+					["Visible"] = true,
+				},
+				["Lucyworg-Bloodfeather"] = {
+					["Visible"] = true,
+				},
+				["Lucywartrial-Bloodfeather"] = {
+					["Visible"] = true,
+				},
+				["Lucytrial-Bloodfeather"] = {
+					["Visible"] = true,
+				},
+				["Lucyoñ-Sylvanas"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "c79c6e",
+			["ClassID"] = 1,
+			["LocalizedName"] = "Warrior: Arms",
+			["DoNotShow1HUpgrades"] = true,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 1,
+			["UnenchantedColor"] = "957552",
+		},
 		["\"MrRobot\":WARLOCK2"] = {
 			["IconTexturePath"] = 136172,
 			["PerCharacterOptions"] = {
@@ -386,28 +451,13 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "6566b2",
 		},
-		["\"MrRobot\":DEATHKNIGHT1"] = {
-			["IconTexturePath"] = 135770,
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "ff4d6b",
-			["ClassID"] = 6,
-			["LocalizedName"] = "Death Knight: Blood",
-			["DoNotShow1HUpgrades"] = true,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 1,
-			["UnenchantedColor"] = "bf3950",
-		},
 		["\"MrRobot\":MAGE1"] = {
 			["IconTexturePath"] = 135932,
 			["PerCharacterOptions"] = {
-				["Lucykek-Bloodfeather"] = {
+				["Lúcyon-Sylvanas"] = {
 					["Visible"] = true,
 				},
-				["Lúcyon-Sylvanas"] = {
+				["Lucykek-Bloodfeather"] = {
 					["Visible"] = true,
 				},
 			},
@@ -421,6 +471,21 @@ PawnCommon = {
 			["Provider"] = "MrRobot",
 			["SpecID"] = 1,
 			["UnenchantedColor"] = "2f95b0",
+		},
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "a330c9",
+			["ClassID"] = 12,
+			["LocalizedName"] = "Demon Hunter: Vengeance",
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 2,
+			["UnenchantedColor"] = "7a2496",
 		},
 		["\"MrRobot\":PALADIN2"] = {
 			["IconTexturePath"] = 236264,
@@ -437,20 +502,20 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "b7698b",
 		},
-		["\"MrRobot\":PRIEST2"] = {
-			["IconTexturePath"] = 237542,
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "ffffff",
-			["ClassID"] = 5,
-			["LocalizedName"] = "Priest: Holy",
+			["Color"] = "0070de",
+			["ClassID"] = 7,
+			["LocalizedName"] = "Shaman: Restoration",
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "HEALER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 2,
-			["UnenchantedColor"] = "bfbfbf",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "0054a6",
 		},
 		["\"MrRobot\":HUNTER1"] = {
 			["IconTexturePath"] = 461112,
@@ -503,6 +568,9 @@ PawnCommon = {
 		["\"MrRobot\":WARRIOR2"] = {
 			["IconTexturePath"] = 132347,
 			["PerCharacterOptions"] = {
+				["Orciror-Bloodfeather"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "c79c6e",
 			["ClassID"] = 1,
@@ -548,62 +616,50 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "bf3950",
 		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
+		["\"MrRobot\":PRIEST2"] = {
+			["IconTexturePath"] = 237542,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "0070de",
-			["ClassID"] = 7,
-			["LocalizedName"] = "Shaman: Restoration",
+			["Color"] = "ffffff",
+			["ClassID"] = 5,
+			["LocalizedName"] = "Priest: Holy",
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "HEALER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "0054a6",
-		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "a330c9",
-			["ClassID"] = 12,
-			["LocalizedName"] = "Demon Hunter: Vengeance",
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
 			["SpecID"] = 2,
-			["UnenchantedColor"] = "7a2496",
+			["UnenchantedColor"] = "bfbfbf",
 		},
-		["\"MrRobot\":WARRIOR1"] = {
-			["IconTexturePath"] = 132355,
+		["\"MrRobot\":DEATHKNIGHT1"] = {
+			["IconTexturePath"] = 135770,
 			["PerCharacterOptions"] = {
-				["Lucyasd-Bloodfeather"] = {
-					["Visible"] = true,
-				},
-				["Lucyworg-Bloodfeather"] = {
-					["Visible"] = true,
-				},
-				["Lucywartrial-Bloodfeather"] = {
-					["Visible"] = true,
-				},
-				["Lucytrial-Bloodfeather"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "c79c6e",
-			["ClassID"] = 1,
-			["LocalizedName"] = "Warrior: Arms",
+			["Color"] = "ff4d6b",
+			["ClassID"] = 6,
+			["LocalizedName"] = "Death Knight: Blood",
 			["DoNotShow1HUpgrades"] = true,
-			["Role"] = "DAMAGER",
+			["Role"] = "TANK",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
 			["SpecID"] = 1,
-			["UnenchantedColor"] = "957552",
+			["UnenchantedColor"] = "bf3950",
+		},
+		["\"MrRobot\":PALADIN1"] = {
+			["IconTexturePath"] = 135920,
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "f58cba",
+			["ClassID"] = 2,
+			["LocalizedName"] = "Paladin: Holy",
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "HEALER",
+			["DoNotShow2HUpgrades"] = true,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 1,
+			["UnenchantedColor"] = "b7698b",
 		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
@@ -623,33 +679,27 @@ PawnCommon = {
 			["SpecID"] = 3,
 			["UnenchantedColor"] = "bf5d07",
 		},
-		["\"MrRobot\":DRUID1"] = {
-			["IconTexturePath"] = 136096,
+		["\"MrRobot\":WARRIOR3"] = {
+			["IconTexturePath"] = 132341,
 			["PerCharacterOptions"] = {
-				["Lucyón-The Maelstrom"] = {
-					["Visible"] = true,
-				},
-				["Lucyonn-Bloodfeather"] = {
-					["Visible"] = true,
-				},
-				["Lucyôn-Bloodfeather"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "ff7d0a",
-			["ClassID"] = 11,
-			["LocalizedName"] = "Druid: Balance",
+			["Color"] = "c79c6e",
+			["ClassID"] = 1,
+			["LocalizedName"] = "Warrior: Protection",
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 1,
-			["UnenchantedColor"] = "bf5d07",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "957552",
 		},
 		["\"MrRobot\":SHAMAN2"] = {
 			["IconTexturePath"] = 237581,
 			["PerCharacterOptions"] = {
+				["Lucyoff-Bloodfeather"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "0070de",
 			["ClassID"] = 7,
@@ -668,6 +718,9 @@ PawnCommon = {
 				["Lucyoñ-Argent Dawn"] = {
 					["Visible"] = true,
 				},
+				["Lucyön-Sylvanas"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "00ff96",
 			["ClassID"] = 10,
@@ -681,10 +734,10 @@ PawnCommon = {
 			["UnenchantedColor"] = "00bf70",
 		},
 	},
-	["ShowSpecIcons"] = true,
-	["ButtonPosition"] = 2,
 	["IgnoreGemsWhileLeveling"] = true,
+	["ButtonPosition"] = 2,
+	["ShowSpecIcons"] = true,
 	["ShowQuestUpgradeAdvisor"] = false,
-	["ShowEnchanted"] = true,
-	["Digits"] = 1,
+	["LastVersion"] = 2.0233,
+	["ShownGettingStarted"] = true,
 }

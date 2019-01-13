@@ -2,8 +2,8 @@
 PABDB = {
 	["showTrinket"] = true,
 	["growLeft"] = true,
-	["showIconBorders"] = true,
 	["scale"] = 1.01565670967102,
+	["showIconBorders"] = true,
 	["showSelf"] = false,
 	["hidden"] = false,
 	["attach"] = true,

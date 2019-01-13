@@ -3,7 +3,7 @@ PABDB = {
 	["showTrinket"] = true,
 	["growLeft"] = true,
 	["classSelected"] = "MAGE",
-	["showIconBorders"] = true,
+	["scale"] = 1.01565670967102,
 	["showSelf"] = false,
 	["hidden"] = false,
 	["attach"] = true,
@@ -537,5 +537,5 @@ PABDB = {
 			["x"] = 677.041717529297,
 		}, -- [5]
 	},
-	["scale"] = 1.01565670967102,
+	["showIconBorders"] = true,
 }

@@ -1,8 +1,26 @@
 
 Paku_Totems_DB = {
 	["profileKeys"] = {
+		["Lücyon - Bloodfeather"] = "Default",
+		["Lucyön - Sylvanas"] = "Default",
+		["Orciror - Bloodfeather"] = "Default",
+		["Lucyoff - Bloodfeather"] = "Default",
+		["Lucyõn - Bloodfeather"] = "Default",
+		["Lucyoñ - Bloodfeather"] = "Default",
 		["Lucyón - Bloodfeather"] = "Default",
+		["Lûcyon - Bloodfeather"] = "Default",
+		["Lucyøn - Bloodfeather"] = "Default",
+		["Lucýon - Bloodfeather"] = "Default",
 		["Lùcyon - Bloodfeather"] = "Default",
+		["Lúcyon - Sylvanas"] = "Default",
 		["Lucyon - Bloodfeather"] = "Default",
+		["Mitha - Bloodfeather"] = "Default",
+		["Lucyoñ - Sylvanas"] = "Default",
+		["Lúcyón - Bloodfeather"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucyón - Sylvanas"] = "Default",
+		["Lucÿon - Bloodfeather"] = "Default",
+		["Lucyón - The Maelstrom"] = "Default",
+		["Lúcýón - Bloodfeather"] = "Default",
 	},
 }

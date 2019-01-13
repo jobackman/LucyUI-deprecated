@@ -1,0 +1,62 @@
+
+BattleGroundEnemiesDB = {
+	["profileKeys"] = {
+		["Lúcýón - Bloodfeather"] = "Default",
+		["Orciror - Bloodfeather"] = "Default",
+		["Lucyoff - Bloodfeather"] = "Default",
+		["Lucyõn - Bloodfeather"] = "Default",
+		["Lucyoñ - Bloodfeather"] = "Default",
+		["Lûcyon - Bloodfeather"] = "Default",
+		["Lucýon - Bloodfeather"] = "Default",
+		["Lùcyon - Bloodfeather"] = "Default",
+		["Lucyoñ - Sylvanas"] = "Default",
+		["Lucyon - Bloodfeather"] = "Default",
+		["Mitha - Bloodfeather"] = "Default",
+		["Lucyøn - Bloodfeather"] = "Default",
+		["Lúcyón - Bloodfeather"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucyón - Sylvanas"] = "Default",
+		["Lucÿon - Bloodfeather"] = "Default",
+		["Lucyón - The Maelstrom"] = "Default",
+		["Lucyón - Bloodfeather"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Allies"] = {
+				["Enabled"] = false,
+				["15"] = {
+					["Position_Y"] = 390.400009453297,
+					["Position_X"] = 1033.24499029717,
+				},
+			},
+			["Font"] = "Arial Narrow",
+			["DisableArenaFrames"] = true,
+			["Enemies"] = {
+				["40"] = {
+					["Enabled"] = false,
+				},
+				["ShowRealmnames"] = false,
+				["15"] = {
+					["DrTracking_Enabled"] = false,
+					["Position_Y"] = 502.044803823374,
+					["BarVerticalSpacing"] = 5,
+					["PlayerCount_Enabled"] = false,
+					["ObjectiveAndRespawn_Outline"] = "OUTLINE",
+					["Auras_Debuffs_Enabled"] = false,
+					["Name_Outline"] = "OUTLINE",
+					["BarWidth"] = 194,
+					["RoleIcon_Enabled"] = false,
+					["HealthBar_Texture"] = "Smooth v2",
+					["Name_Fontsize"] = 10,
+					["Spec_Width"] = 33,
+					["Position_X"] = 1157.68995858831,
+					["RoleIcon_Size"] = 12,
+					["Racial_Enabled"] = false,
+					["ObjectiveAndRespawn_RelativeTo"] = "Spec",
+					["PlayerCount_Fontsize"] = 11,
+					["BarHeight"] = 30,
+				},
+			},
+		},
+	},
+}

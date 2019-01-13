@@ -32,10 +32,20 @@ Prat3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["colors"] = {
+						["wqp52858pvp"] = {
+							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
+						},
 						["wqp52877pvp"] = {
 							["b"] = 0.752941250801086,
 							["g"] = 0.752941250801086,
 							["r"] = 1,
+						},
+						["wqp52872pvp"] = {
+							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
 						},
 						["wax4bloodlust"] = {
 							["r"] = 0.533333361148834,
@@ -47,15 +57,40 @@ Prat3DB = {
 							["g"] = 0.752941250801086,
 							["r"] = 1,
 						},
+						["general"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["wqp50474pvp"] = {
+							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
+							["r"] = 1,
+						},
 						["wqp52160pvp"] = {
 							["b"] = 0.752941250801086,
 							["g"] = 0.752941250801086,
 							["r"] = 1,
 						},
+						["wqp51096pvp"] = {
+							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
+						},
 						["localdefence"] = {
 							["r"] = 0.988235354423523,
 							["g"] = 0,
 							["b"] = 1,
+						},
+						["wqp51719pvp"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["wqp50468pvp"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
 						},
 						["wqp50885pvp"] = {
 							["b"] = 0.752941250801086,
@@ -66,6 +101,21 @@ Prat3DB = {
 							["b"] = 0.752941250801086,
 							["g"] = 0.752941250801086,
 							["r"] = 1,
+						},
+						["wqp52446pvp"] = {
+							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
+						},
+						["wqp50667pvp"] = {
+							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
+							["r"] = 1,
+						},
+						["wqp50459pvp"] = {
+							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
 						},
 						["wqp51173pvp"] = {
 							["r"] = 1,
@@ -87,27 +137,62 @@ Prat3DB = {
 							["g"] = 0.752941250801086,
 							["b"] = 0.752941250801086,
 						},
+						["wqp52119pvp"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["wqp50735pvp"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
 						["wqp52239pvp"] = {
 							["b"] = 0.752941250801086,
 							["g"] = 0.752941250801086,
 							["r"] = 1,
+						},
+						["wqp50515pvp"] = {
+							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
 						},
 						["wqp51847pvp"] = {
 							["r"] = 1,
 							["g"] = 0.752941250801086,
 							["b"] = 0.752941250801086,
 						},
-						["wqp52119pvp"] = {
-							["b"] = 0.752941250801086,
-							["g"] = 0.752941250801086,
+						["wqp50718pvp"] = {
 							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
+						},
+						["wqp52250pvp"] = {
+							["r"] = 0.435294151306152,
+							["g"] = 0.380392193794251,
+							["b"] = 1,
+						},
+						["wqp50514pvp"] = {
+							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
 						},
 						["wqp51422pvp"] = {
 							["b"] = 0.749019622802734,
 							["g"] = 0.749019622802734,
 							["r"] = 1,
 						},
+						["wqp51450pvp"] = {
+							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
+						},
 						["wqp50975pvp"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["wqp51901pvp"] = {
 							["b"] = 0.752941250801086,
 							["g"] = 0.752941250801086,
 							["r"] = 1,
@@ -117,45 +202,70 @@ Prat3DB = {
 							["g"] = 0.749019622802734,
 							["r"] = 1,
 						},
-						["wqp51901pvp"] = {
-							["b"] = 0.752941250801086,
+						["wqp51097pvp"] = {
+							["r"] = 1,
 							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["wqp49413pvp"] = {
+							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
 							["r"] = 1,
 						},
+						["wqp53078pvp"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
 						["localdefense"] = {
-							["r"] = 0.972549080848694,
-							["g"] = 1,
-							["b"] = 0.984313786029816,
+							["r"] = 1,
+							["g"] = 0.772549092769623,
+							["b"] = 0.756862819194794,
+						},
+						["wqp50857pvp"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["wqp50854pvp"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
 						},
 						["swe"] = {
 							["r"] = 0,
 							["g"] = 0.796078503131867,
 							["b"] = 1,
 						},
+						["wqp52157pvp"] = {
+							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
+						},
 						["wqp49345pvp"] = {
 							["b"] = 0.749019622802734,
 							["g"] = 0.749019622802734,
 							["r"] = 1,
 						},
-						["wqp51719pvp"] = {
-							["r"] = 1,
-							["g"] = 0.752941250801086,
+						["wqp51740pvp"] = {
 							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
 						},
 						["pureluck"] = {
 							["b"] = 0.403921604156494,
 							["g"] = 0,
 							["r"] = 1,
 						},
-						["wqp52446pvp"] = {
+						["wqp50633pvp"] = {
 							["r"] = 1,
-							["g"] = 0.749019622802734,
-							["b"] = 0.749019622802734,
-						},
-						["wqp51740pvp"] = {
-							["b"] = 0.752941250801086,
 							["g"] = 0.752941250801086,
-							["r"] = 1,
+							["b"] = 0.752941250801086,
+						},
+						["hogwarts"] = {
+							["r"] = 0.988235354423523,
+							["g"] = 0,
+							["b"] = 1,
 						},
 						["bloodfeatherrbg"] = {
 							["r"] = 1,
@@ -177,30 +287,30 @@ Prat3DB = {
 							["g"] = 0.713725507259369,
 							["b"] = 0.48235297203064,
 						},
-						["wqp50468pvp"] = {
+						["wqp51174pvp"] = {
 							["r"] = 1,
-							["g"] = 0.752941250801086,
-							["b"] = 0.752941250801086,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
 						},
 						["wqp51098pvp"] = {
 							["b"] = 0.749019622802734,
 							["g"] = 0.749019622802734,
 							["r"] = 1,
 						},
-						["wqp53078pvp"] = {
+						["wqp50490pvp"] = {
 							["r"] = 1,
-							["g"] = 0.752941250801086,
-							["b"] = 0.752941250801086,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
 						},
-						["hogwarts"] = {
-							["r"] = 0.988235354423523,
-							["g"] = 0,
-							["b"] = 1,
-						},
-						["wqp51097pvp"] = {
+						["wqp51116pvp"] = {
 							["r"] = 1,
-							["g"] = 0.752941250801086,
-							["b"] = 0.752941250801086,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
+						},
+						["wqp51315pvp"] = {
+							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
 						},
 					},
 				},
@@ -227,6 +337,13 @@ Prat3DB = {
 		["Prat_UrlCopy"] = {
 		},
 		["Prat_History"] = {
+			["profiles"] = {
+				["Default"] = {
+					["savehistory"] = true,
+					["delaygmotd"] = false,
+					["scrollback"] = false,
+				},
+			},
 		},
 		["Prat_ChannelNames"] = {
 		},
@@ -306,11 +423,11 @@ Prat3DB = {
 		["Prat_Buttons"] = {
 			["profiles"] = {
 				["Default"] = {
-					["showminimize"] = false,
-					["showBnet"] = false,
-					["scrollReminder"] = false,
 					["showMenu"] = false,
+					["showBnet"] = false,
 					["showButtons"] = false,
+					["showminimize"] = false,
+					["scrollReminder"] = false,
 				},
 			},
 		},
@@ -320,36 +437,43 @@ Prat3DB = {
 		},
 	},
 	["profileKeys"] = {
-		["Lucyonn - Bloodfeather"] = "Default",
-		["Lucyasd - Bloodfeather"] = "Default",
 		["Lucytrial - Bloodfeather"] = "Default",
 		["Dolk - Bloodfeather"] = "Default",
-		["Freiza - Bladefist"] = "Default",
-		["Lucyôn - Bloodfeather"] = "Default",
-		["Lucyón - The Maelstrom"] = "Default",
 		["Lücyon - Bloodfeather"] = "Default",
 		["Lucyön - Bloodfeather"] = "Default",
-		["Lucyoñ - Argent Dawn"] = "Default",
-		["Lucyón - Bloodfeather"] = "Default",
-		["Lúcyon - Bloodfeather"] = "Default",
-		["Lucykek - Bloodfeather"] = "Default",
 		["Lucyõn - Bloodfeather"] = "Default",
 		["Lucyoñ - Bloodfeather"] = "Default",
-		["Lûcyon - Bloodfeather"] = "Default",
 		["Lucywartrial - Bloodfeather"] = "Default",
 		["Lucýon - Sylvanas"] = "Default",
 		["Lucyon - Outland"] = "Default",
 		["Lùcyon - Sylvanas"] = "Default",
-		["Lucyworg - Bloodfeather"] = "Default",
-		["Lucytester - Bloodfeather"] = "Default",
 		["Lucyon - Bloodfeather"] = "Default",
-		["Lùcyon - Bloodfeather"] = "Default",
-		["Lucýon - Bloodfeather"] = "Default",
+		["Mitha - Bloodfeather"] = "Default",
+		["Lucyoñ - Sylvanas"] = "Default",
 		["Lucyons - Bloodfeather"] = "Default",
-		["Lucyón - Sylvanas"] = "Default",
+		["Lucyoñ - Argent Dawn"] = "Default",
 		["Lucÿon - Bloodfeather"] = "Default",
-		["Lucyøn - Bloodfeather"] = "Default",
+		["Lucyón - The Maelstrom"] = "Default",
+		["Lucyonn - Bloodfeather"] = "Default",
+		["Lucyasd - Bloodfeather"] = "Default",
+		["Lucyôn - Bloodfeather"] = "Default",
+		["Lucyön - Sylvanas"] = "Default",
 		["Lúcyon - Sylvanas"] = "Default",
+		["Lucyoff - Bloodfeather"] = "Default",
+		["Lûcyon - Bloodfeather"] = "Default",
+		["Lúcýón - Bloodfeather"] = "Default",
+		["Orciror - Bloodfeather"] = "Default",
+		["Lùcyon - Bloodfeather"] = "Default",
+		["Lucytester - Bloodfeather"] = "Default",
+		["Lucyworg - Bloodfeather"] = "Default",
+		["Lucyón - Bloodfeather"] = "Default",
+		["Lucýon - Bloodfeather"] = "Default",
+		["Lúcyón - Bloodfeather"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucyón - Sylvanas"] = "Default",
+		["Lucykek - Bloodfeather"] = "Default",
+		["Freiza - Bladefist"] = "Default",
+		["Lucyøn - Bloodfeather"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

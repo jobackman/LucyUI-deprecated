@@ -5,6 +5,13 @@ AdiBagsDB = {
 			["profiles"] = {
 				["Default"] = {
 					["version"] = 3,
+					["overrides"] = {
+						[71634] = "Miscellaneous#Miscellaneous",
+						[158379] = "Consumable#Consumable",
+						[113681] = "Miscellaneous#Miscellaneous",
+						[2460] = "Consumable#Consumable",
+						[152640] = "Consumable#Consumable",
+					},
 				},
 			},
 		},
@@ -20,6 +27,13 @@ AdiBagsDB = {
 		["ItemSets"] = {
 		},
 		["Junk"] = {
+			["profiles"] = {
+				["Default"] = {
+					["exclude"] = {
+						[113681] = true,
+					},
+				},
+			},
 		},
 		["MoneyFrame"] = {
 			["profiles"] = {
@@ -95,43 +109,49 @@ AdiBagsDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Lucyonn - Bloodfeather"] = "Default",
-		["Lucyasd - Bloodfeather"] = "Default",
 		["Lucytrial - Bloodfeather"] = "Default",
 		["Dolk - Bloodfeather"] = "Default",
-		["Lucyön - Bloodfeather"] = "Default",
-		["Lucyôn - Bloodfeather"] = "Default",
-		["Lucyøn - Bloodfeather"] = "Default",
 		["Lücyon - Bloodfeather"] = "Default",
-		["Lúcyon - Sylvanas"] = "Default",
-		["Lucyón - Sylvanas"] = "Default",
 		["Lucyón - Bloodfeather"] = "Default",
-		["Lucyons - Bloodfeather"] = "Default",
-		["Lucyon - Outland"] = "Default",
 		["Lucyõn - Bloodfeather"] = "Default",
 		["Lucyoñ - Bloodfeather"] = "Default",
-		["Lùcyon - Sylvanas"] = "Default",
 		["Lucywartrial - Bloodfeather"] = "Default",
 		["Lucýon - Sylvanas"] = "Default",
 		["Lucýon - Bloodfeather"] = "Default",
-		["Lùcyon - Bloodfeather"] = "Default",
-		["Lucyworg - Bloodfeather"] = "Default",
+		["Lùcyon - Sylvanas"] = "Default",
 		["Lucyon - Bloodfeather"] = "Default",
-		["Lucytester - Bloodfeather"] = "Default",
-		["Lûcyon - Bloodfeather"] = "Default",
-		["Lucykek - Bloodfeather"] = "Default",
-		["Lúcyon - Bloodfeather"] = "Default",
+		["Mitha - Bloodfeather"] = "Default",
+		["Lucyoñ - Sylvanas"] = "Default",
+		["Lucyons - Bloodfeather"] = "Default",
 		["Lucyoñ - Argent Dawn"] = "Default",
 		["Lucÿon - Bloodfeather"] = "Default",
 		["Lucyón - The Maelstrom"] = "Default",
+		["Lucyonn - Bloodfeather"] = "Default",
+		["Lucyasd - Bloodfeather"] = "Default",
+		["Lucyôn - Bloodfeather"] = "Default",
+		["Lucyön - Sylvanas"] = "Default",
+		["Lúcyon - Sylvanas"] = "Default",
+		["Lucyoff - Bloodfeather"] = "Default",
+		["Lûcyon - Bloodfeather"] = "Default",
+		["Lucyön - Bloodfeather"] = "Default",
+		["Orciror - Bloodfeather"] = "Default",
+		["Lùcyon - Bloodfeather"] = "Default",
+		["Lucykek - Bloodfeather"] = "Default",
+		["Lucytester - Bloodfeather"] = "Default",
+		["Lucyøn - Bloodfeather"] = "Default",
+		["Lucyon - Outland"] = "Default",
+		["Lúcyón - Bloodfeather"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucyón - Sylvanas"] = "Default",
+		["Lucyworg - Bloodfeather"] = "Default",
 		["Freiza - Bladefist"] = "Default",
+		["Lúcýón - Bloodfeather"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["columnWidth"] = {
 				["Bank"] = 12,
 			},
-			["maxHeight"] = 0.7,
 			["skin"] = {
 				["BackpackColor"] = {
 					nil, -- [1]
@@ -148,7 +168,7 @@ AdiBagsDB = {
 				["border"] = "None",
 			},
 			["bagFont"] = {
-				["name"] = "Roboto Condensed Bold",
+				["name"] = "Arial Narrow",
 				["size"] = 12,
 			},
 			["positions"] = {
@@ -162,7 +182,7 @@ AdiBagsDB = {
 				},
 			},
 			["sectionFont"] = {
-				["name"] = "Roboto Condensed Bold",
+				["name"] = "Arial Narrow",
 			},
 			["compactLayout"] = true,
 			["rightClickConfig"] = false,

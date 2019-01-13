@@ -4,7 +4,22 @@ dbBFA = {
 		["Lucyón - Bloodfeather"] = {
 			["firstun"] = false,
 		},
+		["Lucýon - Bloodfeather"] = {
+			["firstun"] = false,
+		},
+		["Lucyoñ - Sylvanas"] = {
+			["firstun"] = false,
+		},
+		["Lúcyon - Bloodfeather"] = {
+			["firstun"] = false,
+		},
+		["Lucyón - Sylvanas"] = {
+			["firstun"] = false,
+		},
 		["Lùcyon - Bloodfeather"] = {
+			["firstun"] = false,
+		},
+		["Lucyón - The Maelstrom"] = {
 			["firstun"] = false,
 		},
 		["Lucyon - Bloodfeather"] = {
@@ -13,16 +28,22 @@ dbBFA = {
 	},
 	["profileKeys"] = {
 		["Lucyón - Bloodfeather"] = "Default",
+		["Lucýon - Bloodfeather"] = "Default",
+		["Lucyoñ - Sylvanas"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucyón - Sylvanas"] = "Default",
 		["Lùcyon - Bloodfeather"] = "Default",
+		["Lucyón - The Maelstrom"] = "Default",
 		["Lucyon - Bloodfeather"] = "Default",
 	},
 	["global"] = {
-		["tutorialStep"] = 17,
-		["warn01_seen"] = 0,
-		["firstrun"] = false,
 		["news"] = {
 		},
 		["warn02_seen"] = 0,
+		["tutorialStep"] = 17,
+		["warn01_seen"] = 0,
+		["firstrun"] = false,
+		["silent"] = true,
 		["changedkeywarned"] = true,
 	},
 	["profiles"] = {

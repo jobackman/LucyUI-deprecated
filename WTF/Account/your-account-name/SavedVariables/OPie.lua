@@ -2,19 +2,19 @@
 OneRing_Config = {
 	["CenterActions"] = {
 		["Mounts"] = "ABuesAjKXSU",
-		["Gadgets"] = "ABue3ZBCiLy",
-		["onsumables"] = "ABuedepjaw1",
-		["OPieAutoQuest"] = "OPieBundleQuest159761",
+		["althstones"] = "ABuedr9SUNe",
+		["Gadgets"] = "ABue3PIzjfe",
+		["OPieAutoQuest"] = "EB",
 		["Gliders"] = "ABue3PApdz1",
 		["Buffs"] = "ABue3Pq9MNt",
-		["althstones"] = "ABuedr9SUNe",
-		["ssiontools"] = "ABue3fin0Qi",
+		["ssiontools"] = "ABue3JS5xne",
+		["onsumables"] = "ABuedepjaw1",
 	},
 	["CharProfiles"] = {
 		["Bloodfeather-Lucyón"] = "default",
 	},
-	["_GameVersion"] = "8.0.1",
-	["_OPieVersion"] = "Vanilla 7 (3.93)",
+	["_GameVersion"] = "8.1.0",
+	["_OPieVersion"] = "Vanilla 9 (3.96)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["ShowRecharge"] = true,
@@ -27,11 +27,15 @@ OneRing_Config = {
 				["Gadgets"] = "J",
 				["OPieAutoQuest"] = "<",
 				["MageTravel"] = "8",
+				["DKCombat"] = false,
+				["OPieTrinkets"] = false,
 				["ssiontools"] = "ALT-S",
-				["CommonTrades"] = false,
+				["CommonTrades"] = "F9",
+				["DruidShift"] = false,
+				["DruidUtility"] = false,
 				["WorldMarkers"] = "F4",
 				["Mounts"] = "CTRL-F",
-				["OPieTrinkets"] = false,
+				["DruidFeral"] = false,
 				["Gliders"] = "F2",
 				["onsumables"] = ".",
 				["PaladinAuras"] = false,
@@ -66,34 +70,35 @@ OneRing_Config = {
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,
 			},
-			["ssiontools"] = {
-				{
-					["sliceToken"] = "ABue3fin0Qi",
-					["id"] = 131474,
-					["fastClick"] = true,
-				}, -- [1]
-				{
-					["sliceToken"] = "ABue3fin0Qu",
-					["id"] = 80451,
-					["fastClick"] = true,
-				}, -- [2]
-				{
-					["id"] = 51005,
-					["sliceToken"] = "ABue3JVRKtw",
-					["fastClick"] = true,
-				}, -- [3]
-				{
-					["id"] = 13262,
-					["sliceToken"] = "ABue3JS5xne",
-					["fastClick"] = true,
-				}, -- [4]
+			["SpecMenu"] = {
 				{
 					"toy", -- [1]
-					85500, -- [2]
-					["sliceToken"] = "ABue3XVOKzw",
+					162973, -- [2]
+					["sliceToken"] = "ABuedBzvuft",
+				}, -- [1]
+				{
+					"item", -- [1]
+					140192, -- [2]
+					["sliceToken"] = "OPCTAd",
+				}, -- [2]
+				{
+					"item", -- [1]
+					110560, -- [2]
+					["sliceToken"] = "OPCTAg",
+				}, -- [3]
+				{
+					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}",
+					["sliceToken"] = "OPCTAc",
+				}, -- [4]
+				{
+					"item", -- [1]
+					141605, -- [2]
+					["sliceToken"] = "ABuesGBFnue",
+					["show"] = "[in:bfa][in:broken isles][in:warfront]",
 				}, -- [5]
-				["name"] = "Profession tools",
+				["name"] = "Specializations and Travel",
 				["save"] = true,
+				["hotkey"] = "ALT-H",
 			},
 			["MageTools"] = {
 				{
@@ -155,34 +160,38 @@ OneRing_Config = {
 				["noOpportunisticCA"] = true,
 				["save"] = true,
 			},
-			["SpecMenu"] = {
+			["ssiontools"] = {
 				{
-					"toy", -- [1]
-					64488, -- [2]
-					["sliceToken"] = "ABue30AtXve",
+					["sliceToken"] = "ABue3fin0Qi",
+					["id"] = 131474,
+					["fastClick"] = true,
 				}, -- [1]
 				{
-					"item", -- [1]
-					140192, -- [2]
-					["sliceToken"] = "OPCTAd",
+					["sliceToken"] = "ABue3fin0Qu",
+					["id"] = 80451,
+					["fastClick"] = true,
 				}, -- [2]
 				{
-					"item", -- [1]
-					110560, -- [2]
-					["sliceToken"] = "OPCTAg",
+					["id"] = 51005,
+					["sliceToken"] = "ABue3JVRKtw",
+					["fastClick"] = true,
 				}, -- [3]
 				{
-					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}",
-					["sliceToken"] = "OPCTAc",
+					["id"] = 13262,
+					["sliceToken"] = "ABue3JS5xne",
+					["fastClick"] = true,
 				}, -- [4]
 				{
-					"item", -- [1]
-					141605, -- [2]
-					["sliceToken"] = "ABuesGBFnue",
+					"toy", -- [1]
+					85500, -- [2]
+					["sliceToken"] = "ABue3XVOKzw",
 				}, -- [5]
-				["name"] = "Specializations and Travel",
+				{
+					["sliceToken"] = "ABuedolUuxw",
+					["id"] = 818,
+				}, -- [6]
+				["name"] = "Profession tools",
 				["save"] = true,
-				["hotkey"] = "ALT-H",
 			},
 			["PaladinTools"] = {
 				{
@@ -214,93 +223,17 @@ OneRing_Config = {
 					["id"] = 213644,
 					["sliceToken"] = "ABue3cB5ygw",
 				}, -- [7]
-				["name"] = "Utility",
+				["limit"] = "PALADIN",
 				["save"] = true,
 				["hotkey"] = "6",
-				["limit"] = "PALADIN",
-			},
-			["Mounts"] = {
-				{
-					["sliceToken"] = "ABuesAjKXSU",
-					["id"] = 150544,
-					["fastClick"] = true,
-				}, -- [1]
-				{
-					["sliceToken"] = "ABuesAjKXSY",
-					["id"] = 122708,
-				}, -- [2]
-				{
-					["sliceToken"] = "ABuesSlmXqe",
-					["id"] = 242897,
-				}, -- [3]
-				{
-					["sliceToken"] = "ABuesAjKXST",
-					["id"] = 118089,
-				}, -- [4]
-				["name"] = "Mounts",
-				["save"] = true,
-			},
-			["Gadgets"] = {
-				{
-					"item", -- [1]
-					153487, -- [2]
-					["sliceToken"] = "ABue3ZBCiLy",
-					["fastClick"] = true,
-				}, -- [1]
-				{
-					"item", -- [1]
-					163604, -- [2]
-					["sliceToken"] = "ABue3PIzjfe",
-					["fastClick"] = true,
-				}, -- [2]
-				{
-					"item", -- [1]
-					114943, -- [2]
-					["sliceToken"] = "ABuesHhWTjr",
-				}, -- [3]
-				{
-					"item", -- [1]
-					144341, -- [2]
-					["sliceToken"] = "ABuesAl0y6i",
-				}, -- [4]
-				{
-					"item", -- [1]
-					111820, -- [2]
-					["sliceToken"] = "ABue3ZBCiLt",
-				}, -- [5]
-				{
-					"item", -- [1]
-					49040, -- [2]
-					["sliceToken"] = "ABuesD6wMbr",
-				}, -- [6]
-				{
-					"toy", -- [1]
-					40768, -- [2]
-					["sliceToken"] = "ABues9GlE81",
-				}, -- [7]
-				{
-					["sliceToken"] = "ABues9GlE8r",
-					["id"] = 255661,
-				}, -- [8]
-				{
-					"toy", -- [1]
-					122674, -- [2]
-					["sliceToken"] = "ABue3mKCnbw",
-				}, -- [9]
-				{
-					"toy", -- [1]
-					85500, -- [2]
-					["sliceToken"] = "ABue3JS5xn1",
-				}, -- [10]
-				["name"] = "Gadgets",
-				["save"] = true,
+				["name"] = "Utility",
 			},
 			["Gliders"] = {
 				{
 					"macro", -- [1]
 					"cloak", -- [2]
+					["show"] = "[eng5] show; hide",
 					["sliceToken"] = "ABue3PApdz1",
-					["show"] = "[engi] show; hide",
 					["fastClick"] = true,
 				}, -- [1]
 				{
@@ -322,37 +255,118 @@ OneRing_Config = {
 				{
 					"macro", -- [1]
 					"belt", -- [2]
+					["show"] = "[eng3] show; hide",
 					["sliceToken"] = "ABue3PIW8Si",
-					["show"] = "[engi] show; hide",
 				}, -- [5]
 				["name"] = "Gliders",
 				["save"] = true,
 			},
-			["onsumables"] = {
+			["Gadgets"] = {
 				{
-					"item", -- [1]
-					113509, -- [2]
-					["sliceToken"] = "ABuedepjaw1",
+					"toy", -- [1]
+					60854, -- [2]
+					["show"] = "[engi] show; hide",
+					["sliceToken"] = "ABuedkjFROr",
 					["fastClick"] = true,
 				}, -- [1]
 				{
 					"item", -- [1]
-					163784, -- [2]
-					["sliceToken"] = "ABueded2Evr",
+					163604, -- [2]
+					["sliceToken"] = "ABue3PIzjfe",
 					["fastClick"] = true,
 				}, -- [2]
 				{
 					"item", -- [1]
-					142117, -- [2]
-					["sliceToken"] = "ABuedepjawr",
+					158379, -- [2]
+					["sliceToken"] = "ABued=kUxfe",
 				}, -- [3]
 				{
 					"item", -- [1]
-					120257, -- [2]
-					["sliceToken"] = "ABuedrtMU=w",
+					114943, -- [2]
+					["sliceToken"] = "ABuesHhWTjr",
 				}, -- [4]
-				["name"] = "Consumables",
+				{
+					"item", -- [1]
+					153487, -- [2]
+					["sliceToken"] = "ABued=Zc1Ew",
+				}, -- [5]
+				{
+					"item", -- [1]
+					144341, -- [2]
+					["sliceToken"] = "ABuesAl0y6i",
+				}, -- [6]
+				{
+					"item", -- [1]
+					49040, -- [2]
+					["sliceToken"] = "ABuesD6wMbr",
+				}, -- [7]
+				{
+					"toy", -- [1]
+					40768, -- [2]
+					["sliceToken"] = "ABues9GlE81",
+				}, -- [8]
+				{
+					"item", -- [1]
+					111820, -- [2]
+					["sliceToken"] = "ABue3ZBCiLt",
+				}, -- [9]
+				["name"] = "Gadgets",
 				["save"] = true,
+			},
+			["Mounts"] = {
+				{
+					"item", -- [1]
+					37011, -- [2]
+					["sliceToken"] = "ABuedmQKmKe",
+					["fastClick"] = true,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuesAjKXSU",
+					["id"] = 150544,
+					["fastClick"] = true,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuesAjKXSY",
+					["id"] = 122708,
+				}, -- [3]
+				{
+					["sliceToken"] = "ABuedL03Wew",
+					["id"] = 223363,
+				}, -- [4]
+				{
+					["sliceToken"] = "ABuedsQK28r",
+					["id"] = 134359,
+				}, -- [5]
+				{
+					["sliceToken"] = "ABuesAjKXST",
+					["id"] = 118089,
+				}, -- [6]
+				["name"] = "Mounts",
+				["save"] = true,
+			},
+			["PaladinAuras"] = {
+				{
+					"ring", -- [1]
+					"PaladinBlessing", -- [2]
+					["sliceToken"] = "OPCPAb",
+					["onlyNonEmpty"] = true,
+				}, -- [1]
+				{
+					["id"] = 1022,
+					["sliceToken"] = "OPCPAt",
+				}, -- [2]
+				{
+					["id"] = 1044,
+					["sliceToken"] = "OPCPAe",
+				}, -- [3]
+				{
+					["id"] = 25780,
+					["sliceToken"] = "OPCPAf",
+				}, -- [4]
+				["name"] = "Paladin Buffs",
+				["save"] = true,
+				["hotkey"] = "6",
+				["limit"] = "PALADIN",
 			},
 			["MageTravel"] = {
 				{
@@ -425,35 +439,59 @@ OneRing_Config = {
 			},
 			["Buffs"] = {
 				{
-					["sliceToken"] = "ABue3Pq9MNt",
-					["id"] = 1459,
+					["id"] = 3714,
+					["sliceToken"] = "ABuefeQID7r",
 					["fastClick"] = true,
 				}, -- [1]
 				{
+					["id"] = 61999,
+					["sliceToken"] = "ABuefeQID71",
+				}, -- [2]
+				{
+					["sliceToken"] = "ABue3Pq9MNt",
+					["id"] = 1459,
+					["fastClick"] = true,
+				}, -- [3]
+				{
 					["sliceToken"] = "ABue3Pq9MN1",
 					["id"] = 190336,
-				}, -- [2]
+				}, -- [4]
 				{
 					["id"] = 205022,
 					["sliceToken"] = "ABue3Pq9MNu",
-				}, -- [3]
+				}, -- [5]
 				{
 					["id"] = 6673,
 					["sliceToken"] = "ABue3PwIWf1",
 					["fastClick"] = true,
-				}, -- [4]
+				}, -- [6]
 				{
 					["id"] = 203538,
 					["sliceToken"] = "ABue3PyqPxr",
-				}, -- [5]
+				}, -- [7]
 				{
 					["id"] = 21562,
 					["sliceToken"] = "ABue3FYBBNe",
-				}, -- [6]
+					["fastClick"] = true,
+				}, -- [8]
 				{
 					["id"] = 203539,
 					["sliceToken"] = "ABue3PyqPxe",
-				}, -- [7]
+				}, -- [9]
+				{
+					["id"] = 192106,
+					["sliceToken"] = "ABuedy3uoge",
+					["fastClick"] = true,
+				}, -- [10]
+				{
+					["id"] = 546,
+					["sliceToken"] = "ABuedaCfPYe",
+					["fastClick"] = true,
+				}, -- [11]
+				{
+					["id"] = 20484,
+					["sliceToken"] = "ABuedffjR7w",
+				}, -- [12]
 				["name"] = "Buffs",
 				["save"] = true,
 			},
@@ -467,34 +505,67 @@ OneRing_Config = {
 					["sliceToken"] = "OPCPBw",
 				}, -- [2]
 				["limit"] = "PALADIN",
-				["internal"] = true,
-				["save"] = true,
-				["hotkey"] = "6",
 				["name"] = "Blessings",
+				["internal"] = true,
+				["hotkey"] = "6",
+				["save"] = true,
 			},
-			["PaladinAuras"] = {
+			["onsumables"] = {
 				{
-					"ring", -- [1]
-					"PaladinBlessing", -- [2]
-					["sliceToken"] = "OPCPAb",
-					["onlyNonEmpty"] = true,
+					"item", -- [1]
+					113509, -- [2]
+					["sliceToken"] = "ABuedepjaw1",
+					["fastClick"] = true,
 				}, -- [1]
 				{
-					["id"] = 1022,
-					["sliceToken"] = "OPCPAt",
+					"item", -- [1]
+					163784, -- [2]
+					["sliceToken"] = "ABueded2Evr",
+					["fastClick"] = true,
 				}, -- [2]
 				{
-					["id"] = 1044,
-					["sliceToken"] = "OPCPAe",
+					"item", -- [1]
+					163117, -- [2]
+					["sliceToken"] = "ABued9UwGZr",
+					["fastClick"] = true,
 				}, -- [3]
 				{
-					["id"] = 25780,
-					["sliceToken"] = "OPCPAf",
+					"item", -- [1]
+					142117, -- [2]
+					["sliceToken"] = "ABuedepjawr",
 				}, -- [4]
-				["name"] = "Paladin Buffs",
+				{
+					"item", -- [1]
+					152495, -- [2]
+					["sliceToken"] = "ABuedgwtRSw",
+				}, -- [5]
+				{
+					"item", -- [1]
+					120257, -- [2]
+					["sliceToken"] = "ABuedrtMU=w",
+				}, -- [6]
+				{
+					"item", -- [1]
+					163222, -- [2]
+					["sliceToken"] = "ABueds6Tvcw",
+				}, -- [7]
+				{
+					"item", -- [1]
+					162518, -- [2]
+					["sliceToken"] = "ABueddiQLNw",
+				}, -- [8]
+				{
+					"item", -- [1]
+					152559, -- [2]
+					["sliceToken"] = "ABuedkjFRO1",
+				}, -- [9]
+				{
+					"item", -- [1]
+					163224, -- [2]
+					["sliceToken"] = "ABuednBTP0w",
+				}, -- [10]
+				["name"] = "Consumables",
 				["save"] = true,
-				["hotkey"] = "6",
-				["limit"] = "PALADIN",
 			},
 		},
 	},
