@@ -16,6 +16,10 @@ Load the group of addons that I use by doing this:
 
 ### Dominos
 Choose the default dominos profile
+- Type `/dom set default`
+
+Or
+
 - Type `/dom` -> Click _Profiles_ -> Choose _Default_ profile
 
 ### Kong (Player frame fade-out ooc)
