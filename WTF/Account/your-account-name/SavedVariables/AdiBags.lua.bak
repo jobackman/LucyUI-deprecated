@@ -6,11 +6,16 @@ AdiBagsDB = {
 				["Default"] = {
 					["version"] = 3,
 					["overrides"] = {
-						[71634] = "Miscellaneous#Miscellaneous",
 						[158379] = "Consumable#Consumable",
-						[113681] = "Miscellaneous#Miscellaneous",
-						[2460] = "Consumable#Consumable",
 						[152640] = "Consumable#Consumable",
+						[156632] = "Hearthstones#Hearthstones",
+						[164740] = "Consumable#Consumable",
+						[167742] = "Consumable#Consumable",
+						[156631] = "Consumable#Consumable",
+						[71634] = "Miscellaneous#Miscellaneous",
+						[2460] = "Consumable#Consumable",
+						[113681] = "Miscellaneous#Miscellaneous",
+						[80591] = "Consumable#Consumable",
 					},
 				},
 			},
@@ -54,6 +59,12 @@ AdiBagsDB = {
 		},
 		["Artifact Power Currency"] = {
 		},
+		["ItemLevel"] = {
+		},
+		["DataSource"] = {
+		},
+		["Equipment"] = {
+		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -68,24 +79,24 @@ AdiBagsDB = {
 						["Order Resources"] = false,
 						["Artifact Fragment"] = false,
 						["Tol Barad Commendation"] = false,
-						["Veiled Argunite"] = false,
-						["Lingering Soul Fragment"] = false,
-						["Timewarped Badge"] = false,
-						["Oil"] = false,
-						["Curious Coin"] = false,
 						["Brawler's Gold"] = false,
-						["Timeless Coin"] = false,
+						["Champion's Seal"] = false,
+						["Timewarped Badge"] = false,
+						["Seal of Broken Fate"] = false,
+						["Ancient Mana"] = false,
+						["Echoes of Battle"] = false,
+						["Wakening Essence"] = false,
 						["Epicurean's Award"] = false,
 						["Timeworn Artifact"] = false,
 						["Sightless Eye"] = false,
-						["Wakening Essence"] = false,
+						["Timeless Coin"] = false,
 						["Warforged Seal"] = false,
 						["Apexis Crystal"] = false,
 						["Darkmoon Prize Ticket"] = false,
-						["Echoes of Battle"] = false,
-						["Ancient Mana"] = false,
-						["Seal of Broken Fate"] = false,
-						["Champion's Seal"] = false,
+						["Curious Coin"] = false,
+						["Oil"] = false,
+						["Veiled Argunite"] = false,
+						["Lingering Soul Fragment"] = false,
 						["Legionfall War Supplies"] = false,
 					},
 					["text"] = {
@@ -93,12 +104,6 @@ AdiBagsDB = {
 					},
 				},
 			},
-		},
-		["Equipment"] = {
-		},
-		["DataSource"] = {
-		},
-		["ItemLevel"] = {
 		},
 		["Hearthstones"] = {
 			["profiles"] = {
@@ -109,8 +114,11 @@ AdiBagsDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Lucyon - The Maelstrom"] = "Default",
+		["Lucymon - Sylvanas"] = "Default",
 		["Lucytrial - Bloodfeather"] = "Default",
 		["Dolk - Bloodfeather"] = "Default",
+		["Lucyvulp - Bloodfeather"] = "Default",
 		["Lücyon - Bloodfeather"] = "Default",
 		["Lucyón - Bloodfeather"] = "Default",
 		["Lucyõn - Bloodfeather"] = "Default",
@@ -128,42 +136,59 @@ AdiBagsDB = {
 		["Lucyón - The Maelstrom"] = "Default",
 		["Lucyonn - Bloodfeather"] = "Default",
 		["Lucyasd - Bloodfeather"] = "Default",
+		["Lucyporc - Bloodfeather"] = "Default",
+		["Lucymón - Bloodfeather"] = "Default",
+		["Goldmon - Bloodfeather"] = "Default",
+		["Lucyon - Outland"] = "Default",
 		["Lucyôn - Bloodfeather"] = "Default",
+		["Lucýón - Bloodfeather"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucyòn - Argent Dawn"] = "Default",
 		["Lucyön - Sylvanas"] = "Default",
 		["Lúcyon - Sylvanas"] = "Default",
 		["Lucyoff - Bloodfeather"] = "Default",
-		["Lûcyon - Bloodfeather"] = "Default",
 		["Lúcýón - Bloodfeather"] = "Default",
-		["Orciror - Bloodfeather"] = "Default",
-		["Lùcyon - Bloodfeather"] = "Default",
+		["Lucydrood - Bloodfeather"] = "Default",
 		["Lucytester - Bloodfeather"] = "Default",
-		["Lucyworg - Bloodfeather"] = "Default",
-		["Lucyøn - Bloodfeather"] = "Default",
-		["Lucyon - Outland"] = "Default",
-		["Lúcyón - Bloodfeather"] = "Default",
-		["Lúcyon - Bloodfeather"] = "Default",
-		["Lucyón - Sylvanas"] = "Default",
+		["Orciror - Bloodfeather"] = "Default",
+		["Lucyorc - Bloodfeather"] = "Default",
 		["Lucykek - Bloodfeather"] = "Default",
-		["Freiza - Bladefist"] = "Default",
+		["Lucymon - Bloodfeather"] = "Default",
+		["Lùcyon - Bloodfeather"] = "Default",
+		["Lûcyon - Bloodfeather"] = "Default",
+		["Lucyworg - Bloodfeather"] = "Default",
 		["Lucyön - Bloodfeather"] = "Default",
+		["Lucyøn - Bloodfeather"] = "Default",
+		["Lúcyón - Bloodfeather"] = "Default",
+		["Ezpzarena - Bloodfeather"] = "Default",
+		["Lucyón - Sylvanas"] = "Default",
+		["Lucyón - Argent Dawn"] = "Default",
+		["Freiza - Bladefist"] = "Default",
+		["Lucymonn - Bloodfeather"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["scale"] = 1,
+			["virtualStacks"] = {
+				["incomplete"] = true,
+			},
+			["columnWidth"] = {
+				["Bank"] = 12,
+			},
 			["skin"] = {
 				["BackpackColor"] = {
 					nil, -- [1]
 					nil, -- [2]
 					nil, -- [3]
-					0.330728709697723, -- [4]
+					0.271083652973175, -- [4]
 				},
 				["BankColor"] = {
 					nil, -- [1]
 					nil, -- [2]
 					0.501960784313726, -- [3]
-					0.341839194297791, -- [4]
+					0.340000033378601, -- [4]
 				},
 				["border"] = "None",
+				["insets"] = 0,
 			},
 			["bagFont"] = {
 				["name"] = "Arial Narrow",
@@ -179,15 +204,12 @@ AdiBagsDB = {
 					["yOffset"] = 101.111351013184,
 				},
 			},
+			["compactLayout"] = true,
+			["rightClickConfig"] = false,
 			["sectionFont"] = {
 				["name"] = "Arial Narrow",
 			},
-			["compactLayout"] = true,
-			["rightClickConfig"] = false,
-			["autoDeposit"] = true,
-			["columnWidth"] = {
-				["Bank"] = 12,
-			},
+			["scale"] = 1,
 		},
 		["Bloodfeather"] = {
 		},

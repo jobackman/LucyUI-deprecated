@@ -1,24 +1,101 @@
 
 SimulationCraftDB = {
 	["profileKeys"] = {
-		["Lucýon - Bloodfeather"] = "Lucýon - Bloodfeather",
+		["Lucyporc - Bloodfeather"] = "Lucyporc - Bloodfeather",
+		["Lucymon - Sylvanas"] = "Lucymon - Sylvanas",
+		["Lucyon - The Maelstrom"] = "Lucyon - The Maelstrom",
+		["Lucyvulp - Bloodfeather"] = "Lucyvulp - Bloodfeather",
+		["Lucyøn - Bloodfeather"] = "Lucyøn - Bloodfeather",
+		["Goldmon - Bloodfeather"] = "Goldmon - Bloodfeather",
+		["Lucymonn - Bloodfeather"] = "Lucymonn - Bloodfeather",
+		["Lúcýón - Bloodfeather"] = "Lúcýón - Bloodfeather",
+		["Lucydrood - Bloodfeather"] = "Lucydrood - Bloodfeather",
+		["Lucyoff - Bloodfeather"] = "Lucyoff - Bloodfeather",
+		["Lucyón - Argent Dawn"] = "Lucyón - Argent Dawn",
+		["Lucyõn - Bloodfeather"] = "Lucyõn - Bloodfeather",
+		["Lucyoñ - Bloodfeather"] = "Lucyoñ - Bloodfeather",
+		["Lúcyón - Bloodfeather"] = "Lúcyón - Bloodfeather",
+		["Lucyorc - Bloodfeather"] = "Lucyorc - Bloodfeather",
+		["Ezpzarena - Bloodfeather"] = "Ezpzarena - Bloodfeather",
+		["Lucymon - Bloodfeather"] = "Lucymon - Bloodfeather",
 		["Lùcyon - Bloodfeather"] = "Lùcyon - Bloodfeather",
+		["Lucýon - Bloodfeather"] = "Lucýon - Bloodfeather",
 		["Lucyon - Bloodfeather"] = "Lucyon - Bloodfeather",
 		["Mitha - Bloodfeather"] = "Mitha - Bloodfeather",
-		["Lúcyón - Bloodfeather"] = "Lúcyón - Bloodfeather",
 		["Lúcyon - Bloodfeather"] = "Lúcyon - Bloodfeather",
+		["Lucyòn - Argent Dawn"] = "Lucyòn - Argent Dawn",
+		["Lucýón - Bloodfeather"] = "Lucýón - Bloodfeather",
+		["Lucyón - Sylvanas"] = "Lucyón - Sylvanas",
 		["Lucyón - Bloodfeather"] = "Lucyón - Bloodfeather",
-		["Lucyoff - Bloodfeather"] = "Lucyoff - Bloodfeather",
-		["Lucyøn - Bloodfeather"] = "Lucyøn - Bloodfeather",
-		["Lúcýón - Bloodfeather"] = "Lúcýón - Bloodfeather",
+		["Lucyón - The Maelstrom"] = "Lucyón - The Maelstrom",
+		["Lucymón - Bloodfeather"] = "Lucymón - Bloodfeather",
 	},
 	["profiles"] = {
-		["Lucýon - Bloodfeather"] = {
+		["Lucyporc - Bloodfeather"] = {
+		},
+		["Lucymon - Sylvanas"] = {
+		},
+		["Lucyon - The Maelstrom"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
+		["Lucyvulp - Bloodfeather"] = {
+		},
+		["Lucyøn - Bloodfeather"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
+		["Goldmon - Bloodfeather"] = {
+		},
+		["Lucymonn - Bloodfeather"] = {
+		},
+		["Lúcýón - Bloodfeather"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
+		["Lucydrood - Bloodfeather"] = {
+		},
+		["Lucyoff - Bloodfeather"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
+		["Lucyón - Argent Dawn"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
+		["Lucyõn - Bloodfeather"] = {
+		},
+		["Lucyoñ - Bloodfeather"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
+		["Lúcyón - Bloodfeather"] = {
+			["minimap"] = {
+				["minimapPos"] = 233.0047908129526,
+				["hide"] = true,
+			},
+		},
+		["Lucyorc - Bloodfeather"] = {
+		},
+		["Ezpzarena - Bloodfeather"] = {
+		},
+		["Lucymon - Bloodfeather"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
 		},
 		["Lùcyon - Bloodfeather"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
+		["Lucýon - Bloodfeather"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
@@ -34,9 +111,19 @@ SimulationCraftDB = {
 				["hide"] = true,
 			},
 		},
-		["Lúcyón - Bloodfeather"] = {
-		},
 		["Lúcyon - Bloodfeather"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
+		["Lucyòn - Argent Dawn"] = {
+		},
+		["Lucýón - Bloodfeather"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
+		["Lucyón - Sylvanas"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
@@ -47,14 +134,16 @@ SimulationCraftDB = {
 				["hide"] = true,
 			},
 		},
-		["Lucyoff - Bloodfeather"] = {
-		},
-		["Lucyøn - Bloodfeather"] = {
+		["Lucyón - The Maelstrom"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
 		},
-		["Lúcýón - Bloodfeather"] = {
+		["Lucymón - Bloodfeather"] = {
+			["minimap"] = {
+				["minimapPos"] = 231.340268123138,
+				["hide"] = true,
+			},
 		},
 	},
 }

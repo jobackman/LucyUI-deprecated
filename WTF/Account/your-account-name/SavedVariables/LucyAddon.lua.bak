@@ -1,0 +1,14 @@
+
+LucyAddonDB = {
+	["global"] = {
+		["enable"] = true,
+	},
+	["profileKeys"] = {
+		["Lucyón - Bloodfeather"] = "Lucyón - Bloodfeather",
+		["Lucyon - The Maelstrom"] = "Default",
+	},
+	["profiles"] = {
+		["Lucyón - Bloodfeather"] = {
+		},
+	},
+}

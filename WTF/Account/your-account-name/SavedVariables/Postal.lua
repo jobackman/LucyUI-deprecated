@@ -5,44 +5,56 @@ Postal3DB = {
 			["alts"] = {
 				"Dolk|Bloodfeather|Horde|59|ROGUE", -- [1]
 				"Freiza|Bladefist|Alliance|39|WARRIOR", -- [2]
-				"Lucykek|Bloodfeather|Horde|100|MAGE", -- [3]
-				"Lucyoff|Bloodfeather|Horde|46|SHAMAN", -- [4]
-				"Lucyon|Bloodfeather|Alliance|120|WARRIOR", -- [5]
-				"Lucyon|Bloodfeather|Horde|120|WARRIOR", -- [6]
-				"Lucyon|Outland|Alliance|1|HUNTER", -- [7]
-				"Lucyoñ|Argent Dawn|Alliance|1|MONK", -- [8]
-				"Lucyoñ|Bloodfeather|Alliance|110|MAGE", -- [9]
-				"Lucyoñ|Bloodfeather|Horde|1|SHAMAN", -- [10]
-				"Lucyoñ|Sylvanas|Alliance|120|WARRIOR", -- [11]
-				"Lucyoñ|Sylvanas|Horde|120|WARRIOR", -- [12]
-				"Lucyón|Bloodfeather|Horde|120|MAGE", -- [13]
-				"Lucyón|Outland|Alliance|1|MONK", -- [14]
-				"Lucyón|Sylvanas|Alliance|110|PALADIN", -- [15]
-				"Lucyón|The Maelstrom|Horde|110|DRUID", -- [16]
-				"Lucyôn|Bloodfeather|Horde|82|DRUID", -- [17]
-				"Lucyõn|Bloodfeather|Horde|110|HUNTER", -- [18]
-				"Lucyön|Sylvanas|Alliance|110|MONK", -- [19]
-				"Lucyøn|Bloodfeather|Horde|80|DEATHKNIGHT", -- [20]
-				"Lucýon|Bloodfeather|Horde|120|PALADIN", -- [21]
-				"Lucýon|Sylvanas|Alliance|8|MONK", -- [22]
-				"Lucÿon|Bloodfeather|Horde|62|PRIEST", -- [23]
-				"Lùcyon|Bloodfeather|Horde|120|MONK", -- [24]
-				"Lùcyon|Sylvanas|Alliance|98|DEMONHUNTER", -- [25]
-				"Lúcyon|Bloodfeather|Horde|120|DEMONHUNTER", -- [26]
-				"Lúcyon|Sylvanas|Alliance|43|MAGE", -- [27]
-				"Lúcyón|Bloodfeather|Horde|55|DEATHKNIGHT", -- [28]
-				"Lúcýón|Bloodfeather|Horde|1|PRIEST", -- [29]
-				"Lûcyon|Bloodfeather|Horde|110|ROGUE", -- [30]
-				"Lücyon|Bloodfeather|Alliance|62|WARRIOR", -- [31]
-				"Lücyon|Bloodfeather|Horde|98|DEMONHUNTER", -- [32]
-				"Mitha|Bloodfeather|Horde|73|PRIEST", -- [33]
-				"Orciror|Bloodfeather|Horde|110|WARRIOR", -- [34]
+				"Goldmon|Bloodfeather|Horde|110|WARRIOR", -- [3]
+				"Lucymonn|Bloodfeather|Horde|20|WARRIOR", -- [4]
+				"Lucymon|Bloodfeather|Horde|20|WARRIOR", -- [5]
+				"Lucymon|Sylvanas|Horde|110|WARRIOR", -- [6]
+				"Lucymón|Bloodfeather|Horde|110|WARRIOR", -- [7]
+				"Lucyoff|Bloodfeather|Horde|83|SHAMAN", -- [8]
+				"Lucyon|Bloodfeather|Alliance|120|WARRIOR", -- [9]
+				"Lucyon|Bloodfeather|Horde|120|WARRIOR", -- [10]
+				"Lucyon|Outland|Alliance|1|HUNTER", -- [11]
+				"Lucyon|The Maelstrom|Horde|120|DRUID", -- [12]
+				"Lucyorc|Bloodfeather|Horde|1|WARRIOR", -- [13]
+				"Lucyoñ|Argent Dawn|Alliance|1|MONK", -- [14]
+				"Lucyoñ|Bloodfeather|Alliance|110|MAGE", -- [15]
+				"Lucyoñ|Bloodfeather|Horde|19|WARLOCK", -- [16]
+				"Lucyoñ|Sylvanas|Alliance|120|WARRIOR", -- [17]
+				"Lucyoñ|Sylvanas|Horde|120|WARRIOR", -- [18]
+				"Lucyvulp|Bloodfeather|Horde|20|PRIEST", -- [19]
+				"Lucyòn|Argent Dawn|Alliance|1|MONK", -- [20]
+				"Lucyón|Argent Dawn|Alliance|1|DRUID", -- [21]
+				"Lucyón|Bloodfeather|Horde|120|MAGE", -- [22]
+				"Lucyón|Outland|Alliance|1|MONK", -- [23]
+				"Lucyón|Sylvanas|Alliance|111|PALADIN", -- [24]
+				"Lucyón|The Maelstrom|Horde|110|DRUID", -- [25]
+				"Lucyôn|Bloodfeather|Horde|82|DRUID", -- [26]
+				"Lucyõn|Bloodfeather|Horde|110|HUNTER", -- [27]
+				"Lucyön|Sylvanas|Alliance|110|MONK", -- [28]
+				"Lucyøn|Bloodfeather|Horde|80|DEATHKNIGHT", -- [29]
+				"Lucýon|Bloodfeather|Horde|120|PALADIN", -- [30]
+				"Lucýon|Sylvanas|Alliance|8|MONK", -- [31]
+				"Lucýón|Bloodfeather|Horde|1|PRIEST", -- [32]
+				"Lucÿon|Bloodfeather|Horde|62|PRIEST", -- [33]
+				"Lùcyon|Bloodfeather|Horde|120|MONK", -- [34]
+				"Lùcyon|Sylvanas|Alliance|98|DEMONHUNTER", -- [35]
+				"Lúcyon|Bloodfeather|Horde|120|DEMONHUNTER", -- [36]
+				"Lúcyon|Sylvanas|Alliance|43|MAGE", -- [37]
+				"Lúcyón|Bloodfeather|Horde|100|DEATHKNIGHT", -- [38]
+				"Lúcýón|Bloodfeather|Alliance|23|DRUID", -- [39]
+				"Lûcyon|Bloodfeather|Horde|110|ROGUE", -- [40]
+				"Lücyon|Bloodfeather|Alliance|62|WARRIOR", -- [41]
+				"Lücyon|Bloodfeather|Horde|98|DEMONHUNTER", -- [42]
+				"Mitha|Bloodfeather|Horde|79|PRIEST", -- [43]
 			},
 		},
 	},
 	["profileKeys"] = {
+		["Lucyon - The Maelstrom"] = "Lucyon - The Maelstrom",
+		["Lucymon - Sylvanas"] = "Lucymon - Sylvanas",
 		["Lucytrial - Bloodfeather"] = "Lucytrial - Bloodfeather",
 		["Dolk - Bloodfeather"] = "Dolk - Bloodfeather",
+		["Lucyvulp - Bloodfeather"] = "Lucyvulp - Bloodfeather",
 		["Lücyon - Bloodfeather"] = "Lücyon - Bloodfeather",
 		["Lucyön - Bloodfeather"] = "Lucyön - Bloodfeather",
 		["Lucyõn - Bloodfeather"] = "Lucyõn - Bloodfeather",
@@ -60,30 +72,47 @@ Postal3DB = {
 		["Lucyøn - Bloodfeather"] = "Lucyøn - Bloodfeather",
 		["Lucyonn - Bloodfeather"] = "Lucyonn - Bloodfeather",
 		["Lucyasd - Bloodfeather"] = "Lucyasd - Bloodfeather",
+		["Lucyporc - Bloodfeather"] = "Lucyporc - Bloodfeather",
+		["Lucymonn - Bloodfeather"] = "Lucymonn - Bloodfeather",
+		["Lucyón - Bloodfeather"] = "Lucyón - Bloodfeather",
+		["Lucýon - Bloodfeather"] = "Lucýon - Bloodfeather",
+		["Ezpzarena - Bloodfeather"] = "Ezpzarena - Bloodfeather",
 		["Lucyôn - Bloodfeather"] = "Lucyôn - Bloodfeather",
+		["Lucýón - Bloodfeather"] = "Lucýón - Bloodfeather",
+		["Lucyòn - Argent Dawn"] = "Lucyòn - Argent Dawn",
 		["Lucyón - Outland"] = "Lucyón - Outland",
+		["Lúcýón - Bloodfeather"] = "Lúcýón - Bloodfeather",
 		["Lúcyon - Sylvanas"] = "Lúcyon - Sylvanas",
 		["Lucyoff - Bloodfeather"] = "Lucyoff - Bloodfeather",
-		["Lucýon - Bloodfeather"] = "Lucýon - Bloodfeather",
-		["Lûcyon - Bloodfeather"] = "Lûcyon - Bloodfeather",
-		["Orciror - Bloodfeather"] = "Orciror - Bloodfeather",
-		["Lucyoñ - Argent Dawn"] = "Lucyoñ - Argent Dawn",
-		["Lùcyon - Bloodfeather"] = "Lùcyon - Bloodfeather",
-		["Lucyón - The Maelstrom"] = "Lucyón - The Maelstrom",
-		["Lucytester - Bloodfeather"] = "Lucytester - Bloodfeather",
+		["Lucyón - Argent Dawn"] = "Lucyón - Argent Dawn",
 		["Lucyworg - Bloodfeather"] = "Lucyworg - Bloodfeather",
-		["Lucyón - Bloodfeather"] = "Lucyón - Bloodfeather",
+		["Lucyoñ - Argent Dawn"] = "Lucyoñ - Argent Dawn",
+		["Lûcyon - Bloodfeather"] = "Lûcyon - Bloodfeather",
+		["Lucyorc - Bloodfeather"] = "Lucyorc - Bloodfeather",
+		["Lucyón - The Maelstrom"] = "Lucyón - The Maelstrom",
+		["Lucymon - Bloodfeather"] = "Lucymon - Bloodfeather",
+		["Lùcyon - Bloodfeather"] = "Lùcyon - Bloodfeather",
+		["Orciror - Bloodfeather"] = "Orciror - Bloodfeather",
+		["Lucytester - Bloodfeather"] = "Lucytester - Bloodfeather",
+		["Lucyön - Sylvanas"] = "Lucyön - Sylvanas",
+		["Lucydrood - Bloodfeather"] = "Lucydrood - Bloodfeather",
 		["Lúcyón - Bloodfeather"] = "Lúcyón - Bloodfeather",
 		["Lúcyon - Bloodfeather"] = "Lúcyon - Bloodfeather",
 		["Lucyón - Sylvanas"] = "Lucyón - Sylvanas",
-		["Lucyön - Sylvanas"] = "Lucyön - Sylvanas",
+		["Goldmon - Bloodfeather"] = "Goldmon - Bloodfeather",
 		["Freiza - Bladefist"] = "Freiza - Bladefist",
-		["Lúcýón - Bloodfeather"] = "Lúcýón - Bloodfeather",
+		["Lucymón - Bloodfeather"] = "Lucymón - Bloodfeather",
 	},
 	["profiles"] = {
+		["Lucyon - The Maelstrom"] = {
+		},
+		["Lucymon - Sylvanas"] = {
+		},
 		["Lucytrial - Bloodfeather"] = {
 		},
 		["Dolk - Bloodfeather"] = {
+		},
+		["Lucyvulp - Bloodfeather"] = {
 		},
 		["Lücyon - Bloodfeather"] = {
 		},
@@ -117,11 +146,11 @@ Postal3DB = {
 			["BlackBook"] = {
 				["recent"] = {
 					"Lucyón|Bloodfeather|Horde", -- [1]
-					"Lúcyon|Bloodfeather|Horde", -- [2]
-					"Lùcyon|Bloodfeather|Horde", -- [3]
-					"Lucyõn|Bloodfeather|Horde", -- [4]
-					"Lucyón-The Maelstrom|Bloodfeather|Horde", -- [5]
-					"Lucyoff|Bloodfeather|Horde", -- [6]
+					"Lucyoff|Bloodfeather|Horde", -- [2]
+					"Lucyõn|Bloodfeather|Horde", -- [3]
+					"Lùcyon|Bloodfeather|Horde", -- [4]
+					"Lúcyon|Bloodfeather|Horde", -- [5]
+					"Lucyón-The Maelstrom|Bloodfeather|Horde", -- [6]
 					"Riqnatt|Bloodfeather|Horde", -- [7]
 					"Qashtard|Bloodfeather|Horde", -- [8]
 					"Lucyón-Bloodfeather|Bloodfeather|Horde", -- [9]
@@ -152,6 +181,49 @@ Postal3DB = {
 		},
 		["Lucyasd - Bloodfeather"] = {
 		},
+		["Lucyporc - Bloodfeather"] = {
+		},
+		["Lucymonn - Bloodfeather"] = {
+		},
+		["Lucyón - Bloodfeather"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Lúcyón|Bloodfeather|Horde", -- [1]
+					"Lucyon|Bloodfeather|Horde", -- [2]
+					"Lucyoñ|Bloodfeather|Horde", -- [3]
+					"Lucymon|Bloodfeather|Horde", -- [4]
+					"Lùcyon|Bloodfeather|Horde", -- [5]
+					"Lúcyon|Bloodfeather|Horde", -- [6]
+					"Shadowmo|Bloodfeather|Horde", -- [7]
+					"Lucyoff|Bloodfeather|Horde", -- [8]
+					"Lùcyon-Bloodfeather|Bloodfeather|Horde", -- [9]
+					"Lucyõn|Bloodfeather|Horde", -- [10]
+					"Lucÿon|Bloodfeather|Horde", -- [11]
+					"Lucýon|Bloodfeather|Horde", -- [12]
+					"Ichiwar|Bloodfeather|Horde", -- [13]
+					"Lucyon-Bloodfeather|Bloodfeather|Horde", -- [14]
+					"Lúcyon-Bloodfeather|Bloodfeather|Horde", -- [15]
+					"Lûcyon|Bloodfeather|Horde", -- [16]
+					"Rotgar|Bloodfeather|Horde", -- [17]
+					"Lucyón-TheMaelstrom|Bloodfeather|Horde", -- [18]
+				},
+			},
+		},
+		["Lucýon - Bloodfeather"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Lucyón|Bloodfeather|Horde", -- [1]
+					"Lúcyon-Bloodfeather|Bloodfeather|Horde", -- [2]
+					"Lúcyon|Bloodfeather|Horde", -- [3]
+					"Lucyon|Bloodfeather|Horde", -- [4]
+					"Lucyón-The Maelstrom|Bloodfeather|Horde", -- [5]
+					"Lùcyon|Bloodfeather|Horde", -- [6]
+					"Lûcyon|Bloodfeather|Horde", -- [7]
+				},
+			},
+		},
+		["Ezpzarena - Bloodfeather"] = {
+		},
 		["Lucyôn - Bloodfeather"] = {
 			["BlackBook"] = {
 				["recent"] = {
@@ -159,23 +231,23 @@ Postal3DB = {
 				},
 			},
 		},
+		["Lucýón - Bloodfeather"] = {
+		},
+		["Lucyòn - Argent Dawn"] = {
+		},
 		["Lucyón - Outland"] = {
+		},
+		["Lúcýón - Bloodfeather"] = {
 		},
 		["Lúcyon - Sylvanas"] = {
 		},
 		["Lucyoff - Bloodfeather"] = {
 		},
-		["Lucýon - Bloodfeather"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Lucyón|Bloodfeather|Horde", -- [1]
-					"Lucyon|Bloodfeather|Horde", -- [2]
-					"Lúcyon|Bloodfeather|Horde", -- [3]
-					"Lucyón-The Maelstrom|Bloodfeather|Horde", -- [4]
-					"Lùcyon|Bloodfeather|Horde", -- [5]
-					"Lûcyon|Bloodfeather|Horde", -- [6]
-				},
-			},
+		["Lucyón - Argent Dawn"] = {
+		},
+		["Lucyworg - Bloodfeather"] = {
+		},
+		["Lucyoñ - Argent Dawn"] = {
 		},
 		["Lûcyon - Bloodfeather"] = {
 			["BlackBook"] = {
@@ -187,61 +259,45 @@ Postal3DB = {
 				},
 			},
 		},
-		["Orciror - Bloodfeather"] = {
+		["Lucyorc - Bloodfeather"] = {
 		},
-		["Lucyoñ - Argent Dawn"] = {
+		["Lucyón - The Maelstrom"] = {
+		},
+		["Lucymon - Bloodfeather"] = {
 		},
 		["Lùcyon - Bloodfeather"] = {
 			["BlackBook"] = {
 				["recent"] = {
 					"Lucyón|Bloodfeather|Horde", -- [1]
-					"Lucyon|Bloodfeather|Horde", -- [2]
-					"Lúcyon|Bloodfeather|Horde", -- [3]
-					"Lucýon|Bloodfeather|Horde", -- [4]
-					"Riqnatt|Bloodfeather|Horde", -- [5]
-					"Lucyõn|Bloodfeather|Horde", -- [6]
+					"Lúcyon|Bloodfeather|Horde", -- [2]
+					"Lucyõn|Bloodfeather|Horde", -- [3]
+					"Lucyon|Bloodfeather|Horde", -- [4]
+					"Lucýon|Bloodfeather|Horde", -- [5]
+					"Riqnatt|Bloodfeather|Horde", -- [6]
 					"Lucÿon|Bloodfeather|Horde", -- [7]
 					"Lucyón-Bloodfeather|Bloodfeather|Horde", -- [8]
 				},
 			},
 		},
-		["Lucyón - The Maelstrom"] = {
+		["Orciror - Bloodfeather"] = {
 		},
 		["Lucytester - Bloodfeather"] = {
 		},
-		["Lucyworg - Bloodfeather"] = {
+		["Lucyön - Sylvanas"] = {
 		},
-		["Lucyón - Bloodfeather"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Lùcyon|Bloodfeather|Horde", -- [1]
-					"Lucyon|Bloodfeather|Horde", -- [2]
-					"Lúcyon|Bloodfeather|Horde", -- [3]
-					"Shadowmo|Bloodfeather|Horde", -- [4]
-					"Lucyoff|Bloodfeather|Horde", -- [5]
-					"Lùcyon-Bloodfeather|Bloodfeather|Horde", -- [6]
-					"Lucyõn|Bloodfeather|Horde", -- [7]
-					"Lucÿon|Bloodfeather|Horde", -- [8]
-					"Lucýon|Bloodfeather|Horde", -- [9]
-					"Ichiwar|Bloodfeather|Horde", -- [10]
-					"Lucyon-Bloodfeather|Bloodfeather|Horde", -- [11]
-					"Lúcyon-Bloodfeather|Bloodfeather|Horde", -- [12]
-					"Lûcyon|Bloodfeather|Horde", -- [13]
-					"Rotgar|Bloodfeather|Horde", -- [14]
-					"Lucyón-TheMaelstrom|Bloodfeather|Horde", -- [15]
-				},
-			},
+		["Lucydrood - Bloodfeather"] = {
 		},
 		["Lúcyón - Bloodfeather"] = {
 		},
 		["Lúcyon - Bloodfeather"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Lucýon|Bloodfeather|Horde", -- [1]
-					"Lucyón|Bloodfeather|Horde", -- [2]
+					"Riqnatt|Bloodfeather|Horde", -- [1]
+					"Lucyon|Bloodfeather|Horde", -- [2]
 					"Lùcyon|Bloodfeather|Horde", -- [3]
-					"Lucyon|Bloodfeather|Horde", -- [4]
-					"Lûcyon|Bloodfeather|Horde", -- [5]
+					"Lucyón|Bloodfeather|Horde", -- [4]
+					"Lucýon|Bloodfeather|Horde", -- [5]
+					"Lûcyon|Bloodfeather|Horde", -- [6]
 				},
 			},
 		},
@@ -252,11 +308,11 @@ Postal3DB = {
 				},
 			},
 		},
-		["Lucyön - Sylvanas"] = {
+		["Goldmon - Bloodfeather"] = {
 		},
 		["Freiza - Bladefist"] = {
 		},
-		["Lúcýón - Bloodfeather"] = {
+		["Lucymón - Bloodfeather"] = {
 		},
 	},
 }

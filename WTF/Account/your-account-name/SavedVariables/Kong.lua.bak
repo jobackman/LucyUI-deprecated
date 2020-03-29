@@ -7,13 +7,6 @@ Kong_Profiles = {
 		["Groups"] = {
 		},
 	},
-	["freiza_of_bladefist"] = {
-		["Frames"] = {
-		},
-		["version"] = "1.6a",
-		["Groups"] = {
-		},
-	},
 	["lucýon_of_bloodfeather"] = {
 		["version"] = "1.6a",
 		["Groups"] = {
@@ -35,18 +28,18 @@ Kong_Profiles = {
 		["Groups"] = {
 		},
 	},
+	["lucyorc_of_bloodfeather"] = {
+		["Groups"] = {
+		},
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+	},
 	["lùcyon_of_sylvanas"] = {
 		["version"] = "1.6a",
 		["Groups"] = {
 		},
 		["Frames"] = {
-		},
-	},
-	["lucyón_of_the_maelstrom"] = {
-		["Frames"] = {
-		},
-		["version"] = "1.6a",
-		["Groups"] = {
 		},
 	},
 	["lucywartrial_of_bloodfeather"] = {
@@ -56,20 +49,6 @@ Kong_Profiles = {
 		},
 		["version"] = "1.6a",
 	},
-	["lucÿon_of_bloodfeather"] = {
-		["Groups"] = {
-		},
-		["Frames"] = {
-		},
-		["version"] = "1.6a",
-	},
-	["lúcýón_of_bloodfeather"] = {
-		["Frames"] = {
-		},
-		["version"] = "1.6a",
-		["Groups"] = {
-		},
-	},
 	["orciror_of_bloodfeather"] = {
 		["Groups"] = {
 		},
@@ -77,12 +56,12 @@ Kong_Profiles = {
 		},
 		["version"] = "1.6a",
 	},
-	["lûcyon_of_bloodfeather"] = {
-		["version"] = "1.6a",
+	["lucyòn_of_argent_dawn"] = {
 		["Groups"] = {
 		},
 		["Frames"] = {
 		},
+		["version"] = "1.6a",
 	},
 	["lucyoñ_of_bloodfeather"] = {
 		["Groups"] = {
@@ -98,68 +77,26 @@ Kong_Profiles = {
 		["Groups"] = {
 		},
 	},
-	["mitha_of_bloodfeather"] = {
-		["Frames"] = {
-		},
-		["version"] = "1.6a",
-		["Groups"] = {
-		},
-	},
-	["lúcyon_of_sylvanas"] = {
-		["Groups"] = {
-		},
-		["Frames"] = {
-		},
-		["version"] = "1.6a",
-	},
-	["lucyon_of_bloodfeather"] = {
-		["Frames"] = {
-		},
-		["version"] = "1.6a",
-		["Groups"] = {
-		},
-	},
-	["lucyön_of_sylvanas"] = {
-		["Frames"] = {
-		},
-		["version"] = "1.6a",
-		["Groups"] = {
-		},
-	},
-	["lucýon_of_sylvanas"] = {
+	["lucyonn_of_bloodfeather"] = {
 		["version"] = "1.6a",
 		["Groups"] = {
 		},
 		["Frames"] = {
 		},
 	},
-	["lucyoff_of_bloodfeather"] = {
-		["Groups"] = {
-		},
-		["Frames"] = {
-		},
-		["version"] = "1.6a",
-	},
-	["lucyworg_of_bloodfeather"] = {
-		["Groups"] = {
-		},
-		["Frames"] = {
-		},
-		["version"] = "1.6a",
-	},
-	["lúcyon_of_bloodfeather"] = {
+	["lucyón_of_argent_dawn"] = {
 		["Frames"] = {
 		},
 		["version"] = "1.6a",
 		["Groups"] = {
 		},
 	},
-	["lùcyon_of_bloodfeather"] = {
-		["Groups"] = {
-		},
+	["lucymon_of_bloodfeather"] = {
 		["Frames"] = {
 		},
 		["version"] = "1.6a",
+		["Groups"] = {
+		},
 	},
 	["lucyons_of_bloodfeather"] = {
 		["Frames"] = {
@@ -206,15 +143,15 @@ Kong_Profiles = {
 						},
 					},
 				}, -- [1]
-				["compatibilityFader"] = false,
-				["index"] = "[\"OrderHallCommandBar\"]",
-				["loader"] = nil --[[ skipped inline function ]],
 				["TriggerDefaults"] = {
 					["secondsIn"] = 0.2,
 					["alphaIn"] = 1,
 					["secondsOut"] = 0.2,
 					["alphaOut"] = 0,
 				},
+				["index"] = "[\"OrderHallCommandBar\"]",
+				["loader"] = nil --[[ skipped inline function ]],
+				["compatibilityFader"] = false,
 				["version"] = "1.6a",
 			}, -- [1]
 			{
@@ -230,41 +167,6 @@ Kong_Profiles = {
 						},
 					},
 				}, -- [1]
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Unit in Combat",
-								["Parameters"] = {
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [2]
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Event Occurred Recently",
-								["Parameters"] = {
-									{
-										["name"] = "Minimap Ping",
-										["Parameters"] = {
-										},
-									}, -- [1]
-									{
-										["name"] = "User-Entered Number",
-										["value"] = 5,
-										["Parameters"] = {
-										},
-									}, -- [2]
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [3]
 				{
 					["Condition"] = {
 						["name"] = "Condition",
@@ -287,7 +189,7 @@ Kong_Profiles = {
 							}, -- [1]
 						},
 					},
-				}, -- [4]
+				}, -- [2]
 				{
 					["Condition"] = {
 						["name"] = "Condition",
@@ -310,145 +212,17 @@ Kong_Profiles = {
 							}, -- [1]
 						},
 					},
-				}, -- [5]
-				["compatibilityFader"] = false,
-				["version"] = "1.6a",
-				["index"] = "[\"MinimapBackdrop\"]",
-				["TriggerDefaults"] = {
-					["alphaOut"] = 0.4,
-					["secondsIn"] = 0.2,
-					["alphaIn"] = 0.7,
-					["secondsOut"] = 0.2,
-				},
-				["overrideAlpha"] = true,
-			}, -- [2]
-			{
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Frame has Mouse Focus",
-								["Parameters"] = {
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [1]
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Unit in Combat",
-								["Parameters"] = {
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [2]
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Unit Exists",
-								["Parameters"] = {
-									{
-										["name"] = "Target",
-										["Parameters"] = {
-										},
-									}, -- [1]
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [3]
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Unit Health is Low",
-								["Parameters"] = {
-									{
-										["name"] = "Player",
-										["Parameters"] = {
-										},
-									}, -- [1]
-									{
-										["name"] = "User-Entered Number",
-										["value"] = 100,
-										["Parameters"] = {
-										},
-									}, -- [2]
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [4]
-				["TriggerDefaults"] = {
-					["alphaOut"] = 0,
-					["secondsIn"] = 0.2,
-					["secondsOut"] = 0.2,
-					["alphaIn"] = 1,
-				},
-				["version"] = "1.6a",
-				["compatibilityFader"] = false,
-				["index"] = "[\"PlayerFrame\"]",
-			}, -- [3]
-			{
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Frame has Mouse Focus",
-								["Parameters"] = {
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [1]
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Unit in Combat",
-								["Parameters"] = {
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [2]
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Unit Exists",
-								["Parameters"] = {
-									{
-										["name"] = "Target",
-										["Parameters"] = {
-										},
-									}, -- [1]
-								},
-							}, -- [1]
-						},
-					},
 				}, -- [3]
 				["TriggerDefaults"] = {
-					["secondsIn"] = 0.2,
-					["secondsOut"] = 0.2,
 					["alphaOut"] = 0.3,
+					["secondsIn"] = 0.2,
+					["alphaIn"] = 1,
+					["secondsOut"] = 0.2,
 				},
-				["version"] = "1.6a",
+				["index"] = "[\"ObjectiveTrackerFrame\"]",
 				["compatibilityFader"] = false,
-				["index"] = "[\"CompactRaidFrameManager\"]",
-				["overrideAlpha"] = true,
-			}, -- [4]
+				["version"] = "1.6a",
+			}, -- [2]
 			{
 				{
 					["Condition"] = {
@@ -531,137 +305,16 @@ Kong_Profiles = {
 						},
 					},
 				}, -- [5]
-				["compatibilityFader"] = false,
-				["version"] = "1.6a",
 				["TriggerDefaults"] = {
 					["alphaOut"] = 0,
 					["secondsIn"] = 0.2,
-					["secondsOut"] = 0.2,
 					["alphaIn"] = 1,
+					["secondsOut"] = 0.2,
 				},
+				["version"] = "1.6a",
+				["compatibilityFader"] = false,
 				["index"] = "[\"TargetFrame\"]",
-			}, -- [5]
-			{
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Frame has Mouse Focus",
-								["Parameters"] = {
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [1]
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Event Occurred Recently",
-								["Parameters"] = {
-									{
-										["name"] = "Quest Acceptance",
-										["Parameters"] = {
-										},
-									}, -- [1]
-									{
-										["name"] = "User-Entered Number",
-										["value"] = 10,
-										["Parameters"] = {
-										},
-									}, -- [2]
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [2]
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Event Occurred Recently",
-								["Parameters"] = {
-									{
-										["name"] = "Quest Update",
-										["Parameters"] = {
-										},
-									}, -- [1]
-									{
-										["name"] = "User-Entered Number",
-										["value"] = 5,
-										["Parameters"] = {
-										},
-									}, -- [2]
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [3]
-				["compatibilityFader"] = false,
-				["index"] = "[\"ObjectiveTrackerFrame\"]",
-				["TriggerDefaults"] = {
-					["alphaOut"] = 0.3,
-					["secondsIn"] = 0.2,
-					["secondsOut"] = 0.2,
-					["alphaIn"] = 1,
-				},
-				["version"] = "1.6a",
-			}, -- [6]
-			{
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Frame has Mouse Focus",
-								["Parameters"] = {
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [1]
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Unit in Combat",
-								["Parameters"] = {
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [2]
-				{
-					["Condition"] = {
-						["name"] = "Condition",
-						["Parameters"] = {
-							{
-								["name"] = "Unit Exists",
-								["Parameters"] = {
-									{
-										["name"] = "Target",
-										["Parameters"] = {
-										},
-									}, -- [1]
-								},
-							}, -- [1]
-						},
-					},
-				}, -- [3]
-				["TriggerDefaults"] = {
-					["secondsIn"] = 0.2,
-					["secondsOut"] = 0.2,
-					["alphaOut"] = 0.3,
-				},
-				["version"] = "1.6a",
-				["compatibilityFader"] = false,
-				["index"] = "[\"CompactRaidFrameContainer\"]",
-				["overrideAlpha"] = true,
-			}, -- [7]
+			}, -- [3]
 			{
 				{
 					["Condition"] = {
@@ -759,12 +412,297 @@ Kong_Profiles = {
 				["TriggerDefaults"] = {
 					["alphaOut"] = 0.4,
 					["secondsIn"] = 0.2,
-					["alphaIn"] = 0.7,
 					["secondsOut"] = 0.2,
+					["alphaIn"] = 0.7,
 				},
 				["version"] = "1.6a",
-				["index"] = "[\"Minimap\"]",
 				["compatibilityFader"] = false,
+				["index"] = "[\"Minimap\"]",
+				["overrideAlpha"] = true,
+			}, -- [4]
+			{
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Frame has Mouse Focus",
+								["Parameters"] = {
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [1]
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Unit in Combat",
+								["Parameters"] = {
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [2]
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Event Occurred Recently",
+								["Parameters"] = {
+									{
+										["name"] = "Minimap Ping",
+										["Parameters"] = {
+										},
+									}, -- [1]
+									{
+										["name"] = "User-Entered Number",
+										["value"] = 5,
+										["Parameters"] = {
+										},
+									}, -- [2]
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [3]
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Event Occurred Recently",
+								["Parameters"] = {
+									{
+										["name"] = "Quest Acceptance",
+										["Parameters"] = {
+										},
+									}, -- [1]
+									{
+										["name"] = "User-Entered Number",
+										["value"] = 10,
+										["Parameters"] = {
+										},
+									}, -- [2]
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [4]
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Event Occurred Recently",
+								["Parameters"] = {
+									{
+										["name"] = "Quest Update",
+										["Parameters"] = {
+										},
+									}, -- [1]
+									{
+										["name"] = "User-Entered Number",
+										["value"] = 5,
+										["Parameters"] = {
+										},
+									}, -- [2]
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [5]
+				["compatibilityFader"] = false,
+				["version"] = "1.6a",
+				["TriggerDefaults"] = {
+					["alphaOut"] = 0.4,
+					["secondsIn"] = 0.2,
+					["secondsOut"] = 0.2,
+					["alphaIn"] = 0.7,
+				},
+				["index"] = "[\"MinimapBackdrop\"]",
+				["overrideAlpha"] = true,
+			}, -- [5]
+			{
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Frame has Mouse Focus",
+								["Parameters"] = {
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [1]
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Unit in Combat",
+								["Parameters"] = {
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [2]
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Unit Exists",
+								["Parameters"] = {
+									{
+										["name"] = "Target",
+										["Parameters"] = {
+										},
+									}, -- [1]
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [3]
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Unit Health is Low",
+								["Parameters"] = {
+									{
+										["name"] = "Player",
+										["Parameters"] = {
+										},
+									}, -- [1]
+									{
+										["name"] = "User-Entered Number",
+										["value"] = 100,
+										["Parameters"] = {
+										},
+									}, -- [2]
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [4]
+				["compatibilityFader"] = false,
+				["version"] = "1.6a",
+				["TriggerDefaults"] = {
+					["alphaOut"] = 0,
+					["secondsIn"] = 0.2,
+					["alphaIn"] = 1,
+					["secondsOut"] = 0.2,
+				},
+				["index"] = "[\"PlayerFrame\"]",
+			}, -- [6]
+			{
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Frame has Mouse Focus",
+								["Parameters"] = {
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [1]
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Unit in Combat",
+								["Parameters"] = {
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [2]
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Unit Exists",
+								["Parameters"] = {
+									{
+										["name"] = "Target",
+										["Parameters"] = {
+										},
+									}, -- [1]
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [3]
+				["TriggerDefaults"] = {
+					["secondsIn"] = 0.2,
+					["secondsOut"] = 0.2,
+					["alphaOut"] = 0.3,
+				},
+				["version"] = "1.6a",
+				["index"] = "[\"CompactRaidFrameManager\"]",
+				["compatibilityFader"] = false,
+				["overrideAlpha"] = true,
+			}, -- [7]
+			{
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Frame has Mouse Focus",
+								["Parameters"] = {
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [1]
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Unit Exists",
+								["Parameters"] = {
+									{
+										["name"] = "Target",
+										["Parameters"] = {
+										},
+									}, -- [1]
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [2]
+				{
+					["Condition"] = {
+						["name"] = "Condition",
+						["Parameters"] = {
+							{
+								["name"] = "Unit in Combat",
+								["Parameters"] = {
+								},
+							}, -- [1]
+						},
+					},
+				}, -- [3]
+				["compatibilityFader"] = false,
+				["version"] = "1.6a",
+				["index"] = "[\"CompactRaidFrameContainer\"]",
+				["disableDrawWhenHidden"] = false,
+				["TriggerDefaults"] = {
+					["secondsIn"] = 0.2,
+					["secondsOut"] = 0.2,
+					["alphaOut"] = 0.3,
+				},
 				["overrideAlpha"] = true,
 			}, -- [8]
 			{
@@ -863,25 +801,88 @@ Kong_Profiles = {
 				}, -- [5]
 				["compatibilityFader"] = false,
 				["index"] = "[\"MinimapCluster\"]",
-				["version"] = "1.6a",
 				["TriggerDefaults"] = {
 					["alphaOut"] = 0.4,
 					["secondsIn"] = 0.2,
-					["alphaIn"] = 0.7,
 					["secondsOut"] = 0.2,
+					["alphaIn"] = 0.7,
 				},
+				["version"] = "1.6a",
 				["overrideAlpha"] = true,
 			}, -- [9]
 		},
 	},
-	["lucyonn_of_bloodfeather"] = {
+	["lûcyon_of_bloodfeather"] = {
 		["version"] = "1.6a",
 		["Groups"] = {
 		},
 		["Frames"] = {
 		},
 	},
-	["lucytrial_of_bloodfeather"] = {
+	["lucyön_of_sylvanas"] = {
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+	},
+	["freiza_of_bladefist"] = {
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+	},
+	["lucyoff_of_bloodfeather"] = {
+		["Groups"] = {
+		},
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+	},
+	["lucyvulp_of_bloodfeather"] = {
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+		["Frames"] = {
+		},
+	},
+	["lucymón_of_bloodfeather"] = {
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+	},
+	["lucÿon_of_bloodfeather"] = {
+		["Groups"] = {
+		},
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+	},
+	["lucymonn_of_bloodfeather"] = {
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+		["Frames"] = {
+		},
+	},
+	["lucymon_of_sylvanas"] = {
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+		["Frames"] = {
+		},
+	},
+	["goldmon_of_bloodfeather"] = {
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+		["Frames"] = {
+		},
+	},
+	["lucyoñ_of_sylvanas"] = {
 		["Groups"] = {
 		},
 		["Frames"] = {
@@ -895,6 +896,97 @@ Kong_Profiles = {
 		},
 		["version"] = "1.6a",
 	},
+	["lúcýón_of_bloodfeather"] = {
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+	},
+	["lúcyon_of_sylvanas"] = {
+		["Groups"] = {
+		},
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+	},
+	["lucyon_of_bloodfeather"] = {
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+	},
+	["lucyworg_of_bloodfeather"] = {
+		["Groups"] = {
+		},
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+	},
+	["lucydrood_of_bloodfeather"] = {
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+	},
+	["mitha_of_bloodfeather"] = {
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+	},
+	["lucyporc_of_bloodfeather"] = {
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+	},
+	["lúcyon_of_bloodfeather"] = {
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+	},
+	["lùcyon_of_bloodfeather"] = {
+		["Groups"] = {
+		},
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+	},
+	["lucýon_of_sylvanas"] = {
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+		["Frames"] = {
+		},
+	},
+	["ezpzarena_of_bloodfeather"] = {
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
+	},
+	["lucyon_of_the_maelstrom"] = {
+		["Groups"] = {
+		},
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+	},
+	["lucytrial_of_bloodfeather"] = {
+		["Groups"] = {
+		},
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+	},
 	["lúcyón_of_bloodfeather"] = {
 		["version"] = "1.6a",
 		["Groups"] = {
@@ -902,11 +994,18 @@ Kong_Profiles = {
 		["Frames"] = {
 		},
 	},
-	["lucyoñ_of_sylvanas"] = {
-		["Groups"] = {
-		},
+	["lucýón_of_bloodfeather"] = {
 		["Frames"] = {
 		},
 		["version"] = "1.6a",
+		["Groups"] = {
+		},
+	},
+	["lucyón_of_the_maelstrom"] = {
+		["Frames"] = {
+		},
+		["version"] = "1.6a",
+		["Groups"] = {
+		},
 	},
 }

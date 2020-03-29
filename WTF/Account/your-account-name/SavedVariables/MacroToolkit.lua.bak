@@ -1,0 +1,908 @@
+
+MacroToolkitDB = {
+	["char"] = {
+		["Lucyoñ - Bloodfeather"] = {
+			["macros"] = {
+			},
+		},
+		["Lucyon - The Maelstrom"] = {
+			["macros"] = {
+				[122] = {
+					["icon"] = "134400",
+					["name"] = "boomkin",
+					["body"] = "#showtooltip Moonkin Form\n/cast [nostance:4] Moonkin Form\n",
+				},
+				[126] = {
+					["icon"] = "136077",
+					["name"] = "noform",
+					["body"] = "/cancelForm\n",
+				},
+				[132] = {
+					["icon"] = "134400",
+					["name"] = "travel",
+					["body"] = "#showtooltip\n/cast [nostance:3, outdoors] Travel Form\n/cast [nostance:2, indoors] Cat Form\n",
+				},
+				[123] = {
+					["icon"] = "514640",
+					["name"] = "cat stealth",
+					["body"] = "#showtooltip Prowl\n/cast [nostance:2] Cat Form\n/cast [nostealth] Prowl\n",
+				},
+				[127] = {
+					["icon"] = "136081",
+					["name"] = "r",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,nodead,harm][harm] Moonfire\n/cast [@mouseover,exists,nodead,noharm][noharm] Rejuvenation\n",
+				},
+				[133] = {
+					["icon"] = "134206",
+					["name"] = "v",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,nodead,harm][harm][spec:1] Sunfire\n/cast [@mouseover,exists,nodead,noharm][noharm] Lifebloom\n",
+				},
+				[124] = {
+					["icon"] = "132114",
+					["name"] = "cc",
+					["body"] = "#showtooltip\n/cast [talent:4/1] Mighty Bash\n/cast [talent:4/2] Mass Entanglement\n/cast [talent:4/3] Typhoon \n",
+				},
+				[128] = {
+					["icon"] = "136100",
+					["name"] = "root",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,harm][] Entangling Roots\n",
+				},
+				[121] = {
+					["icon"] = "136085",
+					["name"] = "2",
+					["body"] = "#showtooltip\n/cast [harm] Solar Wrath\n/cast [noharm] Regrowth\n",
+				},
+				[129] = {
+					["icon"] = "134914",
+					["name"] = "sm surge",
+					["body"] = "#showtooltip\n/cast [harm,spec:4,talent:3/1][harm,spec:1] Starsurge\n/cast [noharm][exists,spec:4,notalent:3/1] Swiftmend\n",
+				},
+				[125] = {
+					["icon"] = "136022",
+					["name"] = "cyclone",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,harm][] Cyclone\n",
+				},
+				[130] = {
+					["icon"] = "538771",
+					["name"] = "t2",
+					["body"] = "#showtooltip\n/cast [talent:2/1] Tiger Dash; [talent:2/2] Renewal; [talent:2/3] Wild Charge\n",
+				},
+				[131] = {
+					["icon"] = "132276",
+					["name"] = "taunt",
+					["body"] = "#showtooltip\n/cast [nostance:1] Bear Form\n/cast [@arenapet1] Growl\n/cast [@arenapet2] Growl\n/cast [@arenapet3] Growl\n/cast [@arena1] Growl\n/cast [@arena2] Growl\n/cast [@arena3] Growl\n/cast Growl\n",
+				},
+			},
+			["backups"] = {
+			},
+		},
+		["Lucýon - Bloodfeather"] = {
+			["macros"] = {
+				[131] = {
+					["icon"] = "134400",
+					["name"] = "holy shock",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] Holy Shock;\n",
+				},
+				[135] = {
+					["icon"] = "135963",
+					["name"] = "rep",
+					["body"] = "#showtooltip [talent:3/3] Blinding Light; [talent:3/2] Repentance; Hammer of Justice\n/cast [talent:3/3] Blinding Light; [talent:3/2,@mouseover,exists,harm][] Repentance\n",
+				},
+				[122] = {
+					["icon"] = "134400",
+					["name"] = "bestow faith",
+					["body"] = "#showtooltip\n/cast [talent:1/2] Bestow Faith;\n/cast [talent:1/3] Light's Hammer;\n",
+				},
+				[124] = {
+					["icon"] = "524354",
+					["name"] = "bubblehs",
+					["body"] = "#showtooltip\n/script if GetSpellCooldown(\"Divine Shield\") == 0 then SendChatMessage(\"ENOUGH!\", \"Yell\") end;\n/castsequence reset=5 Divine Shield, Greatfather Winter's Hearthstone\n",
+				},
+				[126] = {
+					["icon"] = "134400",
+					["name"] = "corrupted ashbri",
+					["body"] = "/run local p,q,t=print,IsQuestFlaggedCompleted,tostring p('Talked to Prince Tortheldrin: '..t(q(43682)))p('Talked to Alexia/Bardu: '..t(q(43683)))p('Slime can drop Timolain: '..t(q(43684)))p('Shard can be fished up: '..t(q(43685)))\n",
+				},
+				[128] = {
+					["icon"] = "135953",
+					["name"] = "dispel",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] Cleanse Toxins\n",
+				},
+				[132] = {
+					["icon"] = "134400",
+					["name"] = "hop",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] Light of the Protector;\n",
+				},
+				[136] = {
+					["icon"] = "134400",
+					["name"] = "sacri",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] \n",
+				},
+				[129] = {
+					["icon"] = "134400",
+					["name"] = "favor",
+					["body"] = "#showtooltip\n/cast Divine Favor\n/cast Holy Light\n",
+				},
+				[133] = {
+					["icon"] = "523893",
+					["name"] = "kick",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,harm][] Rebuke\n",
+				},
+				[137] = {
+					["icon"] = "135963",
+					["name"] = "stun",
+					["body"] = "#showtooltip\n/cast [@focus,exists,harm,nodead,mod:alt][@mouseover,exists,nodead,harm][] Hammer of Justice\n",
+				},
+				[121] = {
+					["icon"] = "135875",
+					["name"] = "avenging wrath",
+					["body"] = "#showtooltip Avenging Wrath\n/cast Avenging Wrath\n#/use 13\n#/use 14\n",
+				},
+				[123] = {
+					["icon"] = "135964",
+					["name"] = "bop",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] Blessing of Protection\n",
+				},
+				[125] = {
+					["icon"] = "134400",
+					["name"] = "cleanse",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] Cleanse\n",
+				},
+				[127] = {
+					["icon"] = "135891",
+					["name"] = "cs",
+					["body"] = "#showtooltip Crusader Strike\n/targetEnemy [noharm,noexists]\n/cast Crusader Strike\n",
+				},
+				[130] = {
+					["icon"] = "135968",
+					["name"] = "freedom",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] Blessing of Freedom\n",
+				},
+				[134] = {
+					["icon"] = "134400",
+					["name"] = "lotm",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] Light of the Martyr\n",
+				},
+				[138] = {
+					["icon"] = "135984",
+					["name"] = "taunt",
+					["body"] = "#showtooltip\n/cast [@arenapet1] Hand of Reckoning\n/cast [@arenapet2] Hand of Reckoning\n/cast [@arenapet3] Hand of Reckoning\n/cast [@arena1] Hand of Reckoning\n/cast [@arena2] Hand of Reckoning\n/cast [@arena3] Hand of Reckoning\n/cast Hand of Reckoning\n",
+				},
+			},
+		},
+		["Lucyvulp - Bloodfeather"] = {
+			["macros"] = {
+			},
+		},
+		["Lúcýón - Bloodfeather"] = {
+			["macros"] = {
+				[122] = {
+					["icon"] = "134914",
+					["name"] = "4",
+					["body"] = "#showtooltip\n/cast [harm,spec:4,talent:3/1][harm,spec:1] Starsurge\n/cast [noharm][exists,spec:4,notalent:3/1] Swiftmend\n",
+				},
+				[126] = {
+					["icon"] = "136022",
+					["name"] = "cyclone",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,harm][] Cyclone\n",
+				},
+				[132] = {
+					["icon"] = "134206",
+					["name"] = "v",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,nodead,harm][harm][spec:1] Sunfire\n/cast [@mouseover,exists,nodead,noharm][noharm] Lifebloom\n",
+				},
+				[123] = {
+					["icon"] = "134400",
+					["name"] = "boomkin",
+					["body"] = "#showtooltip Moonkin Form\n/cast [nostance:4] Moonkin Form\n",
+				},
+				[127] = {
+					["icon"] = "136077",
+					["name"] = "noform",
+					["body"] = "/cancelForm\n",
+				},
+				[124] = {
+					["icon"] = "514640",
+					["name"] = "cat stealth",
+					["body"] = "#showtooltip Prowl\n/cast [nostance:2] Cat Form\n/cast [nostealth] Prowl\n",
+				},
+				[128] = {
+					["icon"] = "136081",
+					["name"] = "r",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,nodead,harm][harm] Moonfire\n/cast [@mouseover,exists,nodead,noharm][noharm] Rejuvenation\n",
+				},
+				[131] = {
+					["icon"] = "134400",
+					["name"] = "travel",
+					["body"] = "#showtooltip\n/cast [nostance:3, outdoors] Travel Form\n/cast [nostance:2, indoors] Cat Form\n",
+				},
+				[121] = {
+					["icon"] = "136085",
+					["name"] = "2",
+					["body"] = "#showtooltip\n/cast [harm] Solar Wrath\n/cast [noharm] Regrowth\n",
+				},
+				[125] = {
+					["icon"] = "134400",
+					["name"] = "cc",
+					["body"] = "#showtooltip\n/cast [talent:4/1] Mighty Bash\n/cast [talent:4/2] Mass Entanglement\n/cast [talent:4/3] Typhoon \n",
+				},
+				[130] = {
+					["icon"] = "132276",
+					["name"] = "taunt",
+					["body"] = "#showtooltip\n/cast [nostance:1] Bear Form\n/cast [@arenapet1] Growl\n/cast [@arenapet2] Growl\n/cast [@arenapet3] Growl\n/cast [@arena1] Growl\n/cast [@arena2] Growl\n/cast [@arena3] Growl\n/cast Growl\n",
+				},
+				[129] = {
+					["icon"] = "134400",
+					["name"] = "root",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,harm][] Entangling Roots\n",
+				},
+			},
+			["backups"] = {
+			},
+		},
+		["Lucyon - Bloodfeather"] = {
+			["macros"] = {
+				[122] = {
+					["icon"] = "2065633",
+					["name"] = "cs",
+					["body"] = "#showtooltip Colossus Smash\n/use [@cursor][] 13\n/use [@cursor][] 14\n/cast Blood Fury\n/cast Colossus Smash\n",
+				},
+				[126] = {
+					["icon"] = "134400",
+					["name"] = "protham",
+					["body"] = "#showtooltip Avatar\n/use 13\n/use 14\n/cast Avatar\n",
+				},
+				[132] = {
+					["icon"] = "136080",
+					["name"] = "taunt",
+					["body"] = "/cast [@arenapet1] Taunt\n/cast [@arenapet2] Taunt\n/cast [@arenapet3] Taunt\n/cast [@arena1] Taunt\n/cast [@arena2] Taunt\n/cast [@arena3] Taunt\n/cast Taunt\n",
+				},
+				[123] = {
+					["icon"] = "135358",
+					["name"] = "execute",
+					["body"] = "#showtooltip\n/cancelaura Bladestorm\n/cast Execute\n",
+				},
+				[127] = {
+					["icon"] = "132938",
+					["name"] = "pummel",
+					["body"] = "#showtooltip\n/cast [mod:shift,@focus,exists,harm][@mouseover,exists,harm][] Pummel\n",
+				},
+				[133] = {
+					["icon"] = "134400",
+					["name"] = "trinket",
+					["body"] = "#showtooltip\n/cast Gladiator's Medallion(PvP Talent)\n/cast Every Man for Himself(Racial)\n",
+				},
+				[124] = {
+					["icon"] = "132337",
+					["name"] = "go",
+					["body"] = "#showtooltip Charge\n/cancelaura Bladestorm\n/cast Charge\n",
+				},
+				[128] = {
+					["icon"] = "135726",
+					["name"] = "reck",
+					["body"] = "#showtooltip [spec:2] Recklessness; [spec:1,talent:6/2] Avatar; Blood Fury\n/use 11\n/use 12\n/use [@cursor][] 13\n/use [@cursor][] 14\n/cast Avatar\n/cast Recklessness\n/cast Blood Fury\n/cast Bloodbath\n",
+				},
+				[121] = {
+					["icon"] = "413587",
+					["name"] = "art progress",
+					["body"] = "/run local q,x,_,a,b = GetAchievementCriteriaInfo,0 for i=1,11 do _,_,_,a,b = q(11152,i) x=x+a end local _,_,_,c,d = q(11153,1) local _,_,_,e,f = q(11154,1) print(\"Dungeons: \"..x..\"/\"..b) print(\"WQs: \"..c..\"/\"..d) print(\"Kills: \"..e..\"/\"..f)\n",
+				},
+				[129] = {
+					["icon"] = "134400",
+					["name"] = "roarstorm",
+					["body"] = "#showtooltip\n/cast [talent:6/3] Bladestorm\n/cast [talent:6/2] Dragon Roar\n",
+				},
+				[125] = {
+					["icon"] = "134400",
+					["name"] = "nelts lair",
+					["body"] = "/run print(IsQuestFlaggedCompleted(44311)) \n/run print(IsQuestFlaggedCompleted(44312))\n",
+				},
+				[130] = {
+					["icon"] = "1380678",
+					["name"] = "sharpen",
+					["body"] = "#showtooltip [talent:5/3] Cleave; [talent:1/3] Skullsplitter; [talent:3/3] Rend; Sharpen Blade\n/cast Sharpen Blade\n/cast [talent:3/3] Rend\n/cast [talent:1/3] Skullsplitter\n/cast [talent:5/3] Cleave\n",
+				},
+				[131] = {
+					["icon"] = "613535",
+					["name"] = "stun",
+					["body"] = "#showtooltip \n/cast [mod:shift,@focus,exists,harm][@mouseover,exists,harm][] Storm Bolt;\n \n",
+				},
+			},
+			["backups"] = {
+			},
+		},
+		["Mitha - Bloodfeather"] = {
+			["macros"] = {
+				[121] = {
+					["icon"] = "135894",
+					["name"] = "dispel",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,harm,nodead][harm] Dispel Magic\n/cast [@mouseover,exists,noharm,nodead][] Purify\n",
+				},
+			},
+			["backups"] = {
+			},
+		},
+		["Lucyón - Bloodfeather"] = {
+			["macros"] = {
+				[131] = {
+					["name"] = "meteor",
+					["icon"] = "134400",
+					["body"] = "#showtooltip Meteor\n/use [@cursor][] 11\n/use [@cursor][] 12\n/use [@cursor][] 13\n/use [@cursor][] 14\n/cast [@cursor] Meteor\n",
+				},
+				[135] = {
+					["name"] = "sheep",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cancelAura Ice Block\n/cancelAura Invisibility\n/cast [modifier:shift,@focus][@mouseover,exists,harm,nodead][] Polymorph(Black Cat);\n/petFollow\n/petPassive\n",
+				},
+				[122] = {
+					["name"] = "bliz",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cast [talent:6/1, @cursor][] Blizzard\n",
+				},
+				[124] = {
+					["name"] = "cs",
+					["icon"] = "135856",
+					["body"] = "#showtooltip\n/cast [modifier:shift, target=focus][@mouseover,exists,harm][] Counterspell;\n",
+				},
+				[126] = {
+					["name"] = "eat",
+					["icon"] = "134400",
+					["body"] = "#showtooltip Conjured Mana Bun\n/use [button:1]Conjured Mana Bun\n/use [button:1]Conjured Mana Fritter\n/cast [button:2] Conjure Refreshment\n",
+				},
+				[128] = {
+					["name"] = "flamestrike",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cast [@cursor] Flamestrike\n",
+				},
+				[132] = {
+					["name"] = "orb",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cast [@cursor][] Frozen Orb\n",
+				},
+				[136] = {
+					["name"] = "slow",
+					["icon"] = "136091",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,harm][] Slow\n",
+				},
+				[129] = {
+					["name"] = "focus",
+					["icon"] = "134400",
+					["body"] = "#showtooltip Polymorph(Turtle)\n/cast [@focus,exists,nohelp,nodead] Polymorph(Turtle)\n",
+				},
+				[133] = {
+					["name"] = "PET",
+					["icon"] = "134400",
+					["body"] = "#showtooltip [nopet] Summon water elemental; Freeze\n/cast [nopet][pet,dead] Summon Water Elemental\n/cast [pet,nodead] Freeze\n/petAssist [pet]\n/petAttack [pet]\n/petMoveTo [mod:ctrl+shift,pet]\n",
+				},
+				[137] = {
+					["name"] = "supernova",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cast [talent:4/3] Supernova;\n/cast [talent:4/2] Charged Up;\n",
+				},
+				[121] = {
+					["name"] = " IB",
+					["icon"] = "135841",
+					["body"] = "#showtooltip\n/stopcasting\n/cast !Ice Block\n",
+				},
+				[123] = {
+					["name"] = "cd",
+					["icon"] = "134400",
+					["body"] = "#showtooltip [spec:1] Arcane Power; [spec:2] Combustion; [spec:3] Icy Veins\n/use [@cursor][] 11\n/use [@cursor][] 12\n/use [@cursor][] 13\n/use [@cursor][] 14\n/cast Arcane Power\n/cast Icy Veins\n/cast Combustion\n/cast Memory of Lucid Dreams\n",
+				},
+				[125] = {
+					["name"] = "decurse",
+					["icon"] = "136082",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm,nodead][] Remove Curse\n",
+				},
+				[127] = {
+					["name"] = "fb",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/petassist\n/petattack\n/cast Frostbolt\n",
+				},
+				[130] = {
+					["name"] = "icelance",
+					["icon"] = "134400",
+					["body"] = "#showtooltip Ice Lance\n/cast Ice Lance\n/petAssist\n/cancelAura Ice Block\n/cancelAura Invisibility\n",
+				},
+				[134] = {
+					["name"] = "ray/spike",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cast [talent:7/2] Ray of Frost; [talent:7/3] Glacial Spike\n",
+				},
+			},
+			["backups"] = {
+			},
+		},
+		["Lúcyón - Bloodfeather"] = {
+			["macros"] = {
+			},
+			["backups"] = {
+			},
+		},
+		["Lúcyon - Bloodfeather"] = {
+			["macros"] = {
+				[122] = {
+					["name"] = "faceroll",
+					["icon"] = "135884",
+					["body"] = "#showtooltip\n/use 13\n/use 14\n/cast Nemesis\n/cast Chaos Blades\n",
+				},
+				[126] = {
+					["name"] = "kick",
+					["icon"] = "1305153",
+					["body"] = "#showtooltip\n/cast [@focus.exists,harm][] Disrupt\n",
+				},
+				[123] = {
+					["name"] = "fkick",
+					["icon"] = "1305153",
+					["body"] = "#showtooltip\n/cast [@focus] Disrupt\n",
+				},
+				[127] = {
+					["name"] = "sight",
+					["icon"] = "1247266",
+					["body"] = "#showtooltip\n/cast !Spectral Sight\n",
+				},
+				[124] = {
+					["name"] = "imprison",
+					["icon"] = "1380368",
+					["body"] = "#showtooltip\n/cast [mod:shift,@focus,exists,harm][] Imprison\n",
+				},
+				[128] = {
+					["name"] = "sigil",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cast [@cursor] Sigil of Flame\n",
+				},
+				[121] = {
+					["name"] = "eyebeam",
+					["icon"] = "1305156",
+					["body"] = "#showtooltip Eye Beam\n/use 13\n/use 14\n/cast Eye Beam\n",
+				},
+				[125] = {
+					["name"] = "Infernal strike",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cast [mod:alt,@player][] Infernal Strike\n",
+				},
+				[130] = {
+					["name"] = "taunt",
+					["icon"] = "1344654",
+					["body"] = "#showtooltip\n/cast [@arenapet1] Torment\n/cast [@arenapet2] Torment\n/cast [@arenapet3] Torment\n/cast [@arena1] Torment\n/cast [@arena2] Torment\n/cast [@arena3] Torment\n/cast Torment\n",
+				},
+				[129] = {
+					["name"] = "stun",
+					["icon"] = "1118739",
+					["body"] = "#showtooltip\n/cast [mod:shift,@focus,exists,harm][] Fel Eruption\n",
+				},
+			},
+		},
+		["Lucyón - Sylvanas"] = {
+			["macros"] = {
+				[122] = {
+					["icon"] = "135964",
+					["name"] = "bop",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] Blessing of Protection\n",
+				},
+				[126] = {
+					["icon"] = "134400",
+					["name"] = "heal",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] Hand of the Protector\n",
+				},
+				[123] = {
+					["icon"] = "135953",
+					["name"] = "cleanse",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] Cleanse Toxins\n",
+				},
+				[127] = {
+					["icon"] = "523893",
+					["name"] = "kick",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,harm][] Rebuke\n",
+				},
+				[124] = {
+					["icon"] = "135891",
+					["name"] = "cs",
+					["body"] = "#showtooltip Crusader Strike\n/targetenemy [noexists][dead][noharm]\n/cast Crusader Strike\n",
+				},
+				[128] = {
+					["icon"] = "134400",
+					["name"] = "martyr",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm,nodead][] Light of the Martyr\n",
+				},
+				[131] = {
+					["icon"] = "134400",
+					["name"] = "t1 heal",
+					["body"] = "#showtooltip\n/cast [talent:1/1,@mouseover,exists,noharm,nodead][talent:1/1] Bestow Faith; [talent:1/2,@cursor] Light's Hammer;\n",
+				},
+				[121] = {
+					["icon"] = "134400",
+					["name"] = "beacon",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] Beacon of Light\n",
+				},
+				[125] = {
+					["icon"] = "135968",
+					["name"] = "freedom",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] Blessing of Freedom\n",
+				},
+				[130] = {
+					["icon"] = "135963",
+					["name"] = "stun",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,harm][] Hammer of Justice\n",
+				},
+				[129] = {
+					["icon"] = "134400",
+					["name"] = "shock",
+					["body"] = "#showtooltip\n/cast [@mouseover,exists,noharm][] Holy Shock\n",
+				},
+			},
+			["backups"] = {
+			},
+		},
+		["Lucyoff - Bloodfeather"] = {
+			["macros"] = {
+				[122] = {
+					["name"] = "chain",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cast [noharm] Chain Heal\n/cast [harm] Chain Lightning\n",
+				},
+				[124] = {
+					["name"] = "kick",
+					["icon"] = "136018",
+					["body"] = "#showtooltip\n/cast [@focus,mod:shift,exists,harm][@mouseover,exists,harm][] Wind Shear\n",
+				},
+				[126] = {
+					["name"] = "purge",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cast [harm] Purge\n/cast [spec:1,noharm][spec:2,noharm] Cleanse Spirit\n/cast [spec:3,noharm] Purify Spirit\n",
+				},
+				[121] = {
+					["name"] = "burst/wave",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cast [harm] Lava Burst\n/cast [noharm] Healing Wave\n",
+				},
+				[123] = {
+					["name"] = "fs",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cast [harm] Flame Shock\n/cast [noharm] Riptide\n",
+				},
+				[125] = {
+					["name"] = "lb",
+					["icon"] = "136044",
+					["body"] = "#showtooltip\n/cast [noharm] Healing Surge\n/cast [harm] Lightning Bolt\n",
+				},
+			},
+			["backups"] = {
+			},
+		},
+		["Lucyøn - Bloodfeather"] = {
+			["macros"] = {
+				[122] = {
+					["name"] = "kick",
+					["icon"] = "237527",
+					["body"] = "#showtooltip\n/cast [mod:shift,@focus,exists,harm][@mouseover,exists,harm][] Mind Freeze\n",
+				},
+				[124] = {
+					["name"] = "petstun",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cast [nopet][pet,dead] Raise Dead\n/cast [@mouseover,exists,harm][] Gnaw\n",
+				},
+				[126] = {
+					["name"] = "t5",
+					["icon"] = "134400",
+					["body"] = "#showtooltip\n/cast [talent:5/2] Wraith Walk\n/cast [talent:5/3] Death Pact\n",
+				},
+				[121] = {
+					["name"] = "atk",
+					["icon"] = "879926",
+					["body"] = "#showtooltip\n/petAssist\n/cast Festering Strike\n",
+				},
+				[123] = {
+					["name"] = "pet",
+					["icon"] = "342913",
+					["body"] = "#showtooltip\n/cast [nopet][pet,dead] Raise Dead\n/castsequence [pet,nodead] reset=15 Dark Transformation, Leap\n",
+				},
+				[125] = {
+					["name"] = "stun",
+					["icon"] = "538558",
+					["body"] = "#showtooltip\n/cast [mod:shift,@focus,exists,harm][@mouseover,exists,harm][] Asphyxiate\n",
+				},
+			},
+		},
+		["Lucymon - Bloodfeather"] = {
+			["macros"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Lucyon - The Maelstrom"] = "profile",
+		["Lucyvulp - Bloodfeather"] = "profile",
+		["Lúcýón - Bloodfeather"] = "profile",
+		["Lucyón - Bloodfeather"] = "profile",
+		["Lucyoff - Bloodfeather"] = "profile",
+		["Lucyõn - Bloodfeather"] = "profile",
+		["Lucyoñ - Bloodfeather"] = "profile",
+		["Lucymon - Bloodfeather"] = "profile",
+		["Lùcyon - Bloodfeather"] = "profile",
+		["Lucýón - Bloodfeather"] = "profile",
+		["Lucyon - Bloodfeather"] = "profile",
+		["Mitha - Bloodfeather"] = "profile",
+		["Lucymón - Bloodfeather"] = "profile",
+		["Lúcyón - Bloodfeather"] = "profile",
+		["Lúcyon - Bloodfeather"] = "profile",
+		["Lucyón - Sylvanas"] = "profile",
+		["Lucÿon - Bloodfeather"] = "profile",
+		["Lucyøn - Bloodfeather"] = "profile",
+		["Lucýon - Bloodfeather"] = "profile",
+	},
+	["global"] = {
+		["lastbackup"] = "Nov 07 22:42:30",
+		["ebackups"] = {
+		},
+		["backups"] = {
+			{
+				["m"] = {
+					{
+						["icon"] = 1020350,
+						["index"] = 1,
+						["name"] = "13",
+						["body"] = "#showtooltip\n/use [@cursor][] 13\n",
+					}, -- [1]
+					{
+						["icon"] = 973909,
+						["index"] = 2,
+						["name"] = "14",
+						["body"] = "#showtooltip\n/use [@cursor][] 14\n",
+					}, -- [2]
+					{
+						["icon"] = 237377,
+						["index"] = 3,
+						["name"] = "ActionCam OFF",
+						["body"] = "/console ActionCam default\n",
+					}, -- [3]
+					{
+						["icon"] = 237378,
+						["index"] = 4,
+						["name"] = "ActionCam ON",
+						["body"] = "/console ActionCam full\n/console ActionCam focusOff\n",
+					}, -- [4]
+					{
+						["icon"] = 132168,
+						["index"] = 5,
+						["name"] = "arena",
+						["body"] = "/run local f=ArenaEnemyFrame1; f:SetUserPlaced(true) f:SetMovable(true) f:EnableMouse(true) f:RegisterForDrag(\"LeftButton\") f:SetScript(\"OnDragStart\",f.StartMoving) f:SetScript(\"OnDragStop\",f.StopMovingOrSizing)\n",
+					}, -- [5]
+					{
+						["icon"] = 1001620,
+						["index"] = 6,
+						["name"] = "arena np numbers",
+						["body"] = "/run local U=UnitIsUnit hooksecurefunc(\"CompactUnitFrame_UpdateName\",function(F)if IsActiveBattlefieldArena()and F.unit:find(\"nameplate\")then for i=1,5 do if U(F.unit,\"arena\"..i)then F.name:SetText(i)F.name:SetTextColor(1,1,0)break end end end end)\n",
+					}, -- [6]
+					{
+						["icon"] = 132094,
+						["index"] = 7,
+						["name"] = "arena1",
+						["body"] = "/targetenemy 0;\n/target arena1; \n/targetfriendplayer [mod:alt] 0;\n\n",
+					}, -- [7]
+					{
+						["icon"] = 132094,
+						["index"] = 8,
+						["name"] = "arena2",
+						["body"] = "/targetenemy 1;\n/target arena2;",
+					}, -- [8]
+					{
+						["icon"] = 132094,
+						["index"] = 9,
+						["name"] = "arena3",
+						["body"] = "/assist\n/target arena3\n",
+					}, -- [9]
+					{
+						["icon"] = 458412,
+						["index"] = 10,
+						["name"] = "Artifact progres",
+						["body"] = "/run local q,x,_,a,b = GetAchievementCriteriaInfo,0 for i=1,11 do _,_,_,a,b = q(11152,i) x=x+a end local _,_,_,c,d = q(11153,1) local _,_,_,e,f = q(11154,1) print(\"Dungeons: \"..x..\"/\"..b) print(\"WQs: \"..c..\"/\"..d) print(\"Kills: \"..e..\"/\"..f)\n",
+					}, -- [10]
+					{
+						["icon"] = 1875078,
+						["index"] = 11,
+						["name"] = "belt",
+						["body"] = "#showtooltip 6\n/use 6\n",
+					}, -- [11]
+					{
+						["icon"] = 2021378,
+						["index"] = 12,
+						["name"] = "cloak",
+						["body"] = "#showtooltip\n/use 15\n",
+					}, -- [12]
+					{
+						["icon"] = 132930,
+						["index"] = 13,
+						["name"] = "darkshore rares",
+						["body"] = "/way Darkshore 56.4 30.7 Alash'anir\n/way Darkshore 49.5 25.1 Agathe Wyrmwood/Blackpaw\n/way Darkshore 39.8 32.8 Shadowclaw (Horde)\n/way Darkshore 41.18 76.76 Athil Dewfire (Horde)\n",
+					}, -- [13]
+					{
+						["icon"] = 134331,
+						["index"] = 14,
+						["name"] = "debug",
+						["body"] = "/tinspect\n",
+					}, -- [14]
+					{
+						["icon"] = 134400,
+						["index"] = 15,
+						["name"] = "egg",
+						["body"] = "#showtooltip Noblegarden Chocolate\n/use Egg Basket\n/run LootButton1:Click()\n/use Brightly Colored Egg\n",
+					}, -- [15]
+					{
+						["icon"] = 135241,
+						["index"] = 16,
+						["name"] = "eventlog",
+						["body"] = "/eventtrace\n",
+					}, -- [16]
+					{
+						["icon"] = 2175564,
+						["index"] = 17,
+						["name"] = "focus",
+						["body"] = "/focus [@focus,noexists][@focus,mod:shift] \n/target focus [@focus,exists,nomod]\n",
+					}, -- [17]
+					{
+						["icon"] = 1386545,
+						["index"] = 18,
+						["name"] = "friendly",
+						["body"] = "/targetfriendplayer 0;\n",
+					}, -- [18]
+					{
+						["icon"] = 537227,
+						["index"] = 19,
+						["name"] = "friendlyprev",
+						["body"] = "/targetfriendplayer 1\n",
+					}, -- [19]
+					{
+						["icon"] = 135754,
+						["index"] = 20,
+						["name"] = "hide UI",
+						["body"] = "/run local f = GetMouseFocus();  f:Hide();\n",
+					}, -- [20]
+					{
+						["icon"] = 134400,
+						["index"] = 21,
+						["name"] = "hs",
+						["body"] = "#showtooltip\n/use Healthstone\n/use Crimson Vial\n",
+					}, -- [21]
+					{
+						["icon"] = 237387,
+						["index"] = 22,
+						["name"] = "micromenu",
+						["body"] = "/run local p=MainMenuBar; p:SetMovable(true) p:SetUserPlaced(true) p:HookScript(\"OnMouseDown\",function() p:StartMoving()end) p:HookScript(\"OnMouseUp\",function() p:StopMovingOrSizing ()end)\n",
+					}, -- [22]
+					{
+						["icon"] = 236173,
+						["index"] = 23,
+						["name"] = "MOUSEOVER",
+						["body"] = "/run local f = GetMouseFocus(); if f then DEFAULT_CHAT_FRAME:AddMessage(f:GetName()) end\n",
+					}, -- [23]
+					{
+						["icon"] = 132163,
+						["index"] = 24,
+						["name"] = "move mousetarget",
+						["body"] = "/run local f=TargetFrame; f:SetUserPlaced(true) f:SetMovable(true) f:EnableMouse(true) f:RegisterForDrag(\"LeftButton\") f:SetScript(\"OnDragStart\",f.StartMoving) f:SetScript(\"OnDragStop\",f.StopMovingOrSizing)\n",
+					}, -- [24]
+					{
+						["icon"] = 132091,
+						["index"] = 25,
+						["name"] = "NAZ",
+						["body"] = "/g\n{skull}{skull}{skull}{cross}{skull}\n{cross}{cross}{skull}{cross}{skull}\n{skull}{skull}{skull}{skull}{skull}\n{skull}{cross}{skull}{cross}{cross}\n{skull}{cross}{skull}{skull}{skull}\nGER?\n",
+					}, -- [25]
+					{
+						["icon"] = 236177,
+						["index"] = 26,
+						["name"] = "party",
+						["body"] = "/run local p=PartyMemberFrame1; p:SetMovable(true) p:SetUserPlaced(true) p:HookScript(\"OnMouseDown\",function() p:StartMoving()end) p:HookScript(\"OnMouseUp\",function() p:StopMovingOrSizing ()end)\n",
+					}, -- [26]
+					{
+						["icon"] = 460692,
+						["index"] = 27,
+						["name"] = "party1",
+						["body"] = "/targetfriendplayer 0;\n/target party1;\n",
+					}, -- [27]
+					{
+						["icon"] = 460692,
+						["index"] = 28,
+						["name"] = "party2",
+						["body"] = "/targetfriendplayer 1;\n/target party2;\n",
+					}, -- [28]
+					{
+						["icon"] = 460692,
+						["index"] = 29,
+						["name"] = "party3",
+						["body"] = "/assist\n/target party3\n",
+					}, -- [29]
+					{
+						["icon"] = 460692,
+						["index"] = 30,
+						["name"] = "party4",
+						["body"] = "/targetfriendplayer 1;\n/target party4\n",
+					}, -- [30]
+					{
+						["icon"] = 1516553,
+						["index"] = 31,
+						["name"] = "pframe disable ",
+						["body"] = "/run PlayerFrame:UnregisterEvent(\"UNIT_COMBAT\")PetFrame:UnregisterEvent(\"UNIT_COMBAT\")\n",
+					}, -- [31]
+					{
+						["icon"] = 236175,
+						["index"] = 32,
+						["name"] = "player",
+						["body"] = "/run local f=PlayerFrame; f:SetUserPlaced(true) f:SetMovable(true) f:EnableMouse(true) f:RegisterForDrag(\"LeftButton\") f:SetScript(\"OnDragStart\",f.StartMoving) f:SetScript(\"OnDragStop\",f.StopMovingOrSizing)\n",
+					}, -- [32]
+					{
+						["icon"] = 236247,
+						["index"] = 33,
+						["name"] = "playertarget",
+						["body"] = "/target player\n",
+					}, -- [33]
+					{
+						["icon"] = 132167,
+						["index"] = 34,
+						["name"] = "reset",
+						["body"] = "/run PlayerFrame:SetUserPlaced(false) TargetFrame:SetUserPlaced(false)\n",
+					}, -- [34]
+					{
+						["icon"] = 237276,
+						["index"] = 35,
+						["name"] = "setMark",
+						["body"] = "/script SetRaidTarget(\"mouseover\",8);\n",
+					}, -- [35]
+					{
+						["icon"] = 132089,
+						["index"] = 36,
+						["name"] = "STALK",
+						["body"] = "/run for i=1,100 do if BNIsSelf(i)then BNSendWhisper(i,\"RealID whisper from yourself..\");break end end\n",
+					}, -- [36]
+					{
+						["icon"] = 458223,
+						["index"] = 37,
+						["name"] = "SW3",
+						["body"] = "/g\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\n/click ActionButton2\n",
+					}, -- [37]
+					{
+						["icon"] = 132226,
+						["index"] = 38,
+						["name"] = "SWE",
+						["body"] = "/g\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\nSWE\n/click ActionButton1\n",
+					}, -- [38]
+					{
+						["icon"] = 135272,
+						["index"] = 39,
+						["name"] = "table-inspect",
+						["body"] = "/tableinspect\n",
+					}, -- [39]
+					{
+						["icon"] = 1020350,
+						["index"] = 40,
+						["name"] = "trinkets",
+						["body"] = "#showtooltip\n/use [@cursor][] 13\n/use [@cursor][] 14\n",
+					}, -- [40]
+					{
+						["icon"] = 136222,
+						["index"] = 41,
+						["name"] = "UI",
+						["body"] = "/kong profile load default\n/dom set default\n",
+					}, -- [41]
+				},
+				["d"] = "Nov 07 22:42:30",
+				["n"] = "backup",
+			}, -- [1]
+		},
+		["allcharmacros"] = true,
+	},
+	["profiles"] = {
+		["profile"] = {
+			["y"] = 448.0006103515625,
+			["x"] = 101.9992752075195,
+			["height"] = 524.9996337890625,
+			["override"] = true,
+			["visconditions"] = true,
+			["fonts"] = {
+				["mfont"] = "Arial Narrow",
+				["mifont"] = "Arial Narrow",
+				["edfont"] = "Arial Narrow",
+				["errfont"] = "Arial Narrow",
+			},
+		},
+	},
+}

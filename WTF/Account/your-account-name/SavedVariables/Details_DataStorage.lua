@@ -8,7 +8,7 @@ DetailsDataStorage = {
 				["time"] = 1540402991,
 				["guild"] = "Barely Acquainted",
 				["servertime"] = 1540402982,
-				["elapsed"] = 418.852000000188,
+				["date"] = "19:43 24/10/18",
 				["healing"] = {
 					["Kaleciraptor"] = {
 						2663617, -- [1]
@@ -26,22 +26,22 @@ DetailsDataStorage = {
 						5, -- [3]
 					},
 				},
-				["date"] = "19:43 24/10/18",
+				["elapsed"] = 418.852000000188,
 				["damage"] = {
 					["Naturez"] = {
 						4352380, -- [1]
 						370.625, -- [2]
 						11, -- [3]
 					},
-					["Hugolodon"] = {
-						4989858, -- [1]
-						374.875, -- [2]
-						3, -- [3]
-					},
 					["Krispsallad"] = {
 						1546221, -- [1]
 						373, -- [2]
 						11, -- [3]
+					},
+					["Hugolodon"] = {
+						4989858, -- [1]
+						374.875, -- [2]
+						3, -- [3]
 					},
 					["Lucyoñ"] = {
 						2293758, -- [1]
@@ -53,10 +53,10 @@ DetailsDataStorage = {
 						374.6875, -- [2]
 						11, -- [3]
 					},
-					["Rostmage"] = {
-						2999467, -- [1]
-						369.25, -- [2]
-						8, -- [3]
+					["Poita"] = {
+						5072891, -- [1]
+						0, -- [2]
+						1, -- [3]
 					},
 					["Murrlurv"] = {
 						2142210, -- [1]
@@ -88,10 +88,10 @@ DetailsDataStorage = {
 						363.375, -- [2]
 						8, -- [3]
 					},
-					["Poita"] = {
-						5072891, -- [1]
-						0, -- [2]
-						1, -- [3]
+					["Rostmage"] = {
+						2999467, -- [1]
+						369.25, -- [2]
+						8, -- [3]
 					},
 					["Nordan"] = {
 						3869551, -- [1]
@@ -106,7 +106,7 @@ DetailsDataStorage = {
 				["time"] = 1540407309,
 				["guild"] = "Barely Acquainted",
 				["servertime"] = 1540407300,
-				["elapsed"] = 338.375999999931,
+				["date"] = "20:55 24/10/18",
 				["healing"] = {
 					["Bossebrajj"] = {
 						3793846, -- [1]
@@ -129,7 +129,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["date"] = "20:55 24/10/18",
+				["elapsed"] = 338.375999999931,
 				["damage"] = {
 					["Naturez"] = {
 						4043501, -- [1]
@@ -205,8 +205,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Halcyon",
 				["time"] = 1515615895,
-				["date"] = "21:24 10/01/18",
 				["elapsed"] = 482.93600000022,
+				["date"] = "21:24 10/01/18",
 				["healing"] = {
 					["Takahara-ShatteredHand"] = {
 						459335569, -- [1]
@@ -309,7 +309,7 @@ DetailsDataStorage = {
 				["time"] = 1515444566,
 				["guild"] = "Halcyon",
 				["servertime"] = 1515444565,
-				["elapsed"] = 536.551999999909,
+				["date"] = "21:49 08/01/18",
 				["healing"] = {
 					["Shadowforge-ShatteredHand"] = {
 						474453051, -- [1]
@@ -332,7 +332,7 @@ DetailsDataStorage = {
 						5, -- [3]
 					},
 				},
-				["date"] = "21:49 08/01/18",
+				["elapsed"] = 536.551999999909,
 				["damage"] = {
 					["Hyrixò-ShatteredHand"] = {
 						100953503, -- [1]
@@ -405,7 +405,7 @@ DetailsDataStorage = {
 				["time"] = 1516828472,
 				["guild"] = "Halcyon",
 				["servertime"] = 1516828467,
-				["elapsed"] = 594.747999999992,
+				["date"] = "22:14 24/01/18",
 				["healing"] = {
 					["Hotmarijke-ShatteredHand"] = {
 						316382424, -- [1]
@@ -423,22 +423,22 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["date"] = "22:14 24/01/18",
+				["elapsed"] = 594.747999999992,
 				["damage"] = {
-					["Magepwn-Kor'gall"] = {
-						529931449, -- [1]
-						938.375, -- [2]
-						8, -- [3]
+					["Sòigan-ShatteredHand"] = {
+						1105651347, -- [1]
+						0, -- [2]
+						5, -- [3]
 					},
 					["Saregroth-ShatteredHand"] = {
 						713757699, -- [1]
 						925.875, -- [2]
 						5, -- [3]
 					},
-					["Lucyón"] = {
-						765112315, -- [1]
-						961.1875, -- [2]
-						8, -- [3]
+					["Morda-ShatteredHand"] = {
+						241492023, -- [1]
+						960.3125, -- [2]
+						11, -- [3]
 					},
 					["Smeerlap-ShatteredHand"] = {
 						654806006, -- [1]
@@ -460,10 +460,10 @@ DetailsDataStorage = {
 						593.125, -- [2]
 						7, -- [3]
 					},
-					["Sòigan-ShatteredHand"] = {
-						1105651347, -- [1]
-						0, -- [2]
-						5, -- [3]
+					["Magepwn-Kor'gall"] = {
+						529931449, -- [1]
+						938.375, -- [2]
+						8, -- [3]
 					},
 					["Bokkenrijder-ShatteredHand"] = {
 						502833184, -- [1]
@@ -490,10 +490,10 @@ DetailsDataStorage = {
 						942.733333333333, -- [2]
 						1, -- [3]
 					},
-					["Morda-ShatteredHand"] = {
-						241492023, -- [1]
-						960.3125, -- [2]
-						11, -- [3]
+					["Lucyón"] = {
+						765112315, -- [1]
+						961.1875, -- [2]
+						8, -- [3]
 					},
 				},
 			}, -- [2]
@@ -503,7 +503,7 @@ DetailsDataStorage = {
 				["time"] = 1515613740,
 				["guild"] = "Halcyon",
 				["servertime"] = 1515613735,
-				["date"] = "20:49 10/01/18",
+				["elapsed"] = 253.504999999888,
 				["healing"] = {
 					["Shadowforge-ShatteredHand"] = {
 						233406107, -- [1]
@@ -521,7 +521,7 @@ DetailsDataStorage = {
 						11, -- [3]
 					},
 				},
-				["elapsed"] = 253.504999999888,
+				["date"] = "20:49 10/01/18",
 				["damage"] = {
 					["Hyrixò-ShatteredHand"] = {
 						383994043, -- [1]
@@ -605,8 +605,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Halcyon",
 				["time"] = 1515617654,
-				["date"] = "21:54 10/01/18",
 				["elapsed"] = 338.583000000101,
+				["date"] = "21:54 10/01/18",
 				["healing"] = {
 					["Takahara-ShatteredHand"] = {
 						277150699, -- [1]
@@ -709,7 +709,7 @@ DetailsDataStorage = {
 				["time"] = 1513800100,
 				["guild"] = "Halcyon",
 				["servertime"] = 1513800099,
-				["elapsed"] = 392.174999999988,
+				["date"] = "21:01 20/12/17",
 				["healing"] = {
 					["Shadowforge-ShatteredHand"] = {
 						147199268, -- [1]
@@ -722,7 +722,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["date"] = "21:01 20/12/17",
+				["elapsed"] = 392.174999999988,
 				["damage"] = {
 					["Davyell-BurningSteppes"] = {
 						523444454, -- [1]
@@ -749,20 +749,20 @@ DetailsDataStorage = {
 						930.8125, -- [2]
 						6, -- [3]
 					},
-					["Chumscrubber-Kor'gall"] = {
-						290749938, -- [1]
-						879.6875, -- [2]
-						7, -- [3]
+					["Saelhunt-ShatteredHand"] = {
+						458379123, -- [1]
+						944.2, -- [2]
+						1, -- [3]
 					},
 					["Semph-ShatteredHand"] = {
 						465434466, -- [1]
 						933.133333333333, -- [2]
 						9, -- [3]
 					},
-					["Saelhunt-ShatteredHand"] = {
-						458379123, -- [1]
-						944.2, -- [2]
-						1, -- [3]
+					["Chumscrubber-Kor'gall"] = {
+						290749938, -- [1]
+						879.6875, -- [2]
+						7, -- [3]
 					},
 					["Bokkenrijder-ShatteredHand"] = {
 						250268885, -- [1]
@@ -794,8 +794,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Halcyon",
 				["time"] = 1515617014,
-				["date"] = "21:43 10/01/18",
 				["elapsed"] = 381.378999999724,
+				["date"] = "21:43 10/01/18",
 				["healing"] = {
 					["Takahara-ShatteredHand"] = {
 						162758151, -- [1]
@@ -898,7 +898,7 @@ DetailsDataStorage = {
 				["time"] = 1515612114,
 				["guild"] = "Halcyon",
 				["servertime"] = 1515612109,
-				["date"] = "20:21 10/01/18",
+				["elapsed"] = 263.738999999594,
 				["healing"] = {
 					["Shadowforge-ShatteredHand"] = {
 						187154921, -- [1]
@@ -911,7 +911,7 @@ DetailsDataStorage = {
 						11, -- [3]
 					},
 				},
-				["elapsed"] = 263.738999999594,
+				["date"] = "20:21 10/01/18",
 				["damage"] = {
 					["Plictisit-ShatteredHand"] = {
 						419771542, -- [1]
@@ -985,8 +985,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Halcyon",
 				["time"] = 1515621189,
-				["date"] = "22:53 10/01/18",
 				["elapsed"] = 268.498000000138,
+				["date"] = "22:53 10/01/18",
 				["healing"] = {
 					["Takahara-ShatteredHand"] = {
 						281407390, -- [1]
@@ -1084,7 +1084,7 @@ DetailsDataStorage = {
 				["time"] = 1515614831,
 				["guild"] = "Halcyon",
 				["servertime"] = 1515614826,
-				["date"] = "21:07 10/01/18",
+				["elapsed"] = 417.999000000302,
 				["healing"] = {
 					["Takahara-ShatteredHand"] = {
 						302402594, -- [1]
@@ -1097,7 +1097,7 @@ DetailsDataStorage = {
 						5, -- [3]
 					},
 				},
-				["elapsed"] = 417.999000000302,
+				["date"] = "21:07 10/01/18",
 				["damage"] = {
 					["Lucyón"] = {
 						1036141252, -- [1]
@@ -1186,8 +1186,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Halcyon",
 				["time"] = 1539026529,
-				["elapsed"] = 489.945999999996,
 				["date"] = "21:22 08/10/18",
+				["elapsed"] = 489.945999999996,
 				["healing"] = {
 					["Takahara-ShatteredHand"] = {
 						5219874, -- [1]
@@ -1274,8 +1274,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Halcyon",
 				["time"] = 1515619099,
-				["date"] = "22:18 10/01/18",
 				["elapsed"] = 404.615000000224,
+				["date"] = "22:18 10/01/18",
 				["healing"] = {
 					["Takahara-ShatteredHand"] = {
 						283312562, -- [1]

@@ -1,10 +1,16 @@
 
 dbBFA = {
 	["char"] = {
-		["Lucyón - Bloodfeather"] = {
+		["Lucyon - The Maelstrom"] = {
 			["firstun"] = false,
 		},
 		["Lucýon - Bloodfeather"] = {
+			["firstun"] = false,
+		},
+		["Lùcyon - Bloodfeather"] = {
+			["firstun"] = false,
+		},
+		["Lucyon - Bloodfeather"] = {
 			["firstun"] = false,
 		},
 		["Lucyoñ - Sylvanas"] = {
@@ -13,38 +19,40 @@ dbBFA = {
 		["Lúcyon - Bloodfeather"] = {
 			["firstun"] = false,
 		},
-		["Lucyón - Sylvanas"] = {
+		["Lucyón - Bloodfeather"] = {
 			["firstun"] = false,
 		},
-		["Lùcyon - Bloodfeather"] = {
+		["Lucyón - Sylvanas"] = {
 			["firstun"] = false,
 		},
 		["Lucyón - The Maelstrom"] = {
 			["firstun"] = false,
 		},
-		["Lucyon - Bloodfeather"] = {
+		["Lucymon - Bloodfeather"] = {
 			["firstun"] = false,
 		},
-	},
-	["profileKeys"] = {
-		["Lucyón - Bloodfeather"] = "Default",
-		["Lucýon - Bloodfeather"] = "Default",
-		["Lucyoñ - Sylvanas"] = "Default",
-		["Lúcyon - Bloodfeather"] = "Default",
-		["Lucyón - Sylvanas"] = "Default",
-		["Lùcyon - Bloodfeather"] = "Default",
-		["Lucyón - The Maelstrom"] = "Default",
-		["Lucyon - Bloodfeather"] = "Default",
 	},
 	["global"] = {
 		["news"] = {
 		},
 		["warn02_seen"] = 0,
-		["tutorialStep"] = 17,
+		["silent"] = true,
 		["warn01_seen"] = 0,
 		["firstrun"] = false,
-		["silent"] = true,
+		["tutorialStep"] = 17,
 		["changedkeywarned"] = true,
+	},
+	["profileKeys"] = {
+		["Lucyon - The Maelstrom"] = "Default",
+		["Lucýon - Bloodfeather"] = "Default",
+		["Lùcyon - Bloodfeather"] = "Default",
+		["Lucyon - Bloodfeather"] = "Default",
+		["Lucyoñ - Sylvanas"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucyón - Bloodfeather"] = "Default",
+		["Lucyón - Sylvanas"] = "Default",
+		["Lucyón - The Maelstrom"] = "Default",
+		["Lucymon - Bloodfeather"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -68,12 +76,20 @@ dbBFA = {
 				["PREFERHIGH"] = true,
 				["NOTROOPS"] = false,
 				["MAKEITQUICK"] = true,
-				["TROOPALERT"] = true,
 				["MAXCHAMP"] = 3,
+				["TROOPALERT"] = true,
 				["IGNOREBUSY"] = true,
 				["BASECHANCE"] = 0,
 			},
 			["showmenu"] = true,
+			["blacklist"] = {
+				[1954] = true,
+				[1951] = true,
+				[1952] = true,
+				[1879] = true,
+				[1933] = true,
+				[1923] = true,
+			},
 		},
 	},
 }

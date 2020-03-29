@@ -8,25 +8,25 @@ HandyNotesDB = {
 		["Lücyon - Bloodfeather"] = "Lücyon - Bloodfeather",
 		["Lucyón - Outland"] = "Lucyón - Outland",
 		["Lucyön - Bloodfeather"] = "Lucyön - Bloodfeather",
-		["Lucýon - Bloodfeather"] = "Lucýon - Bloodfeather",
-		["Freiza - Bladefist"] = "Freiza - Bladefist",
+		["Lucyón - The Maelstrom"] = "Lucyón - The Maelstrom",
+		["Lucyøn - Bloodfeather"] = "Lucyøn - Bloodfeather",
 		["Lucyõn - Bloodfeather"] = "Lucyõn - Bloodfeather",
 		["Lucyoñ - Bloodfeather"] = "Lucyoñ - Bloodfeather",
-		["Lucytester - Bloodfeather"] = "Lucytester - Bloodfeather",
-		["Lûcyon - Bloodfeather"] = "Lûcyon - Bloodfeather",
-		["Lucyoñ - Argent Dawn"] = "Lucyoñ - Argent Dawn",
-		["Lucyon - Outland"] = "Lucyon - Outland",
-		["Lùcyon - Bloodfeather"] = "Lùcyon - Bloodfeather",
-		["Lúcyon - Bloodfeather"] = "Lucyon - Bloodfeather",
 		["Lucyon - Bloodfeather"] = "Lucyon - Bloodfeather",
-		["Mitha - Bloodfeather"] = "Mitha - Bloodfeather",
-		["Lucyworg - Bloodfeather"] = "Lucyworg - Bloodfeather",
-		["Lucyón - Bloodfeather"] = "Lucyón - Bloodfeather",
-		["Lucyons - Bloodfeather"] = "Lucyons - Bloodfeather",
+		["Lûcyon - Bloodfeather"] = "Lûcyon - Bloodfeather",
 		["Lucyón - Sylvanas"] = "Lucyón - Sylvanas",
+		["Lucýon - Bloodfeather"] = "Lucýon - Bloodfeather",
+		["Lùcyon - Bloodfeather"] = "Lùcyon - Bloodfeather",
+		["Lucyons - Bloodfeather"] = "Lucyons - Bloodfeather",
+		["Lucytester - Bloodfeather"] = "Lucytester - Bloodfeather",
+		["Mitha - Bloodfeather"] = "Mitha - Bloodfeather",
+		["Lucyón - Bloodfeather"] = "Lucyón - Bloodfeather",
+		["Lucyworg - Bloodfeather"] = "Lucyworg - Bloodfeather",
+		["Lúcyon - Bloodfeather"] = "Lucyon - Bloodfeather",
+		["Lucyoñ - Argent Dawn"] = "Lucyoñ - Argent Dawn",
 		["Lucÿon - Bloodfeather"] = "Lucÿon - Bloodfeather",
-		["Lucyøn - Bloodfeather"] = "Lucyøn - Bloodfeather",
-		["Lucyón - The Maelstrom"] = "Lucyón - The Maelstrom",
+		["Freiza - Bladefist"] = "Freiza - Bladefist",
+		["Lucyon - Outland"] = "Lucyon - Outland",
 	},
 	["profiles"] = {
 		["Lucyonn - Bloodfeather"] = {
@@ -39,79 +39,69 @@ HandyNotesDB = {
 		},
 		["Lücyon - Bloodfeather"] = {
 		},
-		["Freiza - Bladefist"] = {
+		["Lucyön - Bloodfeather"] = {
 		},
 		["Lucyón - Outland"] = {
 		},
 		["Lucyón - Bloodfeather"] = {
-			["icon_scale_minimap"] = 0.75,
+			["icon_alpha"] = 0.75,
 			["icon_alpha_minimap"] = 0.5,
 			["icon_scale"] = 0.75,
-			["icon_alpha"] = 0.75,
+			["icon_scale_minimap"] = 0.75,
 		},
-		["Lucyøn - Bloodfeather"] = {
+		["Lucyón - The Maelstrom"] = {
 		},
-		["Lucýon - Bloodfeather"] = {
+		["Lucyon - Outland"] = {
 		},
 		["Lucyõn - Bloodfeather"] = {
 		},
 		["Lucyoñ - Bloodfeather"] = {
 		},
-		["Lucyoñ - Argent Dawn"] = {
+		["Lucyón - Sylvanas"] = {
 		},
 		["Lûcyon - Bloodfeather"] = {
 		},
-		["Lúcyon - Bloodfeather"] = {
+		["Lucyons - Bloodfeather"] = {
 		},
-		["Lucyon - Outland"] = {
+		["Lucýon - Bloodfeather"] = {
 		},
 		["Lùcyon - Bloodfeather"] = {
-			["icon_alpha"] = 0.75,
+			["icon_scale_minimap"] = 0.75,
 			["icon_alpha_minimap"] = 0.5,
 			["icon_scale"] = 0.75,
-			["icon_scale_minimap"] = 0.75,
-		},
-		["Lucytester - Bloodfeather"] = {
+			["icon_alpha"] = 0.75,
 		},
 		["Lucyworg - Bloodfeather"] = {
+		},
+		["Lucytester - Bloodfeather"] = {
 		},
 		["Mitha - Bloodfeather"] = {
 		},
 		["Lucyon - Bloodfeather"] = {
-			["icon_alpha"] = 0.75,
+			["icon_scale_minimap"] = 0.75,
 			["icon_alpha_minimap"] = 0.5,
 			["icon_scale"] = 0.75,
-			["icon_scale_minimap"] = 0.75,
+			["icon_alpha"] = 0.75,
 		},
 		["Default"] = {
-			["icon_alpha"] = 0.75,
+			["icon_scale_minimap"] = 0.75,
 			["icon_alpha_minimap"] = 0.5,
 			["icon_scale"] = 0.75,
-			["icon_scale_minimap"] = 0.75,
+			["icon_alpha"] = 0.75,
 		},
-		["Lucyons - Bloodfeather"] = {
+		["Lúcyon - Bloodfeather"] = {
 		},
-		["Lucyón - Sylvanas"] = {
+		["Lucyoñ - Argent Dawn"] = {
 		},
 		["Lucÿon - Bloodfeather"] = {
 		},
-		["Lucyón - The Maelstrom"] = {
+		["Freiza - Bladefist"] = {
 		},
-		["Lucyön - Bloodfeather"] = {
+		["Lucyøn - Bloodfeather"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
-	["global"] = {
-		[207] = {
-			[63762264] = {
-				["cont"] = false,
-				["title"] = "fissure",
-				["icon"] = 1,
-				["desc"] = "",
-			},
-		},
-	},
 	["profileKeys"] = {
 		["Lucyonn - Bloodfeather"] = "Lucyonn - Bloodfeather",
 		["Lucytrial - Bloodfeather"] = "Lucytrial - Bloodfeather",
@@ -120,25 +110,35 @@ HandyNotes_HandyNotesDB = {
 		["Lücyon - Bloodfeather"] = "Lücyon - Bloodfeather",
 		["Lucyón - Outland"] = "Lucyón - Outland",
 		["Lucyön - Bloodfeather"] = "Lucyön - Bloodfeather",
-		["Lucýon - Bloodfeather"] = "Lucýon - Bloodfeather",
-		["Freiza - Bladefist"] = "Freiza - Bladefist",
+		["Lucyón - The Maelstrom"] = "Lucyón - The Maelstrom",
+		["Lucyøn - Bloodfeather"] = "Lucyøn - Bloodfeather",
 		["Lucyõn - Bloodfeather"] = "Lucyõn - Bloodfeather",
 		["Lucyoñ - Bloodfeather"] = "Lucyoñ - Bloodfeather",
-		["Lucytester - Bloodfeather"] = "Lucytester - Bloodfeather",
-		["Lûcyon - Bloodfeather"] = "Lûcyon - Bloodfeather",
-		["Lucyoñ - Argent Dawn"] = "Lucyoñ - Argent Dawn",
-		["Lucyon - Outland"] = "Lucyon - Outland",
-		["Lùcyon - Bloodfeather"] = "Lùcyon - Bloodfeather",
-		["Lúcyon - Bloodfeather"] = "Lúcyon - Bloodfeather",
 		["Lucyon - Bloodfeather"] = "Lucyon - Bloodfeather",
-		["Mitha - Bloodfeather"] = "Mitha - Bloodfeather",
-		["Lucyworg - Bloodfeather"] = "Lucyworg - Bloodfeather",
-		["Lucyón - Bloodfeather"] = "Lucyón - Bloodfeather",
-		["Lucyons - Bloodfeather"] = "Lucyons - Bloodfeather",
+		["Lûcyon - Bloodfeather"] = "Lûcyon - Bloodfeather",
 		["Lucyón - Sylvanas"] = "Lucyón - Sylvanas",
+		["Lucýon - Bloodfeather"] = "Lucýon - Bloodfeather",
+		["Lùcyon - Bloodfeather"] = "Lùcyon - Bloodfeather",
+		["Lucyons - Bloodfeather"] = "Lucyons - Bloodfeather",
+		["Lucytester - Bloodfeather"] = "Lucytester - Bloodfeather",
+		["Mitha - Bloodfeather"] = "Mitha - Bloodfeather",
+		["Lucyón - Bloodfeather"] = "Lucyón - Bloodfeather",
+		["Lucyworg - Bloodfeather"] = "Lucyworg - Bloodfeather",
+		["Lúcyon - Bloodfeather"] = "Lúcyon - Bloodfeather",
+		["Lucyoñ - Argent Dawn"] = "Lucyoñ - Argent Dawn",
 		["Lucÿon - Bloodfeather"] = "Lucÿon - Bloodfeather",
-		["Lucyøn - Bloodfeather"] = "Lucyøn - Bloodfeather",
-		["Lucyón - The Maelstrom"] = "Lucyón - The Maelstrom",
+		["Freiza - Bladefist"] = "Freiza - Bladefist",
+		["Lucyon - Outland"] = "Lucyon - Outland",
+	},
+	["global"] = {
+		[207] = {
+			[63762264] = {
+				["title"] = "fissure",
+				["icon"] = 1,
+				["cont"] = false,
+				["desc"] = "",
+			},
+		},
 	},
 	["profiles"] = {
 		["Lucyonn - Bloodfeather"] = {
@@ -155,43 +155,43 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Lucyön - Bloodfeather"] = {
 		},
-		["Lucýon - Bloodfeather"] = {
+		["Lucyón - The Maelstrom"] = {
 		},
-		["Freiza - Bladefist"] = {
+		["Lucyøn - Bloodfeather"] = {
 		},
 		["Lucyõn - Bloodfeather"] = {
 		},
 		["Lucyoñ - Bloodfeather"] = {
 		},
-		["Lucytester - Bloodfeather"] = {
+		["Lucyon - Bloodfeather"] = {
 		},
 		["Lûcyon - Bloodfeather"] = {
 		},
-		["Lucyoñ - Argent Dawn"] = {
+		["Lucyón - Sylvanas"] = {
 		},
-		["Lucyon - Outland"] = {
+		["Lucýon - Bloodfeather"] = {
 		},
 		["Lùcyon - Bloodfeather"] = {
 		},
-		["Lúcyon - Bloodfeather"] = {
+		["Lucyons - Bloodfeather"] = {
 		},
-		["Lucyon - Bloodfeather"] = {
+		["Lucytester - Bloodfeather"] = {
 		},
 		["Mitha - Bloodfeather"] = {
 		},
-		["Lucyworg - Bloodfeather"] = {
-		},
 		["Lucyón - Bloodfeather"] = {
 		},
-		["Lucyons - Bloodfeather"] = {
+		["Lucyworg - Bloodfeather"] = {
 		},
-		["Lucyón - Sylvanas"] = {
+		["Lúcyon - Bloodfeather"] = {
+		},
+		["Lucyoñ - Argent Dawn"] = {
 		},
 		["Lucÿon - Bloodfeather"] = {
 		},
-		["Lucyøn - Bloodfeather"] = {
+		["Freiza - Bladefist"] = {
 		},
-		["Lucyón - The Maelstrom"] = {
+		["Lucyon - Outland"] = {
 		},
 	},
 }

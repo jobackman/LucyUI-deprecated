@@ -1,0 +1,48 @@
+
+favsDB = {
+	["profileKeys"] = {
+		["Lucyón - Bloodfeather"] = "Default",
+		["Lucyoff - Bloodfeather"] = "Default",
+		["Lucyon - The Maelstrom"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucymón - Bloodfeather"] = "Default",
+		["Lùcyon - Bloodfeather"] = "Default",
+		["Lucymon - Bloodfeather"] = "Default",
+		["Lucyon - Bloodfeather"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["favTypes"] = {
+				["irl"] = {
+					["Icarus#2152"] = true,
+					["Quast#21893"] = true,
+					["vippr#2563"] = true,
+					["Joelbaxxar#2870"] = true,
+					["Coramin#2638"] = true,
+					["Quash#2104"] = true,
+					["QashTard#2807"] = true,
+					["Rilleman#2142"] = true,
+					["sLARREmAN#1342"] = true,
+					["cokieboy#2704"] = true,
+					["bexbex#2640"] = true,
+					["C0dem0nkey#1430"] = true,
+					["blumplunk#2323"] = true,
+					["f3lix#2122"] = true,
+					["Hugge#21997"] = true,
+				},
+				["pfm"] = {
+					[""] = true,
+					["Kawo#2376"] = true,
+					["Facers#2294"] = true,
+					["Kardinal#2448"] = true,
+					["Luleh#2169"] = true,
+					["Kilosha#2107"] = true,
+				},
+				["bloodfeather"] = {
+					["Phade#2327"] = true,
+					["GoSh#21743"] = true,
+				},
+			},
+		},
+	},
+}

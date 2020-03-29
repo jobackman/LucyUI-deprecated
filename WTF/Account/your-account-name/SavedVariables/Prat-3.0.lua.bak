@@ -23,7 +23,7 @@ Prat3DB = {
 				["Default"] = {
 					["minchatwidthdefault"] = 296,
 					["maxchatheightdefault"] = 400,
-					["maxchatwidthdefault"] = 608.000061035156,
+					["maxchatwidthdefault"] = 608.0000610351562,
 					["initialized"] = true,
 				},
 			},
@@ -58,8 +58,8 @@ Prat3DB = {
 							["r"] = 1,
 						},
 						["general"] = {
-							["b"] = 0.752941250801086,
-							["g"] = 0.752941250801086,
+							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
 							["r"] = 1,
 						},
 						["wqp50474pvp"] = {
@@ -123,8 +123,8 @@ Prat3DB = {
 							["b"] = 0.752941250801086,
 						},
 						["community:118706642:1"] = {
-							["r"] = 0.435294151306152,
-							["g"] = 0.380392193794251,
+							["r"] = 0.4352941513061523,
+							["g"] = 0.3803921937942505,
 							["b"] = 1,
 						},
 						["local"] = {
@@ -152,7 +152,7 @@ Prat3DB = {
 							["g"] = 0.752941250801086,
 							["r"] = 1,
 						},
-						["wqp50515pvp"] = {
+						["wqp51174pvp"] = {
 							["r"] = 1,
 							["g"] = 0.749019622802734,
 							["b"] = 0.749019622802734,
@@ -177,15 +177,15 @@ Prat3DB = {
 							["g"] = 0.749019622802734,
 							["b"] = 0.749019622802734,
 						},
-						["wqp51422pvp"] = {
-							["b"] = 0.749019622802734,
-							["g"] = 0.749019622802734,
-							["r"] = 1,
-						},
 						["wqp51450pvp"] = {
 							["r"] = 1,
 							["g"] = 0.749019622802734,
 							["b"] = 0.749019622802734,
+						},
+						["wqp51422pvp"] = {
+							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
+							["r"] = 1,
 						},
 						["wqp50975pvp"] = {
 							["b"] = 0.752941250801086,
@@ -287,7 +287,7 @@ Prat3DB = {
 							["g"] = 0.713725507259369,
 							["b"] = 0.48235297203064,
 						},
-						["wqp51174pvp"] = {
+						["wqp50515pvp"] = {
 							["r"] = 1,
 							["g"] = 0.749019622802734,
 							["b"] = 0.749019622802734,
@@ -339,9 +339,9 @@ Prat3DB = {
 		["Prat_History"] = {
 			["profiles"] = {
 				["Default"] = {
+					["chatlines"] = 1000,
 					["savehistory"] = true,
 					["delaygmotd"] = false,
-					["scrollback"] = false,
 				},
 			},
 		},
@@ -354,6 +354,11 @@ Prat3DB = {
 				["Default"] = {
 					["fontface"] = "Arial Narrow",
 					["rememberfont"] = true,
+					["size"] = {
+						["ChatFrame2"] = 13,
+						["ChatFrame1"] = 14,
+						["ChatFrame3"] = 13,
+					},
 				},
 			},
 		},
@@ -423,11 +428,12 @@ Prat3DB = {
 		["Prat_Buttons"] = {
 			["profiles"] = {
 				["Default"] = {
-					["showMenu"] = false,
-					["showBnet"] = false,
-					["showButtons"] = false,
+					["showvoice"] = false,
 					["showminimize"] = false,
+					["showBnet"] = false,
 					["scrollReminder"] = false,
+					["showMenu"] = false,
+					["showButtons"] = false,
 				},
 			},
 		},
@@ -437,8 +443,11 @@ Prat3DB = {
 		},
 	},
 	["profileKeys"] = {
+		["Lucyon - The Maelstrom"] = "Default",
+		["Lucymon - Sylvanas"] = "Default",
 		["Lucytrial - Bloodfeather"] = "Default",
 		["Dolk - Bloodfeather"] = "Default",
+		["Lucyvulp - Bloodfeather"] = "Default",
 		["Lücyon - Bloodfeather"] = "Default",
 		["Lucyön - Bloodfeather"] = "Default",
 		["Lucyõn - Bloodfeather"] = "Default",
@@ -456,24 +465,35 @@ Prat3DB = {
 		["Lucyón - The Maelstrom"] = "Default",
 		["Lucyonn - Bloodfeather"] = "Default",
 		["Lucyasd - Bloodfeather"] = "Default",
+		["Lucyporc - Bloodfeather"] = "Default",
+		["Lucymón - Bloodfeather"] = "Default",
+		["Goldmon - Bloodfeather"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
 		["Lucyôn - Bloodfeather"] = "Default",
-		["Lucyön - Sylvanas"] = "Default",
+		["Lucydrood - Bloodfeather"] = "Default",
+		["Ezpzarena - Bloodfeather"] = "Default",
+		["Lúcyón - Bloodfeather"] = "Default",
+		["Lúcýón - Bloodfeather"] = "Default",
 		["Lúcyon - Sylvanas"] = "Default",
 		["Lucyoff - Bloodfeather"] = "Default",
-		["Lûcyon - Bloodfeather"] = "Default",
-		["Lúcýón - Bloodfeather"] = "Default",
-		["Orciror - Bloodfeather"] = "Default",
-		["Lùcyon - Bloodfeather"] = "Default",
-		["Lucytester - Bloodfeather"] = "Default",
-		["Lucyworg - Bloodfeather"] = "Default",
-		["Lucyón - Bloodfeather"] = "Default",
-		["Lucýon - Bloodfeather"] = "Default",
-		["Lúcyón - Bloodfeather"] = "Default",
-		["Lúcyon - Bloodfeather"] = "Default",
-		["Lucyón - Sylvanas"] = "Default",
-		["Lucykek - Bloodfeather"] = "Default",
-		["Freiza - Bladefist"] = "Default",
 		["Lucyøn - Bloodfeather"] = "Default",
+		["Lucyón - Bloodfeather"] = "Default",
+		["Lucyworg - Bloodfeather"] = "Default",
+		["Lucýon - Bloodfeather"] = "Default",
+		["Lucyorc - Bloodfeather"] = "Default",
+		["Lûcyon - Bloodfeather"] = "Default",
+		["Lucymon - Bloodfeather"] = "Default",
+		["Lùcyon - Bloodfeather"] = "Default",
+		["Lucykek - Bloodfeather"] = "Default",
+		["Lucytester - Bloodfeather"] = "Default",
+		["Lucyón - Argent Dawn"] = "Default",
+		["Orciror - Bloodfeather"] = "Default",
+		["Lucyòn - Argent Dawn"] = "Default",
+		["Lucýón - Bloodfeather"] = "Default",
+		["Lucyón - Sylvanas"] = "Default",
+		["Lucyön - Sylvanas"] = "Default",
+		["Freiza - Bladefist"] = "Default",
+		["Lucymonn - Bloodfeather"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

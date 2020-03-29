@@ -4,17 +4,17 @@ OneRing_Config = {
 		["Mounts"] = "ABuesAjKXSU",
 		["althstones"] = "ABuedr9SUNe",
 		["Gadgets"] = "ABue3PIzjfe",
-		["OPieAutoQuest"] = "EB",
-		["Gliders"] = "ABue3PApdz1",
-		["Buffs"] = "ABue3Pq9MNt",
-		["ssiontools"] = "ABue3JS5xne",
 		["onsumables"] = "ABuedepjaw1",
+		["Gliders"] = "ABue43ENwre",
+		["Buffs"] = "ABue3Pq9MNt",
+		["OPieAutoQuest"] = "OPieBundleQuest56814",
+		["ssiontools"] = "ABue3fin0Qi",
 	},
 	["CharProfiles"] = {
 		["Bloodfeather-Lucyón"] = "default",
 	},
-	["_GameVersion"] = "8.1.0",
-	["_OPieVersion"] = "Vanilla 9 (3.96)",
+	["_GameVersion"] = "8.3.0",
+	["_OPieVersion"] = "Walnut 6 (3.101)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["ShowRecharge"] = true,
@@ -25,9 +25,9 @@ OneRing_Config = {
 				["Bags"] = false,
 				["PaladinTools"] = false,
 				["Gadgets"] = "J",
-				["OPieAutoQuest"] = "<",
+				["OPieTracking"] = false,
 				["MageTravel"] = "8",
-				["DKCombat"] = false,
+				["OPieAutoQuest"] = "<",
 				["OPieTrinkets"] = false,
 				["ssiontools"] = "ALT-S",
 				["CommonTrades"] = "F9",
@@ -41,7 +41,7 @@ OneRing_Config = {
 				["PaladinAuras"] = false,
 				["Buffs"] = "6",
 				["PaladinBlessing"] = false,
-				["OPieTracking"] = false,
+				["DKCombat"] = false,
 			},
 			["ShowCooldowns"] = true,
 			["CenterAction"] = true,
@@ -68,13 +68,12 @@ OneRing_Config = {
 				["save"] = true,
 			},
 			["OPieFlagStore"] = {
-				["FlushedDefaultColors"] = true,
+				["StoreVersion"] = 2,
 			},
 			["SpecMenu"] = {
 				{
-					"toy", -- [1]
-					162973, -- [2]
-					["sliceToken"] = "ABuedBzvuft",
+					["sliceToken"] = "ABuehlZdGo1",
+					["id"] = "#showtooltip\n/castrandom Hearthstone, Fire Eater's Hearthstone, Greatfather Winter's Hearthstone, Headless Horseman's Hearthstone, Noble Gardener's Hearthstone",
 				}, -- [1]
 				{
 					"item", -- [1]
@@ -91,11 +90,15 @@ OneRing_Config = {
 					["sliceToken"] = "OPCTAc",
 				}, -- [4]
 				{
+					["id"] = 556,
+					["sliceToken"] = "ABueh4462pw",
+				}, -- [5]
+				{
 					"item", -- [1]
 					141605, -- [2]
 					["sliceToken"] = "ABuesGBFnue",
 					["show"] = "[in:bfa][in:broken isles][in:warfront]",
-				}, -- [5]
+				}, -- [6]
 				["name"] = "Specializations and Travel",
 				["save"] = true,
 				["hotkey"] = "ALT-H",
@@ -113,10 +116,10 @@ OneRing_Config = {
 					["sliceToken"] = "OPCMTs",
 					["id"] = 130,
 				}, -- [3]
-				["limit"] = "MAGE",
+				["name"] = "Utility",
 				["save"] = true,
 				["hotkey"] = "BUTTON5",
-				["name"] = "Utility",
+				["limit"] = "MAGE",
 			},
 			["Bags"] = {
 				{
@@ -157,8 +160,8 @@ OneRing_Config = {
 				}, -- [7]
 				["noPersistentCA"] = true,
 				["name"] = "LUCYON",
-				["noOpportunisticCA"] = true,
 				["save"] = true,
+				["noOpportunisticCA"] = true,
 			},
 			["ssiontools"] = {
 				{
@@ -237,27 +240,36 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [1]
 				{
+					["id"] = 281954,
+					["sliceToken"] = "ABuefTOSMAr",
+				}, -- [2]
+				{
 					"item", -- [1]
 					109076, -- [2]
 					["sliceToken"] = "ABue3PIW8So",
 					["fastClick"] = true,
-				}, -- [2]
+				}, -- [3]
 				{
 					["sliceToken"] = "ABue3FoDkSr",
 					["id"] = 130,
 					["fastClick"] = true,
-				}, -- [3]
+				}, -- [4]
+				{
+					["id"] = 1706,
+					["sliceToken"] = "ABue43ENwre",
+					["fastClick"] = true,
+				}, -- [5]
 				{
 					["id"] = 125883,
 					["sliceToken"] = "ABue3Fg9w4e",
 					["fastClick"] = true,
-				}, -- [4]
+				}, -- [6]
 				{
 					"macro", -- [1]
 					"belt", -- [2]
-					["show"] = "[eng3] show; hide",
 					["sliceToken"] = "ABue3PIW8Si",
-				}, -- [5]
+					["show"] = "[eng3] show; hide",
+				}, -- [7]
 				["name"] = "Gliders",
 				["save"] = true,
 			},
@@ -310,6 +322,10 @@ OneRing_Config = {
 					111820, -- [2]
 					["sliceToken"] = "ABue3ZBCiLt",
 				}, -- [9]
+				{
+					["id"] = "",
+					["sliceToken"] = "ABue4kHpoPr",
+				}, -- [10]
 				["name"] = "Gadgets",
 				["save"] = true,
 			},
@@ -321,25 +337,32 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuesAjKXSU",
-					["id"] = 150544,
+					"mount", -- [1]
+					678, -- [2]
+					["show"] = "[level:20] hide; show",
+					["sliceToken"] = "ABueh44rUg1",
 					["fastClick"] = true,
 				}, -- [2]
 				{
-					["sliceToken"] = "ABuesAjKXSY",
-					["id"] = 122708,
+					["show"] = "[level:20]",
+					["sliceToken"] = "ABuesAjKXSU",
+					["id"] = 150544,
+					["fastClick"] = true,
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuedL03Wew",
-					["id"] = 223363,
+					["sliceToken"] = "ABuesAjKXSY",
+					["id"] = 122708,
+					["show"] = "[level:20]",
 				}, -- [4]
+				{
+					["sliceToken"] = "ABuefk7CwTe",
+					["id"] = 288503,
+					["show"] = "[level:20]",
+				}, -- [5]
 				{
 					["sliceToken"] = "ABuedsQK28r",
 					["id"] = 134359,
-				}, -- [5]
-				{
-					["sliceToken"] = "ABuesAjKXST",
-					["id"] = 118089,
+					["show"] = "[herb,level:20]",
 				}, -- [6]
 				["name"] = "Mounts",
 				["save"] = true,
@@ -389,8 +412,8 @@ OneRing_Config = {
 					"ring", -- [1]
 					"ExtraPortals", -- [2]
 					["sliceToken"] = "OPCMPe",
-					["onlyNonEmpty"] = true,
 					["embed"] = true,
+					["onlyNonEmpty"] = true,
 				}, -- [5]
 				{
 					["sliceToken"] = "OPCMPs",
@@ -444,54 +467,58 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [1]
 				{
+					["id"] = 6201,
+					["sliceToken"] = "ABuefT9ygjw",
+				}, -- [2]
+				{
 					["id"] = 61999,
 					["sliceToken"] = "ABuefeQID71",
-				}, -- [2]
+				}, -- [3]
 				{
 					["sliceToken"] = "ABue3Pq9MNt",
 					["id"] = 1459,
 					["fastClick"] = true,
-				}, -- [3]
+				}, -- [4]
 				{
 					["sliceToken"] = "ABue3Pq9MN1",
 					["id"] = 190336,
-				}, -- [4]
+				}, -- [5]
 				{
 					["id"] = 205022,
 					["sliceToken"] = "ABue3Pq9MNu",
-				}, -- [5]
+				}, -- [6]
 				{
 					["id"] = 6673,
 					["sliceToken"] = "ABue3PwIWf1",
 					["fastClick"] = true,
-				}, -- [6]
+				}, -- [7]
 				{
 					["id"] = 203538,
 					["sliceToken"] = "ABue3PyqPxr",
-				}, -- [7]
+				}, -- [8]
 				{
 					["id"] = 21562,
 					["sliceToken"] = "ABue3FYBBNe",
 					["fastClick"] = true,
-				}, -- [8]
+				}, -- [9]
 				{
 					["id"] = 203539,
 					["sliceToken"] = "ABue3PyqPxe",
-				}, -- [9]
+				}, -- [10]
 				{
 					["id"] = 192106,
 					["sliceToken"] = "ABuedy3uoge",
 					["fastClick"] = true,
-				}, -- [10]
+				}, -- [11]
 				{
 					["id"] = 546,
 					["sliceToken"] = "ABuedaCfPYe",
 					["fastClick"] = true,
-				}, -- [11]
+				}, -- [12]
 				{
 					["id"] = 20484,
 					["sliceToken"] = "ABuedffjR7w",
-				}, -- [12]
+				}, -- [13]
 				["name"] = "Buffs",
 				["save"] = true,
 			},
@@ -506,9 +533,9 @@ OneRing_Config = {
 				}, -- [2]
 				["limit"] = "PALADIN",
 				["name"] = "Blessings",
-				["internal"] = true,
-				["hotkey"] = "6",
 				["save"] = true,
+				["hotkey"] = "6",
+				["internal"] = true,
 			},
 			["onsumables"] = {
 				{

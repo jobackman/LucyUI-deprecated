@@ -1,0 +1,3 @@
+*.sh
+**/*/Blizzard_*.lua
+**/*/Blizzard_*.lua.bak

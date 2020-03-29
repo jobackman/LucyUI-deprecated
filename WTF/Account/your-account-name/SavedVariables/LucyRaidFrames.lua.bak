@@ -1,2 +1,27 @@
 
-globalSettings = nil
+LucyRaidFramesDB = {
+	["profileKeys"] = {
+		["Lucyoñ - Bloodfeather"] = "Default",
+		["Lucyon - The Maelstrom"] = "Default",
+		["Lucýon - Bloodfeather"] = "Default",
+		["Lucymon - Bloodfeather"] = "Default",
+		["Lucyon - Bloodfeather"] = "Default",
+		["Mitha - Bloodfeather"] = "Default",
+		["Lucyón - Sylvanas"] = "Default",
+		["Lúcyón - Bloodfeather"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucyón - Bloodfeather"] = "Default",
+		["Lucyoff - Bloodfeather"] = "Default",
+		["Lucyøn - Bloodfeather"] = "Default",
+		["Lúcýón - Bloodfeather"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["names"] = {
+				["alpha"] = {
+					["combat"] = 0,
+				},
+			},
+		},
+	},
+}

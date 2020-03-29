@@ -1,10 +1,19 @@
 
 dbBFA = {
 	["char"] = {
+		["Lucyon - The Maelstrom"] = {
+			["firstun"] = false,
+		},
 		["Lucýon - Bloodfeather"] = {
 			["firstun"] = false,
 		},
-		["Lucyón - Sylvanas"] = {
+		["Lùcyon - Bloodfeather"] = {
+			["firstun"] = false,
+		},
+		["Lucyon - Bloodfeather"] = {
+			["firstun"] = false,
+		},
+		["Lúcyón - Bloodfeather"] = {
 			["firstun"] = false,
 		},
 		["Lucyoñ - Sylvanas"] = {
@@ -16,35 +25,38 @@ dbBFA = {
 		["Lucyón - Bloodfeather"] = {
 			["firstun"] = false,
 		},
-		["Lùcyon - Bloodfeather"] = {
+		["Lucymon - Bloodfeather"] = {
 			["firstun"] = false,
 		},
 		["Lucyón - The Maelstrom"] = {
 			["firstun"] = false,
 		},
-		["Lucyon - Bloodfeather"] = {
+		["Lucyón - Sylvanas"] = {
 			["firstun"] = false,
 		},
+	},
+	["profileKeys"] = {
+		["Lucyon - The Maelstrom"] = "Default",
+		["Lucýon - Bloodfeather"] = "Default",
+		["Lùcyon - Bloodfeather"] = "Default",
+		["Lucyon - Bloodfeather"] = "Default",
+		["Lúcyón - Bloodfeather"] = "Default",
+		["Lucyoñ - Sylvanas"] = "Default",
+		["Lúcyon - Bloodfeather"] = "Default",
+		["Lucyón - Bloodfeather"] = "Default",
+		["Lucymon - Bloodfeather"] = "Default",
+		["Lucyón - The Maelstrom"] = "Default",
+		["Lucyón - Sylvanas"] = "Default",
 	},
 	["global"] = {
 		["news"] = {
 		},
 		["warn02_seen"] = 0,
-		["silent"] = true,
+		["tutorialStep"] = 17,
 		["warn01_seen"] = 0,
 		["firstrun"] = false,
-		["tutorialStep"] = 17,
+		["silent"] = true,
 		["changedkeywarned"] = true,
-	},
-	["profileKeys"] = {
-		["Lucýon - Bloodfeather"] = "Default",
-		["Lucyón - Sylvanas"] = "Default",
-		["Lucyoñ - Sylvanas"] = "Default",
-		["Lúcyon - Bloodfeather"] = "Default",
-		["Lucyón - Bloodfeather"] = "Default",
-		["Lùcyon - Bloodfeather"] = "Default",
-		["Lucyón - The Maelstrom"] = "Default",
-		["Lucyon - Bloodfeather"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -68,10 +80,18 @@ dbBFA = {
 				["PREFERHIGH"] = true,
 				["NOTROOPS"] = false,
 				["MAKEITQUICK"] = true,
-				["MAXCHAMP"] = 3,
 				["TROOPALERT"] = true,
+				["MAXCHAMP"] = 3,
 				["IGNOREBUSY"] = true,
 				["BASECHANCE"] = 0,
+			},
+			["blacklist"] = {
+				[1954] = true,
+				[1951] = true,
+				[1952] = true,
+				[1879] = true,
+				[1923] = true,
+				[1933] = true,
 			},
 			["showmenu"] = true,
 		},
